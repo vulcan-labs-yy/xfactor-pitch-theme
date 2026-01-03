@@ -271,6 +271,7 @@
           "static": true,
           "settings": {
             "media_type": "image",
+            "image": "shopify://shop_images/rice-husk-silica-cleanser.jpg",
             "link": "",
             "video_loop": true,
             "video_autoplay": false,
@@ -292,10 +293,10 @@
               "type": "text",
               "name": "t:text_defaults.heading",
               "settings": {
-                "text": "<h2>Our philosophy</h2>",
+                "text": "<h2>Rice Husk Silica Facial Cleanser</h2>",
                 "width": "100%",
                 "max_width": "normal",
-                "alignment": "center",
+                "alignment": "left",
                 "type_preset": "h4",
                 "font": "var(--font-primary--family)",
                 "font_size": "",
@@ -317,10 +318,10 @@
             "text_8kEdFg": {
               "type": "text",
               "settings": {
-                "text": "<p>Skincare that actually cares for your skin. Made with only clean, carefully-selected ingredients that leave complexions glowing. </p>",
+                "text": "<p>Rooted in ancient Asian rice water rituals — a gentle daily cleanse that purifies, softens, and supports a healthy skin barrier.</p>",
                 "width": "100%",
                 "max_width": "narrow",
-                "alignment": "center",
+                "alignment": "left",
                 "type_preset": "rte",
                 "font": "var(--font-primary--family)",
                 "font_size": "",
@@ -338,19 +339,35 @@
                 "padding-inline-end": 0
               },
               "blocks": {}
+            },
+            "button_cgWaHy": {
+              "type": "button",
+              "name": "t:names.button",
+              "settings": {
+                "label": "Glow like never before",
+                "link": "shopify://collections/all",
+                "open_in_new_tab": false,
+                "style_class": "button",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fit-content",
+                "custom_width_mobile": 100
+              },
+              "blocks": {}
             }
           },
           "block_order": [
             "text_BLWmUB",
-            "text_8kEdFg"
+            "text_8kEdFg",
+            "button_cgWaHy"
           ]
         }
       },
       "name": "t:names.media_with_text",
       "settings": {
-        "media_position": "right",
+        "media_position": "left",
         "media_width": "medium",
-        "media_height": "50svh",
+        "media_height": "60svh",
         "section_width": "full-width",
         "extend_media": true,
         "color_scheme": "scheme-2",
@@ -366,6 +383,7 @@
           "static": true,
           "settings": {
             "media_type": "image",
+            "image": "shopify://shop_images/proxylane.jpg",
             "link": "",
             "video_loop": true,
             "video_autoplay": false,
@@ -387,10 +405,10 @@
               "type": "text",
               "name": "t:text_defaults.heading",
               "settings": {
-                "text": "<h2>The skincare standard</h2>",
+                "text": "<h2>Advanced 30% Proxylane Face Cream</h2>",
                 "width": "100%",
                 "max_width": "normal",
-                "alignment": "center",
+                "alignment": "left",
                 "type_preset": "h4",
                 "font": "var(--font-primary--family)",
                 "font_size": "",
@@ -412,10 +430,10 @@
             "text_xYkVGw": {
               "type": "text",
               "settings": {
-                "text": "<p>We set our standards high, and so should you. Our soothing formulas give your skin exactly what it needs and nothing more. </p>",
+                "text": "<p>The Secret to Ageless Glowing Skin — clinically proven to reduce fine lines, boost GAGs, and strengthen your epidermis.</p>",
                 "width": "100%",
                 "max_width": "narrow",
-                "alignment": "center",
+                "alignment": "left",
                 "type_preset": "rte",
                 "font": "var(--font-primary--family)",
                 "font_size": "",
@@ -443,12 +461,12 @@
       },
       "name": "t:names.media_with_text",
       "settings": {
-        "media_position": "left",
+        "media_position": "right",
         "media_width": "medium",
         "media_height": "50svh",
         "section_width": "full-width",
         "extend_media": true,
-        "color_scheme": "scheme-5",
+        "color_scheme": "scheme-2",
         "padding-block-start": 0,
         "padding-block-end": 0
       }
