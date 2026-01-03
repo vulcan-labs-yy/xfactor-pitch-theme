@@ -1056,7 +1056,7 @@
           "type": "text",
           "name": "t:names.heading",
           "settings": {
-            "text": "<h2>Our Promise</h2>",
+            "text": "<h3>Our Promise</h3>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
@@ -1248,7 +1248,7 @@
         "group_eQLXYx"
       ],
       "custom_css": [
-        "h2 {color: #000000;}"
+        "h3 {color: #000000;}"
       ],
       "name": "t:names.custom_section",
       "settings": {
