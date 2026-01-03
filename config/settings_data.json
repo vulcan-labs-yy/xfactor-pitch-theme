@@ -294,7 +294,7 @@
       },
       "scheme-7": {
         "settings": {
-          "background": "rgba(0,0,0,0)",
+          "background": "#f7f7f7",
           "foreground_heading": "#531003",
           "foreground": "#531003",
           "primary": "#531003",
