@@ -1,5 +1,3 @@
-
-
 {% liquid
   assign media_class_modifier = 'media-with-content--' | append: section.settings.media_width
 
@@ -194,6 +192,13 @@
     --hero-min-height: 500px;
 
     min-height: 500px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section.media-with-content {
+      display: flex;
+      flex-direction: column-reverse;
+    }
   }
 {% endstylesheet %}
 
