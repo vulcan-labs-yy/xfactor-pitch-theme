@@ -213,11 +213,32 @@
                 "padding-inline-end": 0
               },
               "blocks": {}
+            },
+            "social_links_ERKWXW": {
+              "type": "social-links",
+              "name": "t:names.social_media_links",
+              "settings": {
+                "facebook_url": "https://www.facebook.com/xfactorskincarebypharmacists",
+                "instagram_url": "https://www.instagram.com/xfactorskincare",
+                "youtube_url": "",
+                "tiktok_url": "",
+                "twitter_url": "",
+                "threads_url": "",
+                "linkedin_url": "",
+                "bluesky_url": "",
+                "snapchat_url": "",
+                "pinterest_url": "",
+                "tumblr_url": "",
+                "vimeo_url": "",
+                "custom_url": ""
+              },
+              "blocks": {}
             }
           },
           "block_order": [
             "text_cHXcfY",
-            "email_signup_8MDbdJ"
+            "email_signup_8MDbdJ",
+            "social_links_ERKWXW"
           ]
         }
       },
