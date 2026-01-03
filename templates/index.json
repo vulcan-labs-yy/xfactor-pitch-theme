@@ -320,7 +320,7 @@
               "settings": {
                 "text": "<p>Rooted in ancient Asian rice water rituals — a gentle daily cleanse that purifies, softens, and supports a healthy skin barrier.</p>",
                 "width": "100%",
-                "max_width": "narrow",
+                "max_width": "normal",
                 "alignment": "left",
                 "type_preset": "rte",
                 "font": "var(--font-primary--family)",
@@ -432,7 +432,7 @@
               "settings": {
                 "text": "<p>The Secret to Ageless Glowing Skin — clinically proven to reduce fine lines, boost GAGs, and strengthen your epidermis.</p>",
                 "width": "100%",
-                "max_width": "narrow",
+                "max_width": "normal",
                 "alignment": "left",
                 "type_preset": "rte",
                 "font": "var(--font-primary--family)",
