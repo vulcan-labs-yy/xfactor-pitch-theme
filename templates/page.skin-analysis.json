@@ -89,7 +89,7 @@
           "static": true,
           "settings": {
             "media_type": "image",
-            "image": "shopify://shop_images/ig-photo-sample-6.jpg",
+            "image": "shopify://shop_images/skin-analysis.jpg",
             "link": "",
             "video_loop": true,
             "video_autoplay": false,
@@ -107,11 +107,37 @@
             "gap": 24
           },
           "blocks": {
+            "text_JTYNgH": {
+              "type": "text",
+              "name": "t:names.heading",
+              "settings": {
+                "text": "<h2>1 to 1 Skin Analysis</h2>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
             "text_erYkzg": {
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<h4>Company Info</h4><p>CEEXYLOSIDE TRADING (KT0535574-V)<br/>13th Floor, Tower 4,<br/>PFCC Jalan Puteri 1/2,<br/>Bandar Puteri 47100 Puchong,<br/>Selangor, Malaysia</p><h4>Email</h4><p><a href=\"mailto:enquiry@xfactor-skincare.com\" title=\"mailto:enquiry@xfactor-skincare.com\">enquiry@xfactor-skincare.com</a></p><h4></h4><h4>Contact</h4><p>+603 8604 8130</p><h4><br/>WhatsApp (Text Messages Only)</h4><p>+6016-352 3822</p>",
+                "text": "<p>Free Skin Analysis (worth RM199) for customers who purchase RM500 and above in a single order. By appointment only.</p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -135,6 +161,7 @@
             }
           },
           "block_order": [
+            "text_JTYNgH",
             "text_erYkzg"
           ]
         }
@@ -157,7 +184,7 @@
         "forms_inline_qcUBRQ": {
           "type": "shopify://apps/forms/blocks/inline/8744a304-fcb1-4347-b211-bb6b4759a76a",
           "settings": {
-            "form_id": "813837",
+            "form_id": "813844",
             "text_color": "#000000",
             "button_background_color": "#d2b48c",
             "button_label_color": "#000000",
