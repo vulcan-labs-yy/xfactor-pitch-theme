@@ -1,0 +1,259 @@
+{% assign block_settings = section.settings %}
+<div
+  class="accordion accordion--{{ section.id }} accordion--{{ block_settings.icon }} border-style spacing-style{% if block_settings.inherit_color_scheme == false %} color-{{ block_settings.color_scheme }}{% endif %}{% if block_settings.dividers %} accordion--dividers{% endif %}"
+  style="
+    --summary-font-family: var(--font-{{ block_settings.type_preset }}--family);
+     --summary-font-style: var(--font-{{ block_settings.type_preset }}--style);
+     --summary-font-weight: var(--font-{{ block_settings.type_preset }}--weight);
+     --summary-font-size: var(--font-{{ block_settings.type_preset }}--size);
+     --summary-font-line-height: var(--font-{{ block_settings.type_preset }}--line-height);
+     --summary-font-case: var(--font-{{ block_settings.type_preset }}--case);
+    {% render 'spacing-style', settings: block_settings %}
+    {% render 'border-override', settings: block_settings %}
+  "
+>
+  {% if product.metafields.custom.faqs.value.size > 0 %}
+    {% for faq in product.metafields.custom.faqs.value %}
+      <accordion-custom>
+        <details class="details">
+          <summary class="details__header">
+            <span>{{ faq.question }}</span>
+            <span class="icon-wrap">
+              {% render 'icon-caret' %}
+              {% render 'icon-plus' %}
+            </span>
+          </summary>
+          <div class="details-content">
+            <div class="rte">
+              {{ faq.answer }}
+            </div>
+          </div>
+        </details>
+      </accordion-custom>
+    {% endfor %}
+  {% endif %}
+</div>
+
+{% stylesheet %}
+  .accordion {
+    flex: 1;
+    width: 100%;
+  }
+
+  .accordion--dividers accordion-custom:not(:first-child) .details {
+    border-block-start: var(--style-border-width) solid var(--color-border);
+  }
+
+  .accordion--dividers {
+    --show-fallback-borders: 0;
+  }
+
+  .accordion--dividers:not([class*='color-'])[style*='--border-width: 0'],
+  .accordion--dividers:not([class*='color-'])[style*='--border-style: none'] {
+    --show-fallback-borders: 1;
+  }
+
+  .accordion--dividers accordion-custom:first-child .details {
+    border-block-start: calc(var(--style-border-width) * var(--show-fallback-borders)) solid var(--color-border);
+  }
+
+  .accordion--dividers accordion-custom:last-child .details {
+    border-block-end: calc(var(--style-border-width) * var(--show-fallback-borders)) solid var(--color-border);
+  }
+
+  .accordion--dividers .details-content {
+    padding-block-end: var(--padding-sm);
+  }
+
+  .accordion--caret .icon-plus,
+  .accordion--plus .icon-caret {
+    display: none;
+  }
+
+  .accordion .details__header {
+    font-family: var(--summary-font-family);
+    font-style: var(--summary-font-style);
+    font-weight: var(--summary-font-weight);
+    font-size: var(--summary-font-size);
+    line-height: var(--summary-font-line-height);
+    text-transform: var(--summary-font-case);
+    min-height: var(--minimum-touch-target);
+  }
+{% endstylesheet %}
+
+{% schema %}
+{
+  "name": "Product FAQs",
+  "tag": "section",
+  "class": "product-faq-section",
+  "settings": [
+    {
+      "type": "select",
+      "id": "icon",
+      "label": "Icon",
+      "options": [
+        {
+          "value": "caret",
+          "label": "Caret"
+        },
+        {
+          "value": "plus",
+          "label": "Plus"
+        }
+      ],
+      "default": "caret"
+    },
+    {
+      "type": "checkbox",
+      "id": "dividers",
+      "label": "Dividers",
+      "default": true
+    },
+    {
+      "type": "select",
+      "id": "type_preset",
+      "label": "Heading preset",
+      "options": [
+        {
+          "value": "",
+          "label": "Default"
+        },
+        {
+          "value": "paragraph",
+          "label": "Paragraph"
+        },
+        {
+          "value": "h1",
+          "label": "H1"
+        },
+        {
+          "value": "h2",
+          "label": "H2"
+        },
+        {
+          "value": "h3",
+          "label": "H3"
+        },
+        {
+          "value": "h4",
+          "label": "H4"
+        },
+        {
+          "value": "h5",
+          "label": "H5"
+        },
+        {
+          "value": "h6",
+          "label": "H6"
+        }
+      ],
+      "default": "h6"
+    },
+    {
+      "type": "checkbox",
+      "id": "inherit_color_scheme",
+      "label": "Inherit color scheme",
+      "default": true
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "Color scheme",
+      "default": "scheme-1"
+    },
+    {
+      "type": "header",
+      "content": "Borders"
+    },
+    {
+      "type": "select",
+      "id": "border",
+      "label": "Style",
+      "options": [
+        {
+          "value": "none",
+          "label": "None"
+        },
+        {
+          "value": "solid",
+          "label": "Solid"
+        }
+      ],
+      "default": "none"
+    },
+    {
+      "type": "range",
+      "id": "border_width",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Thickness",
+      "default": 1
+    },
+    {
+      "type": "range",
+      "id": "border_opacity",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "%",
+      "label": "Opacity",
+      "default": 100
+    },
+    {
+      "type": "range",
+      "id": "border_radius",
+      "label": "Border radius",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "default": 0
+    },
+    {
+      "type": "header",
+      "content": "Padding"
+    },
+    {
+      "type": "range",
+      "id": "padding-block-start",
+      "label": "Top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding-block-end",
+      "label": "Bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding-inline-start",
+      "label": "Left",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding-inline-end",
+      "label": "Right",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "default": 0
+    }
+  ]
+}
+{% endschema %}
