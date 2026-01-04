@@ -779,7 +779,7 @@ if (typeof Theme !== 'undefined') {
   };
 }
 
-<
+<script>
   document.addEventListener('DOMContentLoaded', () => {
     const sections = document.querySelectorAll('.js-fade-section');
 
@@ -805,3 +805,4 @@ if (typeof Theme !== 'undefined') {
 
     sections.forEach(section => observer.observe(section));
   });
+</script>
