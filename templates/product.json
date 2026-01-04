@@ -628,7 +628,7 @@
                 "accordion_row_pLJCxh": {
                   "type": "_accordion-row",
                   "settings": {
-                    "heading": "Natural ingredients",
+                    "heading": "Benefits",
                     "open_by_default": false,
                     "icon": "none",
                     "width": 20
@@ -637,7 +637,7 @@
                     "text_DzQDeP": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>Each product is made with carefully chosen ingredients that focus on your skin's health and glow. Every ingredient is picked for its effectiveness, helping you achieve the best results in your skincare routine.</p>",
+                        "text": "<p>{{ closest.product.metafields.custom.benefits | metafield_tag }}</p>",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
@@ -667,7 +667,7 @@
                 "accordion_row_KTR3xE": {
                   "type": "_accordion-row",
                   "settings": {
-                    "heading": "Tested for safety",
+                    "heading": "How to use",
                     "open_by_default": false,
                     "icon": "none",
                     "width": 20
@@ -676,7 +676,7 @@
                     "text_pmWgCe": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>We prioritize safety in every product we create, ensuring peace of mind for you and your loved ones. Each item undergoes thorough testing, so you can trust that you're using safe and reliable solutions every day.</p>",
+                        "text": "<p>{{ closest.product.metafields.custom.how_to_use.value }}</p>",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
@@ -706,7 +706,7 @@
                 "accordion_row_VjrDKP": {
                   "type": "_accordion-row",
                   "settings": {
-                    "heading": "Fragrance free",
+                    "heading": "Ingredients",
                     "open_by_default": false,
                     "icon": "none",
                     "width": 20
@@ -715,7 +715,7 @@
                     "text_mwcwMg": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>Our products are fragrance-free, designed for those who prefer a gentle touch without added scents. </p>",
+                        "text": "<p>{{ closest.product.metafields.custom.ingredients.value }}</p>",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
