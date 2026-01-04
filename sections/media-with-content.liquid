@@ -214,6 +214,37 @@ style="
 }
 {% endstylesheet %}
 
+<script>
+  (function () {
+    if (window.__mediaWithContentObserverInitialized) return;
+    window.__mediaWithContentObserverInitialized = true;
+
+    document.addEventListener('DOMContentLoaded', () => {
+      const sections = document.querySelectorAll('.js-fade-section');
+
+      if (!('IntersectionObserver' in window)) {
+        sections.forEach(section => section.classList.add('is-visible'));
+        return;
+      }
+
+      const observer = new IntersectionObserver(
+        (entries, observer) => {
+          entries.forEach(entry => {
+            if (entry.intersectionRatio >= 0.4) {
+              entry.target.classList.add('is-visible');
+              observer.unobserve(entry.target);
+            }
+          });
+        },
+        { threshold: [0.4] }
+      );
+
+      sections.forEach(section => observer.observe(section));
+    });
+  })();
+</script>
+
+
 {% schema %}
 {
 "name": "t:names.media_with_text",
