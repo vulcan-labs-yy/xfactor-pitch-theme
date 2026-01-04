@@ -542,7 +542,7 @@
                     "width": "fit-content",
                     "max_width": "none",
                     "alignment": "left",
-                    "type_preset": "h4",
+                    "type_preset": "h6",
                     "font": "var(--font-primary--family)",
                     "font_size": "",
                     "line_height": "normal",
