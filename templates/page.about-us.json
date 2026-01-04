@@ -72,7 +72,9 @@
         "heading",
         "page-content"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".page-width-content.color-scheme-1 {display: flex;}"
+      ],
       "settings": {
         "content_direction": "column",
         "gap": 0,
