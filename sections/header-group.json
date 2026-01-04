@@ -20,8 +20,8 @@
           "settings": {
             "text": "New here? Enjoy 10% OFF your first purchase with code: NEWUXERGIFT 🎁",
             "link": "",
-            "font": "var(--font-subheading--family)",
-            "font_size": "0.75rem",
+            "font": "var(--font-body--family)",
+            "font_size": "",
             "weight": "",
             "letter_spacing": "normal",
             "case": "none"
