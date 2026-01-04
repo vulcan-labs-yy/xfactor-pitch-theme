@@ -1116,7 +1116,7 @@
               "type": "_accordion-row",
               "settings": {
                 "heading": "What is the purpose of the Refill Pack?",
-                "open_by_default": true,
+                "open_by_default": false,
                 "icon": "none",
                 "width": 20
               },
@@ -1445,7 +1445,7 @@
               "type": "_accordion-row",
               "settings": {
                 "heading": "Do you ship internationally?",
-                "open_by_default": true,
+                "open_by_default": false,
                 "icon": "none",
                 "width": 20
               },
@@ -1934,7 +1934,7 @@
               "type": "_accordion-row",
               "settings": {
                 "heading": "How can I reach out for press enquiries?",
-                "open_by_default": true,
+                "open_by_default": false,
                 "icon": "none",
                 "width": 20
               },
