@@ -1067,6 +1067,387 @@
             "accordion_row_EakXw8"
           ]
         },
+        "text_jtVHFX": {
+          "type": "text",
+          "name": "t:names.heading",
+          "settings": {
+            "text": "<h4>Product-related: Refill Pack 110g</h4>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "accordion_4tUgBU": {
+          "type": "accordion",
+          "name": "t:names.accordion",
+          "settings": {
+            "icon": "caret",
+            "dividers": true,
+            "type_preset": "h6",
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "accordion_row_pxqC8t": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "What is the purpose of the Refill Pack?",
+                "open_by_default": true,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_wxQ3gh": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>We created this Refill Pack 110g so that the original Vacuum Bottle of 50g (previously 30g bottle) can be reused. This is our initiative to reduce excessive packaging and to reduce waste.</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_wxQ3gh"
+              ]
+            },
+            "accordion_row_7CPUhK": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "Can I use the Refill Pack directly?",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_URVC7L": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Yes you may. However due to the non-vacuum nature of the Refill Pack, please store it in a cool and dry place. Best to use within 12 months after the pack is opened.</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_URVC7L"
+              ]
+            },
+            "accordion_row_NtG4CQ": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "Why the Vacuum Bottle?",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_DKgWkB": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>The Vacuum Bottle can dispense the amount of face cream that you desire to your finger without contaminating the content. Oxidisation degradation of the cream is minimised in the vacuum environment. That is why we encourage you to get the Bottle + Refill Bundle.</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_DKgWkB"
+              ]
+            },
+            "accordion_row_m4yzaA": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "Which version of the face cream is in the Refill Pack?",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_MmrJbp": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>The Refill Pack is filled with the upgraded 30%Proxylane +1%NAG face cream, same as the V2 bottle, up to 110g.</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_MmrJbp"
+              ]
+            },
+            "accordion_row_KnYMpF": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "How long can the Bottle 50g + Refill Pack 110g Bundle last?",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_j93UgA": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>For regular use of twice daily on the face, the 50g vacuum bottle can last for more than a month. The Refill Pack can fill the 50g vacuum bottle for two times. Altogether this Bottle+Refill Bundle can last for more than 3 months.</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_j93UgA"
+              ]
+            },
+            "accordion_row_4eUTVK": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "What should we check for when we receive the Refill Pack?",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_cm3QfR": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Always check for tamper proof. We seal the cap and neck of the Refill Pack. Do not use if you see any broken seal.</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_cm3QfR"
+              ]
+            },
+            "accordion_row_zmCQfg": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "How is the Refill Pack being packaged?",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_Hre44P": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>For hygienic purpose, we wrap the Refill Pack with minimal plastic polyethylene.</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_Hre44P"
+              ]
+            }
+          },
+          "block_order": [
+            "accordion_row_pxqC8t",
+            "accordion_row_7CPUhK",
+            "accordion_row_NtG4CQ",
+            "accordion_row_m4yzaA",
+            "accordion_row_KnYMpF",
+            "accordion_row_4eUTVK",
+            "accordion_row_zmCQfg"
+          ]
+        },
+        "text_Qcjyax": {
+          "type": "text",
+          "name": "t:names.heading",
+          "settings": {
+            "text": "<h4>Orders & Shipping</h4>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "text_gcHHMf": {
+          "type": "text",
+          "name": "t:names.heading",
+          "settings": {
+            "text": "<h4>Press & Partnership</h4>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
         "page-content": {
           "type": "page-content",
           "settings": {},
@@ -1077,6 +1458,10 @@
         "heading",
         "text_wE3dtj",
         "accordion_BzrBKA",
+        "text_jtVHFX",
+        "accordion_4tUgBU",
+        "text_Qcjyax",
+        "text_gcHHMf",
         "page-content"
       ],
       "settings": {
