@@ -114,7 +114,7 @@
           "static": true,
           "settings": {
             "horizontal_alignment_flex_direction_column": "flex-start",
-            "vertical_alignment_flex_direction_column": "flex-end",
+            "vertical_alignment_flex_direction_column": "center",
             "gap": 24
           },
           "blocks": {
@@ -143,10 +143,37 @@
                 "padding-inline-end": 0
               },
               "blocks": {}
+            },
+            "text_AwQkgY": {
+              "type": "text",
+              "name": "t:names.text",
+              "settings": {
+                "text": "<p>At X’Factor, we aspire to be the global leader in evidence-based skincare, setting the standard for innovation and quality while offering exceptional skincare products.</p><p>We are dedicated to providing you with cutting-edge active ingredients that address specific skin needs, all backed by rigorous scientific research.</p>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
             }
           },
           "block_order": [
-            "text_6b9XqR"
+            "text_6b9XqR",
+            "text_AwQkgY"
           ]
         }
       },
@@ -154,7 +181,7 @@
       "settings": {
         "media_position": "left",
         "media_width": "medium",
-        "media_height": "60svh",
+        "media_height": "80svh",
         "section_width": "full-width",
         "extend_media": true,
         "color_scheme": "scheme-4",
