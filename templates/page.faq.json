@@ -1422,6 +1422,469 @@
           },
           "blocks": {}
         },
+        "accordion_EJyXNq": {
+          "type": "accordion",
+          "name": "t:names.accordion",
+          "settings": {
+            "icon": "caret",
+            "dividers": true,
+            "type_preset": "h6",
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "accordion_row_rQTK9m": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "Do you ship internationally?",
+                "open_by_default": true,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_PgV7Ty": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>We currently do not ship outside of Malaysia. Please drop us a mail at enquiry@xfactor-skincare.com, or Whatsapp us at +60163523822 and we will be in touch with you very soon.</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_PgV7Ty"
+              ]
+            },
+            "accordion_row_wyFg4w": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "What payment methods do you accept?",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_3mRPC3": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>We accept all major domestic online banking, credit card payments (Visa & Master) and GrabPay.</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_3mRPC3"
+              ]
+            },
+            "accordion_row_TMXtny": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "How long does the delivery take?",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_BnneUt": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>All orders are processed for delivery within 3 days, and an additional 2 to 5 working days to reach you via our shipping partners depending on your location.</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_BnneUt"
+              ]
+            },
+            "accordion_row_3nbLeN": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "How much is the shipping fee?",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_z6imLE": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>We offer free shipping on all orders within Malaysia for purchase above RM80.</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_z6imLE"
+              ]
+            },
+            "accordion_row_LepaLG": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "How do I check the status of my order?",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_agjrHN": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>You will receive an email notification, marking your order to be “completed” once your parcel is out for delivery. You will receive WhatsApp message from X’Factor Business WA if the phone number you registered with us is linked to WhatsApp.</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_agjrHN"
+              ]
+            },
+            "accordion_row_xktzPf": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "How can I track my order?",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_tFQzHw": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>You will receive an email notification with your tracking number once your order is out for delivery.</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_tFQzHw"
+              ]
+            },
+            "accordion_row_7JCbz8": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "Can I cancel my order?",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_J3jLP7": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>All orders are final once payment is made. If you have any questions, do drop us a mail at enquiry@xfactor-skincare.com, and we will be in contact with you within 24 hours.</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_J3jLP7"
+              ]
+            },
+            "accordion_row_QLbpzw": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "What is your return policy?",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_pUjNFw": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Please refer to our return policy <a href=\"/policies/refund-policy\" title=\"Refund Policy\">here</a>.</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_pUjNFw"
+              ]
+            },
+            "accordion_row_MTHkQ3": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "What is your refund policy?",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_Baqm4h": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Please refer to our return policy <a href=\"/policies/refund-policy\" title=\"Refund Policy\">here</a>.</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_Baqm4h"
+              ]
+            },
+            "accordion_row_9wzqyN": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "Can I still make changes to my order or shipping address after placing it?",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_a4cJtf": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Please contact us via WhatsApp within 24 hours for any order changes to be possible.</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_a4cJtf"
+              ]
+            },
+            "accordion_row_jKzBqA": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "Do you take corporate or bulk orders?",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_RjVwtm": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Yes, we do. You can reach us atenquiry@xfactor-skincare.comand we’ll be in touch!</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_RjVwtm"
+              ]
+            }
+          },
+          "block_order": [
+            "accordion_row_rQTK9m",
+            "accordion_row_wyFg4w",
+            "accordion_row_TMXtny",
+            "accordion_row_3nbLeN",
+            "accordion_row_LepaLG",
+            "accordion_row_xktzPf",
+            "accordion_row_7JCbz8",
+            "accordion_row_QLbpzw",
+            "accordion_row_MTHkQ3",
+            "accordion_row_9wzqyN",
+            "accordion_row_jKzBqA"
+          ]
+        },
         "text_gcHHMf": {
           "type": "text",
           "name": "t:names.heading",
@@ -1448,6 +1911,189 @@
           },
           "blocks": {}
         },
+        "accordion_xYCKan": {
+          "type": "accordion",
+          "name": "t:names.accordion",
+          "settings": {
+            "icon": "caret",
+            "dividers": true,
+            "type_preset": "h6",
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "accordion_row_mXJeHq": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "How can I reach out for press enquiries?",
+                "open_by_default": true,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_AaqcwK": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>You can reach us atenquiry@xfactor-skincare.comand we’ll be in touch!</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_AaqcwK"
+              ]
+            },
+            "accordion_row_CmK3rj": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "How can I become a stockist?",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_mGp3e6": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Please register with us by filling up the form here. We’ll get back to you within 5 working days.</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_mGp3e6"
+              ]
+            },
+            "accordion_row_RjY8Df": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "Who should I contact for marketing or partnership opportunities?",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_aknEtQ": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>You can contact us at enquiry@xfactor-skincare.com and we’ll be in touch!</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_aknEtQ"
+              ]
+            },
+            "accordion_row_6z6r3V": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "How can I stay updated on your latest news and collaborations?",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_QjBxEe": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>You can subscribe to our newsletter, follow us on our social channels, or visit our website regularly for updates.</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_QjBxEe"
+              ]
+            }
+          },
+          "block_order": [
+            "accordion_row_mXJeHq",
+            "accordion_row_CmK3rj",
+            "accordion_row_RjY8Df",
+            "accordion_row_6z6r3V"
+          ]
+        },
         "page-content": {
           "type": "page-content",
           "settings": {},
@@ -1461,7 +2107,9 @@
         "text_jtVHFX",
         "accordion_4tUgBU",
         "text_Qcjyax",
+        "accordion_EJyXNq",
         "text_gcHHMf",
+        "accordion_xYCKan",
         "page-content"
       ],
       "settings": {
