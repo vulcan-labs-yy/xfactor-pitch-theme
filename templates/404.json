@@ -6,7 +6,8 @@
  * or related systems. Please exercise caution as any changes
  * made to this file may be overwritten.
  * ------------------------------------------------------------
- */{
+ */
+{
   "sections": {
     "main": {
       "type": "main-404",
@@ -15,7 +16,7 @@
           "type": "text",
           "name": "t:names.text",
           "settings": {
-            "text": "<h1>Page not found</h1>",
+            "text": "<h1>Oops! Wrong Turn.</h1>",
             "width": "100%",
             "max_width": "normal",
             "alignment": "center",
@@ -67,8 +68,8 @@
           "type": "button",
           "name": "t:names.button",
           "settings": {
-            "label": "Continue shopping",
-            "link": "shopify://collections/all",
+            "label": "Glow like never before",
+            "link": "shopify://products/advanced-30-proxylane-face-cream",
             "open_in_new_tab": false,
             "style_class": "button",
             "width": "fit-content",
@@ -91,7 +92,7 @@
         "horizontal_alignment_flex_direction_column": "center",
         "vertical_alignment_flex_direction_column": "center",
         "gap": 20,
-        "color_scheme": "",
+        "color_scheme": "scheme-2",
         "padding-block-start": 100,
         "padding-block-end": 100
       }
@@ -215,7 +216,6 @@
             "group_NVNfgE": {
               "type": "_product-card-group",
               "settings": {
-                "open_in_new_tab": false,
                 "content_direction": "column",
                 "vertical_on_mobile": true,
                 "horizontal_alignment": "flex-start",
@@ -243,6 +243,8 @@
                 "overlay_color": "#00000026",
                 "overlay_style": "solid",
                 "gradient_direction": "to top",
+                "link": "",
+                "open_in_new_tab": false,
                 "padding-block-start": 0,
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
@@ -323,8 +325,10 @@
           ]
         }
       },
+      "disabled": true,
       "name": "Featured collection",
       "settings": {
+        "collection": "",
         "layout_type": "carousel",
         "carousel_on_mobile": false,
         "max_products": 8,
