@@ -1247,7 +1247,7 @@
           "static": true,
           "settings": {
             "media_type": "image",
-            "image": "{{ closest.product.metafields.custom.product_first_2_column_image.value }}",
+            "image": "{{ closest.product.metafields.custom.product_second_2_column_image.value }}",
             "link": "",
             "video_loop": true,
             "video_autoplay": false,
