@@ -345,7 +345,7 @@
               "name": "t:names.button",
               "settings": {
                 "label": "Glow like never before",
-                "link": "shopify://collections/all",
+                "link": "shopify://products/rice-husk-silica-facial-cleanser",
                 "open_in_new_tab": false,
                 "style_class": "button",
                 "width": "fit-content",
@@ -457,7 +457,7 @@
               "name": "t:names.button",
               "settings": {
                 "label": "Glow like never before",
-                "link": "shopify://collections/all",
+                "link": "shopify://products/advanced-30-proxylane-face-cream",
                 "open_in_new_tab": false,
                 "style_class": "button",
                 "width": "fit-content",
@@ -544,7 +544,7 @@
               "name": "t:names.button",
               "settings": {
                 "label": "By Pharmacists",
-                "link": "shopify://collections/all",
+                "link": "shopify://pages/commitments-certifications",
                 "open_in_new_tab": false,
                 "style_class": "button",
                 "width": "fit-content",
