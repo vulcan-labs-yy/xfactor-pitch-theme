@@ -668,7 +668,7 @@
         },
         "group_NifJLp": {
           "type": "group",
-          "name": "t:names.group",
+          "name": "First Row Certs",
           "settings": {
             "content_direction": "row",
             "vertical_on_mobile": true,
