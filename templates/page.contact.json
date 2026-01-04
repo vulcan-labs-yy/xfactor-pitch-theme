@@ -87,6 +87,9 @@
         "content",
         "forms_inline_kRV3aj"
       ],
+      "custom_css": [
+        "div#form-container-ref h2 {display: none;}"
+      ],
       "settings": {
         "content_direction": "column",
         "gap": 32,
