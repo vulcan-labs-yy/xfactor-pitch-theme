@@ -1379,6 +1379,17 @@
         "padding-block-end": 0
       }
     },
+    "custom_liquid_BRmyhg": {
+      "type": "custom-liquid",
+      "name": "t:names.custom_liquid",
+      "settings": {
+        "custom_liquid": "{% if product.metafields.custom.faqs.value.size > 0 %}\n<div class=\"product-faq\">\n  <h2>Frequently Asked Questions</h2>\n  \n  {% for faq in product.metafields.custom.faqs.value %}\n  <details class=\"faq-item\">\n    <summary class=\"faq-question\">{{ faq.question }}</summary>\n    <div class=\"faq-answer\">{{ faq.answer }}</div>\n  </details>\n  {% endfor %}\n</div>\n\n<style>\n  .product-faq { margin: 2rem 0; }\n  .faq-item { border-bottom: 1px solid #e0e0e0; padding: 1rem 0; }\n  .faq-question { cursor: pointer; font-weight: 600; }\n  .faq-answer { padding: 1rem 0 0 1rem; }\n</style>\n{% endif %}",
+        "color_scheme": "scheme-2",
+        "section_width": "page-width",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
     "1767515840824fb409": {
       "type": "_blocks",
       "blocks": {
@@ -1629,6 +1640,7 @@
     "section_UhNgJN",
     "media_with_content_CFdPEn",
     "media_with_content_Y3CwJF",
+    "custom_liquid_BRmyhg",
     "1767515840824fb409",
     "product_recommendations_dDfQTx"
   ]
