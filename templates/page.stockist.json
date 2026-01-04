@@ -18,7 +18,7 @@
           "settings": {
             "image": "shopify://shop_images/about-us-top-banner.webp",
             "link": "",
-            "image_ratio": "landscape",
+            "image_ratio": "adapt",
             "width": "custom",
             "custom_width": 100,
             "width_mobile": "fill",
