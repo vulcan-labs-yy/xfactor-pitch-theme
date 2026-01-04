@@ -778,31 +778,3 @@ if (typeof Theme !== 'undefined') {
     scheduler: scheduler,
   };
 }
-
-<script>
-  document.addEventListener('DOMContentLoaded', () => {
-    const sections = document.querySelectorAll('.js-fade-section');
-
-    if (!('IntersectionObserver' in window)) {
-      // Fallback: show immediately
-      sections.forEach(section => section.classList.add('is-visible'));
-      return;
-    }
-
-    const observer = new IntersectionObserver(
-      (entries, observer) => {
-        entries.forEach(entry => {
-          if (entry.intersectionRatio >= 0.4) {
-            entry.target.classList.add('is-visible');
-            observer.unobserve(entry.target); // run once
-          }
-        });
-      },
-      {
-        threshold: [0.4]
-      }
-    );
-
-    sections.forEach(section => observer.observe(section));
-  });
-</script>
