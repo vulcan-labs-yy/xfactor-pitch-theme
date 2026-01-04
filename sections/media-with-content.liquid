@@ -205,11 +205,13 @@ style="
   }
 }
 
-.js-fade-section {
+.js-fade-section img.media-block__media {
   opacity: 0;
-  transition: opacity 0.8s ease-out;
+  scale: 0.8;
+  transition: scale 0.8s ease-out, opacity 0.8s ease-out;
 }
-.js-fade-section.is-visible {
+.js-fade-section.is-visible img.media-block__media {
+  scale: 0.8;
   opacity: 1;
 }
 {% endstylesheet %}
