@@ -111,10 +111,10 @@
                 "review_pzw7fn": {
                   "type": "review",
                   "settings": {
-                    "stars_style": "shaded",
+                    "stars_style": "single",
                     "show_number": true,
-                    "rating_color": "primary",
-                    "type_preset": "paragraph",
+                    "rating_color": "foreground",
+                    "type_preset": "h6",
                     "width": "100%",
                     "alignment": "left"
                   },
