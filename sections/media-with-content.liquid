@@ -13,6 +13,7 @@
 <div class="section-background color-{{ section.settings.color_scheme }}"></div>
 <div
   class="section section--{{ section.settings.section_width }} disable-section-top-offset media-with-content color-{{ section.settings.color_scheme }} spacing-style {{ media_class_modifier }}"
+  data-animate="fade"
   data-testid="media-with-content"
   style="
     {%- render 'spacing-style', settings: section.settings %}
@@ -203,6 +204,15 @@
       height: 100vw;
     }
   }
+
+  .js-fade-section {
+  opacity: 0;
+  transition: opacity 0.8s ease-out;
+}
+
+.js-fade-section.is-visible {
+  opacity: 1;
+}
 {% endstylesheet %}
 
 {% schema %}
