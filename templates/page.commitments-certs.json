@@ -851,7 +851,7 @@
                 "horizontal_alignment": "flex-start",
                 "vertical_alignment": "center",
                 "align_baseline": false,
-                "horizontal_alignment_flex_direction_column": "flex-start",
+                "horizontal_alignment_flex_direction_column": "center",
                 "vertical_alignment_flex_direction_column": "flex-start",
                 "gap": 12,
                 "width": "fill",
@@ -904,10 +904,64 @@
                     "padding-inline-end": 0
                   },
                   "blocks": {}
+                },
+                "text_FqhaBN": {
+                  "type": "text",
+                  "name": "t:names.heading",
+                  "settings": {
+                    "text": "<h4>Meets EWG Skin Deep Scoring Requirements</h4>",
+                    "width": "fit-content",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
+                "text_QEXzmA": {
+                  "type": "text",
+                  "name": "t:names.text",
+                  "settings": {
+                    "text": "<p>Aligned with EWG’s Scoring Requirements for Safety</p>",
+                    "width": "fit-content",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
                 }
               },
               "block_order": [
-                "image_Q4JqFU"
+                "image_Q4JqFU",
+                "text_FqhaBN",
+                "text_QEXzmA"
               ]
             }
           },
@@ -1204,6 +1258,7 @@
             "group_8d8JNQ": {
               "type": "group",
               "name": "t:names.group",
+              "disabled": true,
               "settings": {
                 "content_direction": "column",
                 "vertical_on_mobile": true,
@@ -1244,8 +1299,9 @@
                 "text_zXCm7B": {
                   "type": "text",
                   "name": "t:names.heading",
+                  "disabled": true,
                   "settings": {
-                    "text": "<h4>Meets EWG Skin Deep Scoring Requirements</h4>",
+                    "text": "",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -1270,8 +1326,9 @@
                 "text_7j8GcV": {
                   "type": "text",
                   "name": "t:names.text",
+                  "disabled": true,
                   "settings": {
-                    "text": "<p>Aligned with EWG’s Scoring Requirements for Safety</p>",
+                    "text": "",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -1346,7 +1403,7 @@
             "padding-inline-end": 0
           },
           "blocks": {
-            "group_BtTz34": {
+            "group_b74wV7": {
               "type": "group",
               "name": "t:names.group",
               "settings": {
@@ -1462,7 +1519,7 @@
             }
           },
           "block_order": [
-            "group_BtTz34"
+            "group_b74wV7"
           ]
         }
       },
