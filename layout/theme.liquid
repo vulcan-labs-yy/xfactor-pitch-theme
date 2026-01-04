@@ -1,117 +1,128 @@
 <!doctype html>
 <html
-  {% if request.design_mode %}
-    class="shopify-design-mode"
-  {% endif %}
-  lang="{{ request.locale.iso_code }}"
+{% if request.design_mode %}
+class="shopify-design-mode"
+{% endif %}
+lang="{{ request.locale.iso_code }}"
 >
-  <head>
-    {%- if settings.favicon != blank -%}
-      <link
-        rel="icon"
-        type="image/png"
-        href="{{ settings.favicon | image_url: width: 32, height: 32 }}"
-      >
-    {%- endif -%}
+<head>
+{%- if settings.favicon != blank -%}
+  <link
+    rel="icon"
+    type="image/png"
+    href="{{ settings.favicon | image_url: width: 32, height: 32 }}"
+  >
+{%- endif -%}
 
-    {% comment %} This a way to wait for main content to load when navigating to a new page so that the view transitions can work consistently {% endcomment %}
-    {% if settings.transition_to_main_product or settings.page_transition_enabled %}
-      <link
-        rel="expect"
-        href="#MainContent"
-        blocking="render"
-        id="view-transition-render-blocker"
-      >
-    {% endif %}
+{% comment %} This a way to wait for main content to load when navigating to a new page so that the view transitions can work consistently {% endcomment %}
+{% if settings.transition_to_main_product or settings.page_transition_enabled %}
+  <link
+    rel="expect"
+    href="#MainContent"
+    blocking="render"
+    id="view-transition-render-blocker"
+  >
+{% endif %}
 
-    {%- render 'meta-tags' -%}
-    {%- render 'stylesheets' -%}
-    {%- render 'fonts' -%}
-    {%- render 'scripts' -%}
-    {%- render 'theme-styles-variables' -%}
-    {%- render 'color-schemes' -%}
+{%- render 'meta-tags' -%}
+{%- render 'stylesheets' -%}
+{%- render 'fonts' -%}
+{%- render 'scripts' -%}
+{%- render 'theme-styles-variables' -%}
+{%- render 'color-schemes' -%}
 
-    {% if request.design_mode %}
-      {%- render 'theme-editor' -%}
-    {% endif %}
+{% if request.design_mode %}
+  {%- render 'theme-editor' -%}
+{% endif %}
 
-    {{ content_for_header }}
-  </head>
+{{ content_for_header }}
 
-  <body class="page-width-{{ settings.page_width }} card-hover-effect-{{ settings.card_hover_effect }}">
-    {% render 'skip-to-content-link', href: '#MainContent', text: 'accessibility.skip_to_text' %}
-    <div id="header-group">
-      {% sections 'header-group' %}
-    </div>
+<script src="https://unpkg.com/lenis@1.3.17/dist/lenis.min.js" defer></script> 
+</head>
 
-    <script>
-      // Inline header height calculation to prevent layout shift
-      // Note: Updates in calculateHeaderGroupHeight() and updateTransparentHeaderOffset()utilities.js should be kept in sync with this function
-      (function setHeaderHeighCustomProperties() {
-        /*
-         * Header calculation functions for maintaining CSS variables
-         * Mimic calculateHeaderGroupHeight() in utilities.js
-         */
-        const header = document.querySelector('header-component');
-        const headerGroup = document.querySelector('#header-group');
-        const hasHeaderSection = headerGroup?.querySelector('.header-section');
+<body class="page-width-{{ settings.page_width }} card-hover-effect-{{ settings.card_hover_effect }}">
+{% render 'skip-to-content-link', href: '#MainContent', text: 'accessibility.skip_to_text' %}
+<div id="header-group">
+  {% sections 'header-group' %}
+</div>
 
-        if (!header || !headerGroup) return;
+<script>
+  // Inline header height calculation to prevent layout shift
+  // Note: Updates in calculateHeaderGroupHeight() and updateTransparentHeaderOffset()utilities.js should be kept in sync with this function
+  (function setHeaderHeighCustomProperties() {
+    /*
+      * Header calculation functions for maintaining CSS variables
+      * Mimic calculateHeaderGroupHeight() in utilities.js
+      */
+    const header = document.querySelector('header-component');
+    const headerGroup = document.querySelector('#header-group');
+    const hasHeaderSection = headerGroup?.querySelector('.header-section');
 
-        const headerHeight = header.offsetHeight;
+    if (!header || !headerGroup) return;
 
-        // Calculate the total height of the header group
-        let headerGroupHeight = 0;
-        const children = headerGroup.children;
-        for (let i = 0; i < children.length; i++) {
-          const element = children[i];
-          if (element === header || !(element instanceof HTMLElement)) continue;
-          headerGroupHeight += element.offsetHeight;
-        }
+    const headerHeight = header.offsetHeight;
 
-        // Check for transparent header special case
-        if (header.hasAttribute('transparent') && header.parentElement?.nextElementSibling) {
-          headerGroupHeight += headerHeight;
-        }
+    // Calculate the total height of the header group
+    let headerGroupHeight = 0;
+    const children = headerGroup.children;
+    for (let i = 0; i < children.length; i++) {
+      const element = children[i];
+      if (element === header || !(element instanceof HTMLElement)) continue;
+      headerGroupHeight += element.offsetHeight;
+    }
 
-        // Set CSS variables
-        document.body.style.setProperty('--header-height', `${headerHeight}px`);
-        document.body.style.setProperty('--header-group-height', `${headerGroupHeight}px`);
+    // Check for transparent header special case
+    if (header.hasAttribute('transparent') && header.parentElement?.nextElementSibling) {
+      headerGroupHeight += headerHeight;
+    }
 
-        /**
-         * Updates CSS custom properties for transparent header offset calculation
-         * Mimic updateTransparentHeaderOffset() in utilities.js
-         */
+    // Set CSS variables
+    document.body.style.setProperty('--header-height', `${headerHeight}px`);
+    document.body.style.setProperty('--header-group-height', `${headerGroupHeight}px`);
 
-        if (!hasHeaderSection || !header?.hasAttribute('transparent')) {
-          document.body.style.setProperty('--transparent-header-offset-boolean', '0');
-          return;
-        }
+    /**
+      * Updates CSS custom properties for transparent header offset calculation
+      * Mimic updateTransparentHeaderOffset() in utilities.js
+      */
 
-        const hasImmediateSection = hasHeaderSection.nextElementSibling?.classList.contains('shopify-section');
+    if (!hasHeaderSection || !header?.hasAttribute('transparent')) {
+      document.body.style.setProperty('--transparent-header-offset-boolean', '0');
+      return;
+    }
 
-        const shouldApplyOffset = !hasImmediateSection ? '1' : '0';
-        document.body.style.setProperty('--transparent-header-offset-boolean', shouldApplyOffset);
-      })();
-    </script>
+    const hasImmediateSection = hasHeaderSection.nextElementSibling?.classList.contains('shopify-section');
 
-    <main
-      id="MainContent"
-      class="content-for-layout"
-      role="main"
-      data-page-transition-enabled="{{ settings.page_transition_enabled }}"
-      data-product-transition="{{ settings.transition_to_main_product }}"
-      data-template="{{ template }}"
-    >
-      {{ content_for_layout }}
-    </main>
+    const shouldApplyOffset = !hasImmediateSection ? '1' : '0';
+    document.body.style.setProperty('--transparent-header-offset-boolean', shouldApplyOffset);
+  })();
+</script>
 
-    {% sections 'footer-group' %}
+<main
+  id="MainContent"
+  class="content-for-layout"
+  role="main"
+  data-page-transition-enabled="{{ settings.page_transition_enabled }}"
+  data-product-transition="{{ settings.transition_to_main_product }}"
+  data-template="{{ template }}"
+>
+  {{ content_for_layout }}
+</main>
 
-    {% render 'search-modal' %}
+{% sections 'footer-group' %}
 
-    {% if settings.quick_add or settings.mobile_quick_add %}
-      {% render 'quick-add-modal' %}
-    {% endif %}
-  </body>
+{% render 'search-modal' %}
+
+{% if settings.quick_add or settings.mobile_quick_add %}
+  {% render 'quick-add-modal' %}
+{% endif %}
+</body>
+<script>
+const lenis = new Lenis();
+function raf(time) {
+lenis.raf(time);
+requestAnimationFrame(raf);
+}
+
+requestAnimationFrame(raf);
+</script>
 </html>
