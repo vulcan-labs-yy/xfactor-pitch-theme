@@ -17,21 +17,1072 @@
           "name": "Title",
           "settings": {
             "text": "<h1>{{ closest.page.title }}</h1>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "left",
             "type_preset": "h2",
-            "width": "100%"
-          }
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "text_wE3dtj": {
+          "type": "text",
+          "name": "t:names.heading",
+          "settings": {
+            "text": "<h4>Product-related: Advanced Proxylane Face Cream</h4>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "accordion_BzrBKA": {
+          "type": "accordion",
+          "name": "t:names.accordion",
+          "settings": {
+            "icon": "caret",
+            "dividers": true,
+            "type_preset": "h6",
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "accordion_row_tGXznE": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "Do you test on animals? Is the product vegan?",
+                "open_by_default": true,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_eb7cWr": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>No, our products are not tested on animals. Yes, our products are vegan. No animal parts nor animal-derived substances are used in our products.</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_eb7cWr"
+              ]
+            },
+            "accordion_row_RdQpRg": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "What certifications does your product have?",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_749QnJ": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<ul><li>Certificate of NOT (regulatory notification) issued by National Pharmaceutical Regulatory Authority of Malaysia</li><li>Certificate of porcine DNA-free from JAKIM accredited laboratory</li><li>Quality Control Certification for physical appearances (color, smell and texture), accelerated stability test in both extreme and room temperatures and microbiological tests.</li><li>Concentration Analytical Certificate for the active ingredient</li><li>Certificate of Free From Harmful Chemical PFAS</li></ul>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_749QnJ"
+              ]
+            },
+            "accordion_row_t7Uk7V": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "Can I use the product in combination with Retinol, Peptide, Tretinoin, or other actives?",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_LTw4HM": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Yes you can use them together. Proxylane works on different targets and has separate mechanism of action to increase the glycosaminoglycans in the skin for anti aging effect, not the same as neither retinol, peptide, tretinoin nor other actives. It is recommended to use our product as the base first.</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_LTw4HM"
+              ]
+            },
+            "accordion_row_a8CP9n": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "Can I apply the product on eyelids?",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_T6fXQn": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Yes, you can use the product on the eyelids. The ingredients of the product are not irritating to the eyes.</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_T6fXQn"
+              ]
+            },
+            "accordion_row_CDLtfn": {
+              "type": "_accordion-row",
+              "name": "t:names.accordion_row",
+              "settings": {
+                "heading": "Can I apply the product before concealer or makeup?",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_U4WFb9": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Yes, you can apply the product before concealer or makeup. Due to the high concentration of Proxylane, the skin may feel sticky initially if the amount of cream used is more than a pea size. Gently pat the cream in and allow a minute or two for absorption before applying concealer or makeup.</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_U4WFb9"
+              ]
+            },
+            "accordion_row_bpiwzn": {
+              "type": "_accordion-row",
+              "name": "t:names.accordion_row",
+              "settings": {
+                "heading": "Does the product contain parabens and silicones?",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_CmFwKf": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>No, the product does not contain paraben. We use silicone in 1% as part of the formulation for viscosity and to emulsify the product to keep it stable.</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_CmFwKf"
+              ]
+            },
+            "accordion_row_BR86Pz": {
+              "type": "_accordion-row",
+              "name": "t:names.accordion_row",
+              "settings": {
+                "heading": "Does the product have a scent?",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_jEnfmU": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>No, the product does not have any additive scent nor fragrance.</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_jEnfmU"
+              ]
+            },
+            "accordion_row_cX9YfW": {
+              "type": "_accordion-row",
+              "name": "t:names.accordion_row",
+              "settings": {
+                "heading": "Does the product contain any allergens?",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_fjR6ex": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>No, the product does not contain any known allergens.</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_fjR6ex"
+              ]
+            },
+            "accordion_row_MyD86F": {
+              "type": "_accordion-row",
+              "name": "t:names.accordion_row",
+              "settings": {
+                "heading": "What is the color of the product?",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_MWYthg": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>The product is white in color. We do not add any color additives.</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_MWYthg"
+              ]
+            },
+            "accordion_row_d4TaME": {
+              "type": "_accordion-row",
+              "name": "t:names.accordion_row",
+              "settings": {
+                "heading": "What is the texture of the product?",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_8wnFWG": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Our face cream is lightweight in texture, watery and non greasy yet highly moisturizing, rich yet smooth to spread with ease.</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_8wnFWG"
+              ]
+            },
+            "accordion_row_YqKFR4": {
+              "type": "_accordion-row",
+              "name": "t:names.accordion_row",
+              "settings": {
+                "heading": "Is the product safe for sensitive skin and/or medical skin conditions?",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_DPhDzt": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Although our product is compatible to use for all skin types, it is advisable to do a patch test to check for your skin reaction initially for new users with sensitive skin. Medical skin conditions like atopic dermatitis are not advisable to use this product when the skin is flared up or broken.</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_DPhDzt"
+              ]
+            },
+            "accordion_row_8nq3PB": {
+              "type": "_accordion-row",
+              "name": "t:names.accordion_row",
+              "settings": {
+                "heading": "Can the product cause breakouts?",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_GPE3mk": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>We have two cases of breakouts when our product was used in the early twenty years old young ladies although we cannot be sure whether it was due to pms or the product. However as always, do a patch test first to check your skin reaction if you are unsure.</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_GPE3mk"
+              ]
+            },
+            "accordion_row_m4fYhX": {
+              "type": "_accordion-row",
+              "name": "t:names.accordion_row",
+              "settings": {
+                "heading": "How should I include the product in my skincare routine?",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_CkHqzJ": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Firstly wash your face with your usual cleanser. If you use facial toner or serum to prep your skin, apply this product after your facial toner or serum. Pat this product in and continue with your makeup and sunscreen on top of this product.</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_CkHqzJ"
+              ]
+            },
+            "accordion_row_dWk6eV": {
+              "type": "_accordion-row",
+              "name": "t:names.accordion_row",
+              "settings": {
+                "heading": "When should I apply the product?",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_WHbkg9": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>You should apply this product after cleansing your face.</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_WHbkg9"
+              ]
+            },
+            "accordion_row_TqpU3p": {
+              "type": "_accordion-row",
+              "name": "t:names.accordion_row",
+              "settings": {
+                "heading": "How many times a day should I apply the product?",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_jkxw6D": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>You should apply this product twice a day for best results.</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_jkxw6D"
+              ]
+            },
+            "accordion_row_Bhh7ah": {
+              "type": "_accordion-row",
+              "name": "t:names.accordion_row",
+              "settings": {
+                "heading": "How long should I use the product to see results?",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_TTdjRt": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>The moisturizing effect of the product can plump up fine lines in a few days. You should continuously use this product for at least 3 to 4 weeks, which is the regular skin turnover duration, to see best anti aging results. As with most skincare products, it can also take up to three months. Be patient and give the product time to work.</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_TTdjRt"
+              ]
+            },
+            "accordion_row_BMK8wB": {
+              "type": "_accordion-row",
+              "name": "t:names.accordion_row",
+              "settings": {
+                "heading": "How do I perform a patch test?",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_WFCJde": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Apply a small amount (pea size) to your inner forearm. Repeat this twice a day for four to five days. If your skin looks normal — free of redness, itch, and other reactions — you can apply it to your face.</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_WFCJde"
+              ]
+            },
+            "accordion_row_GQGi8Y": {
+              "type": "_accordion-row",
+              "name": "t:names.accordion_row",
+              "settings": {
+                "heading": "How long does the bottle last?",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_LfxMqg": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Applying the product twice a day in a regular amount, this bottle will last at least 3 weeks, usually 4 weeks.</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_LfxMqg"
+              ]
+            },
+            "accordion_row_Vwwmq4": {
+              "type": "_accordion-row",
+              "name": "t:names.accordion_row",
+              "settings": {
+                "heading": "Who should use the product?",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_hNHBmK": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>People with signs of skin aging should use this product, which may benefit their skin by enhancing the skin’s natural production of hyaluronic acid and other GAGs besides strengthening the dermal-epidermal junction and indirectly stimulating collagen in the dermis.</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_hNHBmK"
+              ]
+            },
+            "accordion_row_D6rGUr": {
+              "type": "_accordion-row",
+              "name": "t:names.accordion_row",
+              "settings": {
+                "heading": "Which age group is the product suitable for?",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_abrTKC": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>The product is suitable for people from 25 years old with first signs of skin aging to people around 60 years old when skin collagen loss has reached almost half.</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_abrTKC"
+              ]
+            },
+            "accordion_row_awiCNN": {
+              "type": "_accordion-row",
+              "name": "t:names.accordion_row",
+              "settings": {
+                "heading": "Is the product only for women? Can it be used by men?",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_AJNePj": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>The product is for both women and men.</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_AJNePj"
+              ]
+            },
+            "accordion_row_3KMPWV": {
+              "type": "_accordion-row",
+              "name": "t:names.accordion_row",
+              "settings": {
+                "heading": "Is the product halal-friendly?",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_TxLDWb": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>The product has been tested to be porcine DNA free.</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_TxLDWb"
+              ]
+            },
+            "accordion_row_gwjyQi": {
+              "type": "_accordion-row",
+              "name": "t:names.accordion_row",
+              "settings": {
+                "heading": "What is the shelf life of the product?",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_HDBhA6": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Three years before being opened, and one year after the bottle is opened for use.</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_HDBhA6"
+              ]
+            },
+            "accordion_row_EakXw8": {
+              "type": "_accordion-row",
+              "name": "t:names.accordion_row",
+              "settings": {
+                "heading": "Can I buy your product in stores?",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_dmgAbk": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Yes, you can! We are available at your friendly, neighbourhood Pharmacies here:</p><p><strong>BE Pharmacy</strong>, Klang Valley (from south to north)</p><ol><li>Puchong Perdana (HQ)</li><li>Wawasan</li><li>Tempua</li><li>USJ </li><li>⁠Sunway</li><li>Matahari</li><li>Kampung Pandan</li><li>⁠Segambut</li><li>Kampung Baru Sungai Buloh</li></ol><p><strong>Independent Pharmacies</strong> with X’Factor:</p><p><span style=\"text-decoration:underline\"><strong>Selangor:</strong></span></p><p><strong>AQ PHARMACY</strong>, Sungai Buloh, Selangor</p><p><strong>AURAMED PHARMACY</strong>, Subang Jaya, Selangor</p><p><strong>COALFIELDS PHARMACY</strong>, Sungai Buloh, Selangor</p><p><strong>FARMASI PRISMA</strong>, Bandar Kinrara Puchong, Selangor</p><p><strong>HOPE PHARMACY</strong>, Kota Damansara, Selangor</p><p><strong>IVELL Pharmacy</strong>, Mahkota Cheras, Selangor</p><p><strong>MEDLIFE PHARMACY</strong>, Sungai Buloh, PJ, Selangor</p><p><strong>SJ PHARMACY</strong>, Ampang, Selangor</p><p><strong>TAIPAN PHARMACY</strong> (FARMASI TAIPAN), Subang Jaya, Selangor</p><p><strong>THREEWOODS PHARMACY</strong>, Puchong, Selangor</p><p><strong>UNIPHARM PHARMACY</strong>, Subang Jaya, Selangor</p><p><strong>VERA PHARMACAL PHARMACY</strong>, Pelabuhan Klang, Selangor</p><p><span style=\"text-decoration:underline\"><strong>Kuala Lumpur:</strong></span></p><p><strong>B.LIVE PHARMACY</strong>, Taman Teratai Mewah, KL</p><p><strong>HEALTH LINK PHARMACY</strong>, Kuchai Entrepreneurs Park, KL</p><p><strong>IT GOOD PHARMACY</strong>, OUG Parklane, KL</p><p><strong>IVELL PHARMACY</strong>, M Vertica, KL</p><p><strong>LESLEY PHARMACY</strong>, Taman Overseas Union, KL</p><p><strong>LOVECARE PHARMACY</strong>, Taman Desa, KL</p><p><strong>MEDISERVE PHARMACY</strong>, Kuchai Entrepreneurs Park, KL</p><p><strong>WELLOVE PHARMACY</strong>, Taman Desa, KL</p><p><span style=\"text-decoration:underline\"><strong>Johor:</strong></span></p><p><strong>MEDWISE (Well) PHARMACY</strong> (ECO BOTANIC), Johor</p><p><strong>MEDWISE (Well) PHARMACY</strong> (BUKIT INDAH), Johor</p><p><strong>WELL PHARMACY</strong> ALLIANCE (MUTIARA RINI), Johor</p><p><strong>WELL PHARMACY</strong> (GELANG PATAH), Johor</p><p><span style=\"text-decoration:underline\"><strong>Perak:</strong></span></p><p><strong>INTAN PHARMACY</strong>, Teluk Intan, Perak</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_dmgAbk"
+              ]
+            }
+          },
+          "block_order": [
+            "accordion_row_tGXznE",
+            "accordion_row_RdQpRg",
+            "accordion_row_t7Uk7V",
+            "accordion_row_a8CP9n",
+            "accordion_row_CDLtfn",
+            "accordion_row_bpiwzn",
+            "accordion_row_BR86Pz",
+            "accordion_row_cX9YfW",
+            "accordion_row_MyD86F",
+            "accordion_row_d4TaME",
+            "accordion_row_YqKFR4",
+            "accordion_row_8nq3PB",
+            "accordion_row_m4fYhX",
+            "accordion_row_dWk6eV",
+            "accordion_row_TqpU3p",
+            "accordion_row_Bhh7ah",
+            "accordion_row_BMK8wB",
+            "accordion_row_GQGi8Y",
+            "accordion_row_Vwwmq4",
+            "accordion_row_D6rGUr",
+            "accordion_row_awiCNN",
+            "accordion_row_3KMPWV",
+            "accordion_row_gwjyQi",
+            "accordion_row_EakXw8"
+          ]
         },
         "page-content": {
           "type": "page-content",
-          "settings": {}
+          "settings": {},
+          "blocks": {}
         }
       },
       "block_order": [
         "heading",
+        "text_wE3dtj",
+        "accordion_BzrBKA",
         "page-content"
       ],
       "settings": {
+        "content_direction": "column",
         "gap": 32,
+        "color_scheme": "scheme-2",
         "padding-block-start": 40,
         "padding-block-end": 80
       }
