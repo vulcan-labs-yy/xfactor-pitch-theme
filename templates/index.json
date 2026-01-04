@@ -544,7 +544,7 @@
               "name": "t:names.button",
               "settings": {
                 "label": "By Pharmacists",
-                "link": "shopify://pages/commitments-certifications",
+                "link": "shopify://pages/about-us",
                 "open_in_new_tab": false,
                 "style_class": "button",
                 "width": "fit-content",
