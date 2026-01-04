@@ -887,6 +887,9 @@
           ]
         }
       },
+      "custom_css": [
+        "accordion-custom:not(:has(.text-block)) {display: none;}"
+      ],
       "settings": {
         "content_width": "content-full-width",
         "desktop_media_position": "left",
