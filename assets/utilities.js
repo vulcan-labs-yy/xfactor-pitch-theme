@@ -779,6 +779,7 @@ if (typeof Theme !== 'undefined') {
   };
 }
 
+<
   document.addEventListener('DOMContentLoaded', () => {
     const sections = document.querySelectorAll('.js-fade-section');
 
