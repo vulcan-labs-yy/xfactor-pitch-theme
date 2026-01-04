@@ -14,6 +14,20 @@
     "header_announcements_kcHY6p": {
       "type": "header-announcements",
       "blocks": {
+        "announcement_CLgr8p": {
+          "type": "_announcement",
+          "name": "t:names.announcement",
+          "settings": {
+            "text": "New here? Enjoy 10% OFF your first purchase with code: NEWUXERGIFT 🎁",
+            "link": "",
+            "font": "var(--font-subheading--family)",
+            "font_size": "0.75rem",
+            "weight": "",
+            "letter_spacing": "normal",
+            "case": "none"
+          },
+          "blocks": {}
+        },
         "announcement_MHUQgy": {
           "type": "_announcement",
           "name": "t:names.announcement",
@@ -30,6 +44,7 @@
         }
       },
       "block_order": [
+        "announcement_CLgr8p",
         "announcement_MHUQgy"
       ],
       "settings": {
