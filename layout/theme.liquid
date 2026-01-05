@@ -128,4 +128,25 @@ lang="{{ request.locale.iso_code }}"
     requestAnimationFrame(raf);
   });
 </script>
+<script defer>
+  function setHeaderHeight() {
+    const header = document.querySelector('#header-group');
+    if (!header) return;
+
+    document.documentElement.style.setProperty(
+      '--header-height',
+      `${header.offsetHeight}px`
+    );
+  }
+
+  // Run on load
+  window.addEventListener('load', setHeaderHeight);
+
+  // Run on resize (responsive text, mobile menu, etc.)
+  window.addEventListener('resize', setHeaderHeight);
+
+  // Optional: if announcement bar text rotates or changes
+  window.addEventListener('DOMContentLoaded', setHeaderHeight);
+</script>
+
 </html>
