@@ -155,8 +155,8 @@ main,
     const announcement = document.querySelector('.header-section');
 
     let totalHeight = 100;
-    if (announcement) totalHeight += announcement.offsetHeight;
-    if (header) totalHeight += header.offsetHeight;
+    {% comment %} if (announcement) totalHeight += announcement.offsetHeight;
+    if (header) totalHeight += header.offsetHeight; {% endcomment %}
 
     document.documentElement.style.setProperty(
       '--header-height',
