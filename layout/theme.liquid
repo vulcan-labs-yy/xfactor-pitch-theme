@@ -154,11 +154,11 @@ main,
     {% comment %} const header = document.querySelector('.shopify-section-group-header-group'); {% endcomment %}
     const announcement = document.querySelector('#header-group');
 
-    let totalHeight = 100;
+    let totalHeight = 0;
     if (announcement) totalHeight += announcement.offsetHeight;
     {% comment %} if (header) totalHeight += header.offsetHeight; {% endcomment %}
 
-    console.log(totalHeight, header.offsetHeight, announcement.offsetHeight);
+    console.log(totalHeight, announcement.offsetHeight);
     document.documentElement.style.setProperty(
       '--header-height',
       `${totalHeight}px`
