@@ -151,24 +151,33 @@ main,
 </script>
 <script defer>
   function setHeaderHeight() {
-    {% comment %} const header = document.querySelector('.shopify-section-group-header-group'); {% endcomment %}
-    const announcement = document.querySelector('#header-group');
+    const headerGroup = document.querySelector(
+      '#header-group'
+    );
+    if (!headerGroup) return;
 
-    let totalHeight = 0;
-    if (announcement) totalHeight += announcement.offsetHeight;
-    {% comment %} if (header) totalHeight += header.offsetHeight; {% endcomment %}
+    const height = headerGroup.offsetHeight;
 
-    console.log(totalHeight, announcement.offsetHeight);
+    console.log('Setting header height:', height);
+
     document.documentElement.style.setProperty(
       '--header-height',
-      `${totalHeight}px`
+      `${height}px`
     );
   }
 
-  window.addEventListener('load', setHeaderHeight);
+  window.addEventListener('load', () => {
+    setHeaderHeight();
+
+    // Run again after layout stabilizes
+    setTimeout(setHeaderHeight, 50);
+    setTimeout(setHeaderHeight, 200);
+  });
+
   window.addEventListener('resize', setHeaderHeight);
   document.addEventListener('shopify:section:load', setHeaderHeight);
 </script>
+
 
 
 </html>
