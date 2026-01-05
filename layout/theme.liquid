@@ -36,6 +36,27 @@ lang="{{ request.locale.iso_code }}"
 {% endif %}
 
 {{ content_for_header }}
+<style>
+  :root {
+  --header-height: 0px;
+}
+#header-group {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  z-index: 1000;
+}
+/* Push all content down dynamically */
+main,
+#MainContent,
+.page-container {
+  padding-top: var(--header-height);
+}
+
+</style>
 </head>
 
 <body class="page-width-{{ settings.page_width }} card-hover-effect-{{ settings.card_hover_effect }}">
