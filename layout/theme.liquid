@@ -158,7 +158,7 @@ main,
     {% comment %} {% comment %} if (announcement) totalHeight += announcement.offsetHeight;
     if (header) totalHeight += header.offsetHeight; {% endcomment %} {% endcomment %}
 
-    console.log(totalHeight, header, announcement);
+    console.log(totalHeight, header.offsetHeight, announcement.offsetHeight);
     document.documentElement.style.setProperty(
       '--header-height',
       `${totalHeight}px`
