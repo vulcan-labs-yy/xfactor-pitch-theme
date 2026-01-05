@@ -37,14 +37,11 @@ lang="{{ request.locale.iso_code }}"
 
 {{ content_for_header }}
 <style>
-  .header-section,
-  .shopify-section:not(.header-section) .section-background {
-    position: relative !important;
-  }
   :root {
   --header-height: 0px;
 }
 #header-group {
+  height: fit-content;
   position: fixed;
   top: 0;
   left: 0;
@@ -154,7 +151,7 @@ main,
 </script>
 <script defer>
   function setHeaderHeight() {
-    const header = document.querySelector('.site-header');
+    const header = document.querySelector('#header-group');
     const announcement = document.querySelector('.announcement-bar');
 
     let totalHeight = 0;
