@@ -47,6 +47,7 @@
         "announcement_CLgr8p",
         "announcement_MHUQgy"
       ],
+      "custom_css": [],
       "settings": {
         "speed": 5,
         "section_width": "full-width",
@@ -110,7 +111,7 @@
         "localization_row": "top",
         "section_width": "full-width",
         "section_height": "standard",
-        "enable_sticky_header": "scroll-up",
+        "enable_sticky_header": "always",
         "divider_width": 0,
         "divider_size": "page-width",
         "border_width": 0,
