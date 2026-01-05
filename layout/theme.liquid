@@ -37,7 +37,8 @@ lang="{{ request.locale.iso_code }}"
 
 {{ content_for_header }}
 <style>
-  .header-section {
+  .header-section,
+  .shopify-section:not(.header-section) .section-background {
     position: relative !important;
   }
   :root {
