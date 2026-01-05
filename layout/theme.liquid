@@ -151,12 +151,12 @@ main,
 </script>
 <script defer>
   function setHeaderHeight() {
-    const header = document.querySelector('.shopify-section-group-header-group');
-    const announcement = document.querySelector('.header-section');
+    {% comment %} const header = document.querySelector('.shopify-section-group-header-group'); {% endcomment %}
+    const announcement = document.querySelector('#header-group');
 
     let totalHeight = 100;
     if (announcement) totalHeight += announcement.offsetHeight;
-    if (header) totalHeight += header.offsetHeight;
+    {% comment %} if (header) totalHeight += header.offsetHeight; {% endcomment %}
 
     console.log(totalHeight, header.offsetHeight, announcement.offsetHeight);
     document.documentElement.style.setProperty(
