@@ -270,7 +270,7 @@
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
-                    "type_preset": "h5",
+                    "type_preset": "h6",
                     "font": "var(--font-primary--family)",
                     "font_size": "",
                     "line_height": "normal",
