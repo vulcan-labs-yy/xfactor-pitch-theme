@@ -150,23 +150,23 @@ main,
 </script>
 <script defer>
   function setHeaderHeight() {
-    const header = document.querySelector('#header-group');
-    if (!header) return;
+    const header = document.querySelector('.site-header');
+    const announcement = document.querySelector('.announcement-bar');
+
+    let totalHeight = 0;
+    if (announcement) totalHeight += announcement.offsetHeight;
+    if (header) totalHeight += header.offsetHeight;
 
     document.documentElement.style.setProperty(
       '--header-height',
-      `${header.offsetHeight}px`
+      `${totalHeight}px`
     );
   }
 
-  // Run on load
   window.addEventListener('load', setHeaderHeight);
-
-  // Run on resize (responsive text, mobile menu, etc.)
   window.addEventListener('resize', setHeaderHeight);
-
-  // Optional: if announcement bar text rotates or changes
-  window.addEventListener('DOMContentLoaded', setHeaderHeight);
+  document.addEventListener('shopify:section:load', setHeaderHeight);
 </script>
+
 
 </html>
