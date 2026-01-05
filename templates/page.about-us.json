@@ -82,7 +82,7 @@
         "page-content"
       ],
       "custom_css": [
-        ".page-width-content {display: flex;}"
+        ".page-width-content {display: flex; max-height: 60vh;}"
       ],
       "settings": {
         "content_direction": "column",
