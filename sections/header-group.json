@@ -47,7 +47,9 @@
         "announcement_CLgr8p",
         "announcement_MHUQgy"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".announcement-bar {position: fixed; top: 0; left: 0; width: 100%; z-index: 1000;}"
+      ],
       "settings": {
         "speed": 5,
         "section_width": "full-width",
