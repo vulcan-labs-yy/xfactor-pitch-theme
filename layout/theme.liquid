@@ -149,14 +149,14 @@ main,
     requestAnimationFrame(raf);
   });
 </script>
-<script>
+{% comment %} <script>
   function setHeaderHeight() {
     const header = document.querySelector('.shopify-section-group-header-group');
     const announcement = document.querySelector('.header-section');
 
     let totalHeight = 100;
-    {% comment %} if (announcement) totalHeight += announcement.offsetHeight;
-    if (header) totalHeight += header.offsetHeight; {% endcomment %}
+    {% comment %} {% comment %} if (announcement) totalHeight += announcement.offsetHeight;
+    if (header) totalHeight += header.offsetHeight; {% endcomment %} {% endcomment %}
 
     document.documentElement.style.setProperty(
       '--header-height',
@@ -167,7 +167,7 @@ main,
   window.addEventListener('load', setHeaderHeight);
   window.addEventListener('resize', setHeaderHeight);
   document.addEventListener('shopify:section:load', setHeaderHeight);
-</script>
+</script> {% endcomment %}
 
 
 </html>
