@@ -1390,9 +1390,9 @@
           "name": "t:names.header",
           "settings": {
             "text": "<h3>Pairs well with</h3>",
-            "width": "fit-content",
+            "width": "100%",
             "max_width": "normal",
-            "alignment": "left",
+            "alignment": "center",
             "type_preset": "rte",
             "font": "var(--font-primary--family)",
             "font_size": "",
@@ -1433,7 +1433,7 @@
               "type": "_product-card-gallery",
               "name": "t:names.product_card_media",
               "settings": {
-                "image_ratio": "portrait",
+                "image_ratio": "square",
                 "border": "none",
                 "border_width": 1,
                 "border_opacity": 100,
