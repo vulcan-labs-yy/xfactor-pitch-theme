@@ -83,7 +83,8 @@
         }
       },
       "custom_css": [
-        ".blog-post-featured-image__image {max-height: 70vh;}"
+        ".blog-post-featured-image__image {max-height: 70vh;}",
+        ".blog-post-comments-container {margin-top: 80px;}"
       ],
       "settings": {
         "content_direction": "column",
