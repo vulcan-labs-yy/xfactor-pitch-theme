@@ -100,7 +100,7 @@
               "name": "t:names.details",
               "static": true,
               "settings": {
-                "show_date": false,
+                "show_date": true,
                 "show_author": false,
                 "type_preset": "",
                 "alignment": "left",
@@ -131,7 +131,7 @@
               "type": "_blog-post-image",
               "static": true,
               "settings": {
-                "height": "large",
+                "height": "medium",
                 "border": "none",
                 "border_width": 1,
                 "border_opacity": 100,
