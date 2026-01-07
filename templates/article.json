@@ -82,6 +82,9 @@
           "blocks": {}
         }
       },
+      "custom_css": [
+        ".blog-post-featured-image__image {max-height: 70vh;}"
+      ],
       "settings": {
         "content_direction": "column",
         "gap": 32,
