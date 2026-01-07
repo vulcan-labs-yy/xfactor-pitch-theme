@@ -6,7 +6,8 @@
  * or related systems. Please exercise caution as any changes
  * made to this file may be overwritten.
  * ------------------------------------------------------------
- */{
+ */
+{
   "sections": {
     "main": {
       "type": "main-blog",
@@ -15,10 +16,10 @@
           "type": "text",
           "name": "Title",
           "settings": {
-            "text": "<h1>{{ closest.blog.title }}</h1>",
-            "width": "fit-content",
+            "text": "<h2>The X'Factor Blog</h2>",
+            "width": "100%",
             "max_width": "narrow",
-            "alignment": "left",
+            "alignment": "center",
             "type_preset": "h2",
             "font": "var(--font-body--family)",
             "font_size": "",
@@ -32,6 +33,32 @@
             "corner_radius": 0,
             "padding-block-start": 48,
             "padding-block-end": 48,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "text_JHMabQ": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p>Written by us with your skin in mind. Uncovers the science behind your skin, and offers an inside look at our formulations, and the key ingredients that make them so well-loved.</p>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "center",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
             "padding-inline-start": 0,
             "padding-inline-end": 0
           },
@@ -117,7 +144,8 @@
         }
       },
       "block_order": [
-        "title"
+        "title",
+        "text_JHMabQ"
       ],
       "settings": {
         "color_scheme": "",
