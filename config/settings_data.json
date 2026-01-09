@@ -74,6 +74,11 @@
         "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": false,
         "settings": {}
+      },
+      "5368581398600051233": {
+        "type": "shopify://apps/bloy-loyalty-rewards/blocks/bloy-popup/97e8894d-00f0-41a9-b986-49828146257c",
+        "disabled": false,
+        "settings": {}
       }
     },
     "color_schemes": {
