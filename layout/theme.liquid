@@ -191,13 +191,43 @@ main,
 </script>
 
 <script>
-document.addEventListener("DOMContentLoaded", function() {
-  const mediaElements = document.querySelectorAll('.BLOY-popup');
+(function () {
+  const TARGET_SELECTOR = '.BLOY-popup';
 
-  mediaElements.forEach(el => {
-    el.setAttribute('data-lenis-prevent', '');
+  function applyLenisPrevent(root = document) {
+    const elements = root.querySelectorAll(TARGET_SELECTOR);
+    elements.forEach(el => {
+      if (!el.hasAttribute('data-lenis-prevent')) {
+        el.setAttribute('data-lenis-prevent', '');
+      }
+    });
+  }
+
+  // Run once in case elements already exist
+  applyLenisPrevent();
+
+  // Watch for dynamically added elements
+  const observer = new MutationObserver(mutations => {
+    mutations.forEach(mutation => {
+      mutation.addedNodes.forEach(node => {
+        if (node.nodeType !== 1) return;
+
+        // If the added node matches directly
+        if (node.matches?.(TARGET_SELECTOR)) {
+          node.setAttribute('data-lenis-prevent', '');
+        }
+
+        // Or contains matching children
+        applyLenisPrevent(node);
+      });
+    });
   });
-});
+
+  observer.observe(document.body, {
+    childList: true,
+    subtree: true
+  });
+})();
 </script>
 
 </html>
