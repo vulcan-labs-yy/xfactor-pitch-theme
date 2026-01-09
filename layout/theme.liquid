@@ -190,6 +190,13 @@ main,
   document.addEventListener('shopify:section:load', setHeaderHeight);
 </script>
 
+document.addEventListener("DOMContentLoaded", function() {
+  const mediaElements = document.querySelectorAll('.BLOY-popup');
+
+  mediaElements.forEach(el => {
+    el.setAttribute('data-lenis-prevent', '');
+  });
+});
 
 
 </html>
