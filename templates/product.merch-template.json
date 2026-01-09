@@ -1630,6 +1630,7 @@
         "text_T9i7Bi",
         "custom_liquid_PQcac6"
       ],
+      "disabled": true,
       "name": "t:names.custom_section",
       "settings": {
         "content_direction": "column",
