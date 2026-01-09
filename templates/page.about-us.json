@@ -82,7 +82,8 @@
         "page-content"
       ],
       "custom_css": [
-        ".page-width-content .image-block {display: flex; max-height: 60vh; overflow: hidden;}"
+        ".page-width-content {display: flex;}",
+        ".page-width-content .image-block {max-height: 60vh; overflow: hidden;}"
       ],
       "settings": {
         "content_direction": "column",
