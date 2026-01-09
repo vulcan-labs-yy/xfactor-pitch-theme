@@ -509,7 +509,8 @@
         "group_3RQirm"
       ],
       "custom_css": [
-        "h3 {color: #000000;}"
+        "h3 {color: #000000;}",
+        ".layout-panel-flex--row .image-block {flex: 1;}"
       ],
       "name": "t:names.custom_section",
       "settings": {
