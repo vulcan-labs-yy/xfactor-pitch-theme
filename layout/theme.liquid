@@ -148,7 +148,7 @@ main,
 </a>
 </body>
 
-<script src="https://unpkg.com/lenis@1.3.17/dist/lenis.min.js" defer></script>
+{% comment %} <script src="https://unpkg.com/lenis@1.3.17/dist/lenis.min.js" defer></script>
 <script>
   document.addEventListener('DOMContentLoaded', () => {
     const lenis = new Lenis();
@@ -160,7 +160,7 @@ main,
 
     requestAnimationFrame(raf);
   });
-</script>
+</script> {% endcomment %}
 <script defer>
   function setHeaderHeight() {
     const headerGroup = document.querySelector(
@@ -192,7 +192,7 @@ main,
 
 <script>
 (function () {
-  const TARGET_SELECTOR = '.BLOY-popup, .drawer__inner';
+  const TARGET_SELECTOR = '.BLOY-popup';
 
   function applyLenisPrevent(root = document) {
     const elements = root.querySelectorAll(TARGET_SELECTOR);
