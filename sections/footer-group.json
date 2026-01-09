@@ -247,6 +247,9 @@
         "group_EnWGrp",
         "group_WcmDNU"
       ],
+      "custom_css": [
+        "@media screen and (max-width: 1239px) {.group-block-content:has(.menu__details) {gap: 12px; } .group-block:has(.email-signup-block) {padding-left: 0; }}"
+      ],
       "name": "Footer",
       "settings": {
         "section_width": "page-width",
