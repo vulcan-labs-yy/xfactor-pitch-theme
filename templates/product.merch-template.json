@@ -500,6 +500,7 @@
             "group_exbfgC": {
               "type": "group",
               "name": "Content",
+              "disabled": true,
               "settings": {
                 "content_direction": "column",
                 "vertical_on_mobile": true,
@@ -1077,6 +1078,7 @@
       "block_order": [
         "group_VChJif"
       ],
+      "disabled": true,
       "name": "Image banner",
       "settings": {
         "content_direction": "column",
@@ -1234,6 +1236,7 @@
           ]
         }
       },
+      "disabled": true,
       "name": "t:names.editorial",
       "settings": {
         "media_position": "left",
@@ -1374,6 +1377,7 @@
           ]
         }
       },
+      "disabled": true,
       "name": "t:names.editorial",
       "settings": {
         "media_position": "right",
