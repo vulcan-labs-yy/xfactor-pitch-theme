@@ -1001,6 +1001,14 @@
                 "padding-inline-end": 0
               },
               "blocks": {
+                "custom_liquid_LKnFWm": {
+                  "type": "custom-liquid",
+                  "name": "t:names.custom_liquid",
+                  "settings": {
+                    "custom_liquid": "{% unless onboarding %}\n  <div class=\"product-card__quick-add\">\n    {% render 'add-to-cart-button', \n      product: product, \n      variant: variant_to_link \n    %}\n  </div>\n{% endunless %}"
+                  },
+                  "blocks": {}
+                },
                 "text_QGdpYw": {
                   "type": "text",
                   "settings": {
@@ -1060,21 +1068,13 @@
                     "product_swatches_padding_right": 0
                   },
                   "blocks": {}
-                },
-                "custom_liquid_LYMdiK": {
-                  "type": "custom-liquid",
-                  "name": "t:names.custom_liquid",
-                  "settings": {
-                    "custom_liquid": "<form method=\"post\" action=\"/cart/add\" class=\"product-card-atc\">\n    <input type=\"hidden\" name=\"id\" value=\"{{ product.selected_or_first_available_variant.id }}\">\n    <button type=\"submit\" class=\"button button--primary\">\n      Add to cart\n    </button>\n  </form>"
-                  },
-                  "blocks": {}
                 }
               },
               "block_order": [
+                "custom_liquid_LKnFWm",
                 "text_QGdpYw",
                 "price_d6U8n4",
-                "swatches_ExhD3a",
-                "custom_liquid_LYMdiK"
+                "swatches_ExhD3a"
               ]
             }
           },
