@@ -567,7 +567,7 @@
               "type": "text",
               "name": "t:text_defaults.heading",
               "settings": {
-                "text": "<h2>Rice Husk Silica Facial Cleanser</h2>",
+                "text": "<h3>Rice Husk Silica Facial Cleanser</h3>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "left",
@@ -679,7 +679,7 @@
               "type": "text",
               "name": "t:text_defaults.heading",
               "settings": {
-                "text": "<h2>Advanced 30% Proxylane Face Cream</h2>",
+                "text": "<h3>Advanced 30% Proxylane Face Cream</h3>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "left",
@@ -791,7 +791,7 @@
               "type": "text",
               "name": "t:text_defaults.heading",
               "settings": {
-                "text": "<h2>Science-backed skincare that you can trust</h2>",
+                "text": "<h3>Science-backed skincare that you can trust</h3>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "left",
