@@ -909,6 +909,249 @@
         "padding-block-end": 0
       }
     },
+    "marquee_8gqr87": {
+      "type": "marquee",
+      "blocks": {
+        "icon_Ez3c4q": {
+          "type": "icon",
+          "name": "t:names.icon",
+          "settings": {
+            "icon": "star",
+            "width": 24,
+            "link": "",
+            "open_in_new_tab": false
+          },
+          "blocks": {}
+        },
+        "text_wYhqcg": {
+          "type": "text",
+          "settings": {
+            "text": "<p> • PFAS Free</p>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "h4",
+            "font": "var(--font-heading--family)",
+            "font_size": "1rem",
+            "line_height": "tight",
+            "letter_spacing": "tight",
+            "case": "none",
+            "wrap": "nowrap",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "icon_AKYzQT": {
+          "type": "icon",
+          "name": "t:names.icon",
+          "settings": {
+            "icon": "check_box",
+            "width": 24,
+            "link": "",
+            "open_in_new_tab": false
+          },
+          "blocks": {}
+        },
+        "text_N6Hm83": {
+          "type": "text",
+          "settings": {
+            "text": "<p>• Paraben Free</p>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "h4",
+            "font": "var(--font-heading--family)",
+            "font_size": "1rem",
+            "line_height": "tight",
+            "letter_spacing": "tight",
+            "case": "none",
+            "wrap": "nowrap",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "icon_Peregn": {
+          "type": "icon",
+          "name": "t:names.icon",
+          "settings": {
+            "icon": "snowflake",
+            "width": 24,
+            "link": "",
+            "open_in_new_tab": false
+          },
+          "blocks": {}
+        },
+        "text_rAYnpR": {
+          "type": "text",
+          "settings": {
+            "text": "<p>• Fragrance Free</p>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "h4",
+            "font": "var(--font-heading--family)",
+            "font_size": "1rem",
+            "line_height": "tight",
+            "letter_spacing": "tight",
+            "case": "none",
+            "wrap": "nowrap",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "icon_hQWxYL": {
+          "type": "icon",
+          "name": "t:names.icon",
+          "settings": {
+            "icon": "perfume",
+            "width": 24,
+            "link": "",
+            "open_in_new_tab": false
+          },
+          "blocks": {}
+        },
+        "text_wLDtcL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>• Color Additives Free</p>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "h4",
+            "font": "var(--font-heading--family)",
+            "font_size": "1rem",
+            "line_height": "tight",
+            "letter_spacing": "tight",
+            "case": "none",
+            "wrap": "nowrap",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "icon_NWfQ8x": {
+          "type": "icon",
+          "name": "t:names.icon",
+          "settings": {
+            "icon": "plant",
+            "width": 24,
+            "link": "",
+            "open_in_new_tab": false
+          },
+          "blocks": {}
+        },
+        "text_cwJnB6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>• Mineral Oil Free</p>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "h4",
+            "font": "var(--font-heading--family)",
+            "font_size": "1rem",
+            "line_height": "tight",
+            "letter_spacing": "tight",
+            "case": "none",
+            "wrap": "nowrap",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "icon_XDkdez": {
+          "type": "icon",
+          "name": "t:names.icon",
+          "settings": {
+            "icon": "plant",
+            "width": 24,
+            "link": "",
+            "open_in_new_tab": false
+          },
+          "blocks": {}
+        },
+        "text_khwCap": {
+          "type": "text",
+          "settings": {
+            "text": "<p>• Cruelty Free</p>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "h4",
+            "font": "var(--font-heading--family)",
+            "font_size": "1rem",
+            "line_height": "tight",
+            "letter_spacing": "tight",
+            "case": "none",
+            "wrap": "nowrap",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "icon_Ez3c4q",
+        "text_wYhqcg",
+        "icon_AKYzQT",
+        "text_N6Hm83",
+        "icon_Peregn",
+        "text_rAYnpR",
+        "icon_hQWxYL",
+        "text_wLDtcL",
+        "icon_NWfQ8x",
+        "text_cwJnB6",
+        "icon_XDkdez",
+        "text_khwCap"
+      ],
+      "name": "t:names.marquee_section",
+      "settings": {
+        "movement_direction": "normal",
+        "color_scheme": "",
+        "padding-block-start": 24,
+        "padding-block-end": 24,
+        "gap_between_elements": 6
+      }
+    },
     "section_UhNgJN": {
       "type": "section",
       "blocks": {
@@ -1707,6 +1950,7 @@
   },
   "order": [
     "main",
+    "marquee_8gqr87",
     "section_UhNgJN",
     "media_with_content_CFdPEn",
     "media_with_content_Y3CwJF",
