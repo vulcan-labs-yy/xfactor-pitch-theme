@@ -1322,6 +1322,47 @@
         "padding-block-end": 0
       }
     },
+    "marquee_BjVn9a": {
+      "type": "marquee",
+      "blocks": {
+        "text_zUYiiY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>PFAS Free • Paraben Free • Fragrance Free • Color Additives Free • Mineral Oil Free • Cruelty Free • </p>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "h4",
+            "font": "var(--font-heading--family)",
+            "font_size": "1rem",
+            "line_height": "tight",
+            "letter_spacing": "tight",
+            "case": "none",
+            "wrap": "nowrap",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "text_zUYiiY"
+      ],
+      "name": "t:names.marquee_section",
+      "settings": {
+        "movement_direction": "normal",
+        "color_scheme": "",
+        "padding-block-start": 24,
+        "padding-block-end": 24,
+        "gap_between_elements": 0
+      }
+    },
     "section_izw8Up": {
       "type": "section",
       "blocks": {
@@ -1520,6 +1561,7 @@
         "text_V8E63a",
         "group_eQLXYx"
       ],
+      "disabled": true,
       "custom_css": [
         "h3 {color: #000000;}"
       ],
@@ -1816,6 +1858,7 @@
     "media_with_content_PBM98d",
     "product_list_z7QLNk",
     "section_eeFGpP",
+    "marquee_BjVn9a",
     "section_izw8Up",
     "section_RmW4Nn"
   ]
