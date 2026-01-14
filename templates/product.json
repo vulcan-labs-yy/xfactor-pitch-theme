@@ -1909,6 +1909,126 @@
         "padding-block-end": 0
       }
     },
+    "section_Y4QGag": {
+      "type": "section",
+      "blocks": {
+        "text_T9i7Bi": {
+          "type": "text",
+          "name": "t:names.heading",
+          "settings": {
+            "text": "<h2>FAQ</h2>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "center",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "custom_liquid_PQcac6": {
+          "type": "custom-liquid",
+          "name": "t:names.custom_liquid",
+          "settings": {
+            "custom_liquid": "{% assign icon_type = 'caret' %} {% assign show_dividers = true %} {% assign\ntype_preset = 'h6' %} {% if product.metafields.custom.faqs.value.size > 0 %}\n<div\n  class=\"accordion accordion--{{ icon_type }} border-style spacing-style accordion--dividers\"\n  style=\"\n    --summary-font-family: var(--font-{{ type_preset }}--family);\n    --summary-font-style: var(--font-{{ type_preset }}--style);\n    --summary-font-weight: var(--font-{{ type_preset }}--weight);\n    --summary-font-size: var(--font-{{ type_preset }}--size);\n    --summary-font-line-height: var(--font-{{ type_preset }}--line-height);\n    --summary-font-case: var(--font-{{ type_preset }}--case);\n  \">\n  {% for faq in product.metafields.custom.faqs.value %}\n  <accordion-custom>\n    <details class=\"details\">\n      <summary class=\"details__header\">\n        <span>{{ faq.question }}</span>\n        <span class=\"icon-wrap\">\n          <svg\n            class=\"icon-caret\"\n            width=\"14\"\n            height=\"14\"\n            viewBox=\"0 0 14 14\"\n            fill=\"none\"\n            xmlns=\"http://www.w3.org/2000/svg\">\n            <path\n              d=\"M11 5.5L7 9.5L3 5.5\"\n              stroke=\"currentColor\"\n              stroke-width=\"var(--icon-stroke-width)\"\n              stroke-linecap=\"round\"\n              stroke-linejoin=\"round\"></path>\n          </svg>\n          <svg\n            class=\"icon-plus\"\n            width=\"14\"\n            height=\"14\"\n            viewBox=\"0 0 14 14\"\n            fill=\"none\"\n            xmlns=\"http://www.w3.org/2000/svg\">\n            <path\n              d=\"M7 3V11M3 7H11\"\n              stroke=\"currentColor\"\n              stroke-width=\"var(--icon-stroke-width)\"\n              stroke-linecap=\"round\"\n              stroke-linejoin=\"round\"></path>\n          </svg>\n        </span>\n      </summary>\n      <div class=\"details-content\">\n        <div class=\"rte\">{{ faq.answer }}</div>\n      </div>\n    </details>\n  </accordion-custom>\n  {% endfor %}\n</div>\n\n<style>\n  div:has(> .accordion) {\n    width: 100%;\n  }\n\n  .accordion {\n    flex: 1;\n    width: 100%;\n  }\n  summary.details__header {\n    justify-content: space-between;\n  }\n  .accordion--dividers accordion-custom:not(:first-child) .details {\n    border-block-start: var(--style-border-width) solid var(--color-border);\n  }\n\n  .accordion--dividers {\n    --show-fallback-borders: 0;\n  }\n\n  .accordion--dividers:not([class*='color-'])[style*='--border-width: 0'],\n  .accordion--dividers:not([class*='color-'])[style*='--border-style: none'] {\n    --show-fallback-borders: 1;\n  }\n\n  .accordion--dividers accordion-custom:first-child .details {\n    border-block-start: calc(--style-border-width) * var(--show-fallback-borders)) solid var(--color-border);\n  }\n\n  .accordion--dividers accordion-custom:last-child .details {\n    border-block-end: calc(\n        var(--style-border-width) * var(--show-fallback-borders)\n      )\n      solid var(--color-border);\n  }\n\n  .accordion--dividers .details-content {\n    padding-block-end: var(--padding-sm);\n  }\n\n  .accordion--caret .icon-plus,\n  .accordion--plus .icon-caret {\n    display: none;\n  }\n\n  .accordion .details__header {\n    font-family: var(--summary-font-family);\n    font-style: var(--summary-font-style);\n    font-weight: var(--summary-font-weight);\n    font-size: var(--summary-font-size);\n    line-height: var(--summary-font-line-height);\n    text-transform: var(--summary-font-case);\n    min-height: var(--minimum-touch-target);\n  }\n</style>\n{% endif %}"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "text_T9i7Bi",
+        "custom_liquid_PQcac6"
+      ],
+      "custom_css": [
+        ".accordion.accordion--caret.border-style.spacing-style.accordion--dividers {padding-top: 20px;}",
+        "@media screen and (min-width: 767px) {.accordion.accordion--caret.border-style.spacing-style.accordion--dividers {margin-inline: auto; max-width: 50vw; }}"
+      ],
+      "name": "FAQ section",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 12,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "color_scheme": "scheme-2",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 80,
+        "padding-block-end": 80
+      }
+    },
+    "1767515840824fb409": {
+      "type": "_blocks",
+      "blocks": {
+        "judge_me_reviews_review_widget_VMnGeD": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200,
+            "show_shop_reviews": true,
+            "empty_state": "other_products_reviews"
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_VMnGeD"
+      ],
+      "name": "Review Section",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 12,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "color_scheme": "scheme-2",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
     "product_recommendations_dDfQTx": {
       "type": "product-recommendations",
       "blocks": {
@@ -2106,126 +2226,6 @@
         "padding-block-start": 40,
         "padding-block-end": 40
       }
-    },
-    "section_Y4QGag": {
-      "type": "section",
-      "blocks": {
-        "text_T9i7Bi": {
-          "type": "text",
-          "name": "t:names.heading",
-          "settings": {
-            "text": "<h2>FAQ</h2>",
-            "width": "100%",
-            "max_width": "normal",
-            "alignment": "center",
-            "type_preset": "rte",
-            "font": "var(--font-body--family)",
-            "font_size": "1rem",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "color": "var(--color-foreground)",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        },
-        "custom_liquid_PQcac6": {
-          "type": "custom-liquid",
-          "name": "t:names.custom_liquid",
-          "settings": {
-            "custom_liquid": "{% assign icon_type = 'caret' %} {% assign show_dividers = true %} {% assign\ntype_preset = 'h6' %} {% if product.metafields.custom.faqs.value.size > 0 %}\n<div\n  class=\"accordion accordion--{{ icon_type }} border-style spacing-style accordion--dividers\"\n  style=\"\n    --summary-font-family: var(--font-{{ type_preset }}--family);\n    --summary-font-style: var(--font-{{ type_preset }}--style);\n    --summary-font-weight: var(--font-{{ type_preset }}--weight);\n    --summary-font-size: var(--font-{{ type_preset }}--size);\n    --summary-font-line-height: var(--font-{{ type_preset }}--line-height);\n    --summary-font-case: var(--font-{{ type_preset }}--case);\n  \">\n  {% for faq in product.metafields.custom.faqs.value %}\n  <accordion-custom>\n    <details class=\"details\">\n      <summary class=\"details__header\">\n        <span>{{ faq.question }}</span>\n        <span class=\"icon-wrap\">\n          <svg\n            class=\"icon-caret\"\n            width=\"14\"\n            height=\"14\"\n            viewBox=\"0 0 14 14\"\n            fill=\"none\"\n            xmlns=\"http://www.w3.org/2000/svg\">\n            <path\n              d=\"M11 5.5L7 9.5L3 5.5\"\n              stroke=\"currentColor\"\n              stroke-width=\"var(--icon-stroke-width)\"\n              stroke-linecap=\"round\"\n              stroke-linejoin=\"round\"></path>\n          </svg>\n          <svg\n            class=\"icon-plus\"\n            width=\"14\"\n            height=\"14\"\n            viewBox=\"0 0 14 14\"\n            fill=\"none\"\n            xmlns=\"http://www.w3.org/2000/svg\">\n            <path\n              d=\"M7 3V11M3 7H11\"\n              stroke=\"currentColor\"\n              stroke-width=\"var(--icon-stroke-width)\"\n              stroke-linecap=\"round\"\n              stroke-linejoin=\"round\"></path>\n          </svg>\n        </span>\n      </summary>\n      <div class=\"details-content\">\n        <div class=\"rte\">{{ faq.answer }}</div>\n      </div>\n    </details>\n  </accordion-custom>\n  {% endfor %}\n</div>\n\n<style>\n  div:has(> .accordion) {\n    width: 100%;\n  }\n\n  .accordion {\n    flex: 1;\n    width: 100%;\n  }\n  summary.details__header {\n    justify-content: space-between;\n  }\n  .accordion--dividers accordion-custom:not(:first-child) .details {\n    border-block-start: var(--style-border-width) solid var(--color-border);\n  }\n\n  .accordion--dividers {\n    --show-fallback-borders: 0;\n  }\n\n  .accordion--dividers:not([class*='color-'])[style*='--border-width: 0'],\n  .accordion--dividers:not([class*='color-'])[style*='--border-style: none'] {\n    --show-fallback-borders: 1;\n  }\n\n  .accordion--dividers accordion-custom:first-child .details {\n    border-block-start: calc(--style-border-width) * var(--show-fallback-borders)) solid var(--color-border);\n  }\n\n  .accordion--dividers accordion-custom:last-child .details {\n    border-block-end: calc(\n        var(--style-border-width) * var(--show-fallback-borders)\n      )\n      solid var(--color-border);\n  }\n\n  .accordion--dividers .details-content {\n    padding-block-end: var(--padding-sm);\n  }\n\n  .accordion--caret .icon-plus,\n  .accordion--plus .icon-caret {\n    display: none;\n  }\n\n  .accordion .details__header {\n    font-family: var(--summary-font-family);\n    font-style: var(--summary-font-style);\n    font-weight: var(--summary-font-weight);\n    font-size: var(--summary-font-size);\n    line-height: var(--summary-font-line-height);\n    text-transform: var(--summary-font-case);\n    min-height: var(--minimum-touch-target);\n  }\n</style>\n{% endif %}"
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "text_T9i7Bi",
-        "custom_liquid_PQcac6"
-      ],
-      "custom_css": [
-        ".accordion.accordion--caret.border-style.spacing-style.accordion--dividers {padding-top: 20px;}",
-        "@media screen and (min-width: 767px) {.accordion.accordion--caret.border-style.spacing-style.accordion--dividers {margin-inline: auto; max-width: 50vw;}}"
-      ],
-      "name": "t:names.custom_section",
-      "settings": {
-        "content_direction": "column",
-        "vertical_on_mobile": true,
-        "horizontal_alignment": "flex-start",
-        "vertical_alignment": "center",
-        "align_baseline": false,
-        "horizontal_alignment_flex_direction_column": "flex-start",
-        "vertical_alignment_flex_direction_column": "center",
-        "gap": 12,
-        "section_width": "page-width",
-        "section_height": "",
-        "section_height_custom": 50,
-        "color_scheme": "scheme-2",
-        "background_media": "none",
-        "video_position": "cover",
-        "background_image_position": "cover",
-        "border": "none",
-        "border_width": 1,
-        "border_opacity": 100,
-        "border_radius": 0,
-        "toggle_overlay": false,
-        "overlay_color": "#00000026",
-        "overlay_style": "solid",
-        "gradient_direction": "to top",
-        "padding-block-start": 80,
-        "padding-block-end": 80
-      }
-    },
-    "1767515840824fb409": {
-      "type": "_blocks",
-      "blocks": {
-        "judge_me_reviews_review_widget_VMnGeD": {
-          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-            "review_data": "sample_data",
-            "max_width": 1200,
-            "show_shop_reviews": true,
-            "empty_state": "other_products_reviews"
-          }
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_review_widget_VMnGeD"
-      ],
-      "name": "Review Section",
-      "settings": {
-        "content_direction": "column",
-        "vertical_on_mobile": true,
-        "horizontal_alignment": "flex-start",
-        "vertical_alignment": "center",
-        "align_baseline": false,
-        "horizontal_alignment_flex_direction_column": "flex-start",
-        "vertical_alignment_flex_direction_column": "center",
-        "gap": 12,
-        "section_width": "page-width",
-        "section_height": "",
-        "section_height_custom": 50,
-        "color_scheme": "scheme-2",
-        "background_media": "none",
-        "video_position": "cover",
-        "background_image_position": "cover",
-        "border": "none",
-        "border_width": 1,
-        "border_opacity": 100,
-        "border_radius": 0,
-        "toggle_overlay": false,
-        "overlay_color": "#00000026",
-        "overlay_style": "solid",
-        "gradient_direction": "to top",
-        "padding-block-start": 0,
-        "padding-block-end": 0
-      }
     }
   },
   "order": [
@@ -2235,8 +2235,8 @@
     "section_UhNgJN",
     "media_with_content_CFdPEn",
     "media_with_content_Y3CwJF",
-    "product_recommendations_dDfQTx",
     "section_Y4QGag",
-    "1767515840824fb409"
+    "1767515840824fb409",
+    "product_recommendations_dDfQTx"
   ]
 }
