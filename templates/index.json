@@ -1060,12 +1060,21 @@
                     "product_swatches_padding_right": 0
                   },
                   "blocks": {}
+                },
+                "custom_liquid_fq67XB": {
+                  "type": "custom-liquid",
+                  "name": "t:names.custom_liquid",
+                  "settings": {
+                    "custom_liquid": "{% if product.available %}\n  <form method=\"post\" action=\"/cart/add\" class=\"product-card-atc\">\n    <input type=\"hidden\" name=\"id\" value=\"{{ product.selected_or_first_available_variant.id }}\">\n    <button type=\"submit\" class=\"button button--primary\">\n      Add to cart\n    </button>\n  </form>\n{% else %}\n  <button class=\"button button--secondary\" disabled>\n    Sold out\n  </button>\n{% endif %}"
+                  },
+                  "blocks": {}
                 }
               },
               "block_order": [
                 "text_QGdpYw",
                 "price_d6U8n4",
-                "swatches_ExhD3a"
+                "swatches_ExhD3a",
+                "custom_liquid_fq67XB"
               ]
             }
           },
