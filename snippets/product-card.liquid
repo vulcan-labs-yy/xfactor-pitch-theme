@@ -112,29 +112,6 @@
     "
   >
     {{ children }}
-  
-{% comment %} Add to Cart Button {% endcomment %}
-{% unless onboarding %}
-  <div class="product-card__add-to-cart">
-    {% if product.has_only_default_variant %}
-      <form method="post" action="/cart/add" accept-charset="UTF-8" enctype="multipart/form-data" class="product-card-form">
-        <input type="hidden" name="id" value="{{ variant_to_link.id }}">
-        
-        {% render 'add-to-cart-button',
-          can_add_to_cart: product.available,
-          add_to_cart_text: 'Add to Cart',
-          product: product,
-          class: 'add-to-cart-button button--primary'
-        %}
-      </form>
-    {% else %}
-      {% render 'quick-add', 
-        product: product,
-        class: 'button--primary'
-      %}
-    {% endif %}
-  </div>
-{% endunless %}
 
   </div>
 </product-card>
