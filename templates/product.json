@@ -2149,6 +2149,10 @@
         "text_T9i7Bi",
         "custom_liquid_PQcac6"
       ],
+      "custom_css": [
+        ".accordion.accordion--caret.border-style.spacing-style.accordion--dividers {padding-top: 20px;}",
+        "@media screen and (min-width: 767px) {.accordion.accordion--caret.border-style.spacing-style.accordion--dividers {margin-inline: auto; max-width: 50vw;}}"
+      ],
       "name": "t:names.custom_section",
       "settings": {
         "content_direction": "column",
