@@ -10,6 +10,18 @@
 
 {% render 'product-card', children: children, product: product %}
 
+{% stylesheet %}
+.quick-add__button .add-to-cart-text__content {
+  grid-template-columns: 1fr;
+}
+.quick-add__button .add-to-cart-text__content>span span {
+      opacity: 1 !important;
+    filter: blur(0px);
+    translate: 0;
+}
+{% endstylesheet %}
+
+
 {% schema %}
 {
   "name": "t:names.product_card",
