@@ -117,6 +117,16 @@
 
     grid-column: span 6;
   } */
+   .blog-post-item:first-child .blog-post-card {
+    flex-direction: column;
+   }
+   .blog-post-item:first-child .blog-post-card__image-container {
+    width: 100%;
+   }
+   .blog-post-item:first-child:has(.blog-post-card__image-container) .blog-post-card__content {
+    width: 100%;
+    padding-left: unset;
+   }
 
   /**
    * When there's no image, the blog post item has a border.
