@@ -1080,6 +1080,7 @@
       "block_order": [
         "group_VChJif"
       ],
+      "disabled": true,
       "name": "Image banner",
       "settings": {
         "content_direction": "column",
