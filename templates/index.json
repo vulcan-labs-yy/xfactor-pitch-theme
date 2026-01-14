@@ -517,6 +517,7 @@
         "slide_QGzMU7",
         "slide_hwXAV9"
       ],
+      "custom_css": [],
       "name": "t:names.slideshow_full_frame",
       "settings": {
         "display_mode": "full_frame",
@@ -992,7 +993,7 @@
                 "overlay_color": "#00000026",
                 "overlay_style": "solid",
                 "gradient_direction": "to top",
-                "link": "",
+                "link": "{{ closest.product.url }}",
                 "open_in_new_tab": false,
                 "padding-block-start": 0,
                 "padding-block-end": 0,
