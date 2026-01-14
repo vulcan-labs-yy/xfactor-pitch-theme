@@ -1067,20 +1067,11 @@
                 "price_d6U8n4",
                 "swatches_ExhD3a"
               ]
-            },
-            "custom_liquid_VRbKeH": {
-              "type": "custom-liquid",
-              "name": "t:names.custom_liquid",
-              "settings": {
-                "custom_liquid": "{% unless onboarding %}\n  <div class=\"product-card__quick-add\">\n    {% render 'add-to-cart-button', \n      product: product, \n      variant: variant_to_link \n    %}\n  </div>\n{% endunless %}"
-              },
-              "blocks": {}
             }
           },
           "block_order": [
             "product_card_gallery_EqgxKJ",
-            "group_DxPy8c",
-            "custom_liquid_VRbKeH"
+            "group_DxPy8c"
           ]
         }
       },
