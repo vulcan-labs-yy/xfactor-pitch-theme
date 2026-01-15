@@ -2205,6 +2205,7 @@
                   "settings": {
                     "source": "uploaded",
                     "video": "shopify://files/videos/CLS-UGC-lifestyle & aesthetic.MOV",
+                    "video_url": "",
                     "video_autoplay": false,
                     "video_loop": true,
                     "alt": "",
@@ -2845,6 +2846,73 @@
         "padding-block-start": 48,
         "padding-block-end": 48
       }
+    },
+    "1768479688a7ae0908": {
+      "type": "_blocks",
+      "blocks": {
+        "spark_shoppable_video_cPBM7D": {
+          "type": "shopify://apps/spark/blocks/shoppable-video/3eb8b961-42bd-4d42-a091-9b8e4c877d96",
+          "settings": {
+            "show_videos_dynamically": false,
+            "auto_play_video": "on_hover",
+            "feed_title": "Loved by the Community",
+            "title_alignment": "center",
+            "item_alignment": true,
+            "show_play_button": true,
+            "show_views": false,
+            "show_arrow_buttons": false,
+            "product_card_status": "outside_video",
+            "show_video_title": false,
+            "border_radius": 16,
+            "padding_top": 20,
+            "padding_bottom": 20,
+            "player_type": "full_screen_player",
+            "show_views_on_player": false,
+            "player_border_radius": 16,
+            "product_card_border_radius": 12,
+            "product_card_image_border_radius": 8,
+            "show_compare_at_price": true,
+            "product_card_btn_actn": "add_to_cart",
+            "product_card_btn_text": "Add to Cart",
+            "product_card_btn_background_color": "#000000",
+            "product_card_btn_text_color": "#FFFFFF",
+            "product_card_btn_border_radius": 24,
+            "show_on_desktop": true,
+            "show_on_tablet": true,
+            "show_on_mobile": true
+          }
+        }
+      },
+      "block_order": [
+        "spark_shoppable_video_cPBM7D"
+      ],
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 12,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "color_scheme": "scheme-2",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
     }
   },
   "order": [
@@ -2859,6 +2927,7 @@
     "section_izw8Up",
     "section_RmW4Nn",
     "carousel_h6htUq",
-    "product_list_7gMEG7"
+    "product_list_7gMEG7",
+    "1768479688a7ae0908"
   ]
 }
