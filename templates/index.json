@@ -540,42 +540,37 @@
     "1768482309e13cbc47": {
       "type": "_blocks",
       "blocks": {
-        "judge_me_reviews_videos_carousel_6yDa9b": {
-          "type": "shopify://apps/judge-me-reviews/blocks/videos_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "spark_spotlight_carousal_ybf7Cz": {
+          "type": "shopify://apps/spark/blocks/spotlight-carousal/3eb8b961-42bd-4d42-a091-9b8e4c877d96",
           "settings": {
-            "show_sample_reviews": false,
-            "reviews_selection": "all",
-            "products": [
-              "advanced-30-proxylane-face-cream",
-              "rice-husk-silica-facial-cleanser"
-            ],
-            "star_rating": "all",
-            "review_type": "photo_and_video",
-            "max_reviews": 20,
-            "show_reviewer_name": true,
-            "stars_size": "medium",
-            "text_size": "medium",
-            "arrows_position": "bottom",
-            "max_width": 1100,
-            "corner_styling": "soft",
-            "header_text_color": "#000000",
-            "card_color": "#7D7D7D",
-            "stars_color": "",
-            "text_color": "#FFFFFF",
-            "arrows_color": "#000000",
-            "show_drop_shadow": false,
-            "show_border": false,
-            "border_color": "#108474",
-            "autoplay_media": true,
-            "transition_speed": 5,
-            "carousel_style": "highlight",
-            "header_text": "Real customer stories",
-            "show_average_rating": false
+            "show_videos_dynamically": false,
+            "auto_play_video_next_video": false,
+            "feed_title": "",
+            "title_alignment": "center",
+            "show_play_button": false,
+            "show_views": false,
+            "show_arrow_buttons": true,
+            "product_card_status": "hidden",
+            "show_video_title": false,
+            "border_radius": 16,
+            "padding_top": 20,
+            "padding_bottom": 20,
+            "product_card_border_radius": 12,
+            "product_card_image_border_radius": 8,
+            "show_compare_at_price": true,
+            "product_card_btn_actn": "product_details",
+            "product_card_btn_text": "Shop",
+            "product_card_btn_background_color": "#000000",
+            "product_card_btn_text_color": "#FFFFFF",
+            "product_card_btn_border_radius": 24,
+            "show_on_desktop": true,
+            "show_on_tablet": true,
+            "show_on_mobile": true
           }
         }
       },
       "block_order": [
-        "judge_me_reviews_videos_carousel_6yDa9b"
+        "spark_spotlight_carousal_ybf7Cz"
       ],
       "settings": {
         "content_direction": "column",
