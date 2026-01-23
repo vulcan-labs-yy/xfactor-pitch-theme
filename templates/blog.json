@@ -112,6 +112,7 @@
             },
             "content": {
               "type": "_blog-post-description",
+              "disabled": true,
               "static": true,
               "settings": {
                 "type_preset": "rte",
@@ -131,7 +132,7 @@
               "type": "_blog-post-image",
               "static": true,
               "settings": {
-                "height": "medium",
+                "height": "large",
                 "border": "none",
                 "border_width": 1,
                 "border_opacity": 100,
