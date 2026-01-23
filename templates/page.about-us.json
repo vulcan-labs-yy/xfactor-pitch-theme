@@ -218,7 +218,7 @@
                   "settings": {
                     "text": "<h2>Our Vision & Mission</h2>",
                     "width": "fit-content",
-                    "max_width": "narrow",
+                    "max_width": "none",
                     "alignment": "left",
                     "type_preset": "rte",
                     "font": "var(--font-body--family)",
@@ -244,7 +244,7 @@
                   "settings": {
                     "text": "<p>At X’Factor, we aspire to be the global leader in evidence-based skincare, setting the standard for innovation and quality while offering exceptional skincare products.</p><p>We are dedicated to providing you with cutting-edge active ingredients that address specific skin needs, all backed by rigorous scientific research.</p>",
                     "width": "fit-content",
-                    "max_width": "narrow",
+                    "max_width": "none",
                     "alignment": "left",
                     "type_preset": "rte",
                     "font": "var(--font-body--family)",
@@ -361,7 +361,7 @@
                   "settings": {
                     "text": "<h2>Your Trusted<br/>Skincare Brand</h2>",
                     "width": "fit-content",
-                    "max_width": "normal",
+                    "max_width": "none",
                     "alignment": "left",
                     "type_preset": "rte",
                     "font": "var(--font-body--family)",
@@ -387,7 +387,7 @@
                   "settings": {
                     "text": "<p>Our commitment ensures that every product not only meets the highest standards of efficacy and safety but also helps you achieve your best skin with confidence.</p>",
                     "width": "fit-content",
-                    "max_width": "normal",
+                    "max_width": "none",
                     "alignment": "left",
                     "type_preset": "rte",
                     "font": "var(--font-body--family)",
