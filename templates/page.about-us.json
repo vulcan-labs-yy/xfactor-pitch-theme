@@ -281,7 +281,7 @@
       "settings": {
         "media_position": "left",
         "media_width": "medium",
-        "media_height": "50svh",
+        "media_height": "60svh",
         "section_width": "full-width",
         "extend_media": true,
         "color_scheme": "scheme-4",
@@ -423,7 +423,7 @@
       "settings": {
         "media_position": "right",
         "media_width": "medium",
-        "media_height": "50svh",
+        "media_height": "60svh",
         "section_width": "full-width",
         "extend_media": true,
         "color_scheme": "scheme-4",
