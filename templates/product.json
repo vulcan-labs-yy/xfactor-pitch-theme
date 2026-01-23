@@ -896,8 +896,7 @@
       },
       "custom_css": [
         "accordion-custom:not(:has(.text-block)) {display: none;}",
-        ".product-information {padding-inline: max(2vw, 20px) !important;}",
-        ".product-information img.product-media__image {border-radius: 40px;}"
+        ".product-information {padding-inline: max(2vw, 20px) !important;}"
       ],
       "settings": {
         "content_width": "content-full-width",
