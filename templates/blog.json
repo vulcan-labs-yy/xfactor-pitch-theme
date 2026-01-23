@@ -44,7 +44,7 @@
           "settings": {
             "text": "<p>Written by us with your skin in mind. Uncovers the science behind your skin, and offers an inside look at our formulations, and the key ingredients that make them so well-loved.</p>",
             "width": "100%",
-            "max_width": "normal",
+            "max_width": "none",
             "alignment": "center",
             "type_preset": "rte",
             "font": "var(--font-body--family)",
