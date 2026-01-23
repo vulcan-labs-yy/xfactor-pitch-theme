@@ -228,10 +228,6 @@
               },
               "blocks": {}
             },
-            "bloy_loyalty_rewards_bloy_point_caculator_pdp_qrCLkR": {
-              "type": "shopify://apps/bloy-loyalty-rewards/blocks/bloy-point-caculator-pdp/97e8894d-00f0-41a9-b986-49828146257c",
-              "settings": {}
-            },
             "group_dTHcXb": {
               "type": "group",
               "name": "Product form",
@@ -326,6 +322,10 @@
                 "variant_picker_KePPVa",
                 "buy_buttons_6p8c63"
               ]
+            },
+            "bloy_loyalty_rewards_bloy_point_caculator_pdp_qrCLkR": {
+              "type": "shopify://apps/bloy-loyalty-rewards/blocks/bloy-point-caculator-pdp/97e8894d-00f0-41a9-b986-49828146257c",
+              "settings": {}
             },
             "group_8ePU6U": {
               "type": "group",
@@ -886,8 +886,8 @@
           "block_order": [
             "group_4we3XL",
             "text_LbbLqQ",
-            "bloy_loyalty_rewards_bloy_point_caculator_pdp_qrCLkR",
             "group_dTHcXb",
+            "bloy_loyalty_rewards_bloy_point_caculator_pdp_qrCLkR",
             "group_8ePU6U",
             "group_exbfgC"
           ]
