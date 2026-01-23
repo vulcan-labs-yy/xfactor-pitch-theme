@@ -325,6 +325,7 @@
             },
             "bloy_loyalty_rewards_bloy_point_caculator_pdp_qrCLkR": {
               "type": "shopify://apps/bloy-loyalty-rewards/blocks/bloy-point-caculator-pdp/97e8894d-00f0-41a9-b986-49828146257c",
+              "disabled": true,
               "settings": {}
             },
             "group_8ePU6U": {
