@@ -735,6 +735,7 @@
                 "accordion_jp7xLK": {
                   "type": "accordion",
                   "name": "Accordion",
+                  "disabled": true,
                   "settings": {
                     "icon": "plus",
                     "dividers": true,
@@ -979,6 +980,7 @@
             "text_FbnkTd": {
               "type": "text",
               "name": "Heading",
+              "disabled": true,
               "settings": {
                 "text": "<p>{{ closest.product.metafields.custom.founder_s_notes | metafield_tag }}</p>",
                 "width": "100%",
@@ -1156,7 +1158,6 @@
         "image_fYjt44",
         "group_6LWQTJ"
       ],
-      "disabled": true,
       "name": "Formula details",
       "settings": {
         "content_direction": "row",
