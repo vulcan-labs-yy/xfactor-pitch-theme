@@ -511,7 +511,7 @@
       },
       "custom_css": [
         "accordion-custom:not(:has(.text-block)) {display: none;}",
-        ".product-information {padding-inline: max(2vw, 20px) !important;}"
+        "@media screen and (min-width: 1240px) {.product-information {padding-inline: max(2vw, 20px) !important;}}"
       ],
       "settings": {
         "content_width": "content-full-width",
