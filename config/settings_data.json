@@ -642,7 +642,8 @@
   "platform_customizations": {
     "custom_css": [
       ".variant-option__button-label,a.size-style.button,.product-form-buttons button {padding: 8px 16px !important;}",
-      ".accordion .details__header {padding-block: 16px;}"
+      ".accordion .details__header {padding-block: 16px;}",
+      ".variant-option__button-label {min-height: unset !important;}"
     ]
   }
 }
