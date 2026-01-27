@@ -1329,7 +1329,7 @@
           "type": "icon",
           "name": "t:names.icon",
           "settings": {
-            "icon": "star",
+            "icon": "paw_print",
             "width": 24,
             "link": "",
             "open_in_new_tab": false
@@ -1401,7 +1401,7 @@
           "type": "icon",
           "name": "t:names.icon",
           "settings": {
-            "icon": "snowflake",
+            "icon": "plant",
             "width": 24,
             "link": "",
             "open_in_new_tab": false
@@ -1473,7 +1473,7 @@
           "type": "icon",
           "name": "t:names.icon",
           "settings": {
-            "icon": "plant",
+            "icon": "check_box",
             "width": 24,
             "link": "",
             "open_in_new_tab": false
