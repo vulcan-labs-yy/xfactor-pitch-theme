@@ -645,7 +645,7 @@
       ".accordion .details__header {padding-block: 16px;}",
       ".variant-option__button-label {min-height: unset !important;}",
       ".shopify-policy__container {max-width: 85ch;}",
-      "@media screen and (min-width: 1240px) {.menu-list__submenu-inner {width: 678px; margin-inline: auto; } .mega-menu__grid {padding-inline: 0 !important; --menu-columns-desktop: 1; }}"
+      "@media screen and (min-width: 768px) {.menu-list__submenu-inner {width: 678px; margin-inline: auto; } .mega-menu__grid {padding-inline: 0 !important; --menu-columns-desktop: 1; }}"
     ]
   }
 }
