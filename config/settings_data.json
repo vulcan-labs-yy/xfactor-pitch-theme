@@ -644,7 +644,8 @@
       ".variant-option__button-label,a.size-style.button,.product-form-buttons button {padding: 8px 16px !important;}",
       ".accordion .details__header {padding-block: 16px;}",
       ".variant-option__button-label {min-height: unset !important;}",
-      ".shopify-policy__container {max-width: 85ch;}"
+      ".shopify-policy__container {max-width: 85ch;}",
+      "@media screen and (min-width: 1240px) {.menu-list__submenu-inner {width: 678px; margin-inline: auto; } .mega-menu__grid {padding-inline: 0; --menu-columns-desktop: 1; }}"
     ]
   }
 }
