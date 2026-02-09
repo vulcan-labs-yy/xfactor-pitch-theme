@@ -1233,7 +1233,9 @@
         "group_CGDtyq",
         "spacer_CEDRpm"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "@media screen and (max-width: 767px) {.group-block-content.layout-panel-flex.layout-panel-flex--column.mobile-column > .text-block p {text-align: center !important; }.group-block-content.layout-panel-flex.layout-panel-flex--row.mobile-column .group-block .group-block-content {display: flex; align-items: center;} }"
+      ],
       "name": "Formula details",
       "settings": {
         "content_direction": "row",
