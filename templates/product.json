@@ -529,6 +529,20 @@
     "section_QQMw3n": {
       "type": "section",
       "blocks": {
+        "spacer_k8eKwd": {
+          "type": "spacer",
+          "name": "t:names.spacer",
+          "settings": {
+            "size": "percent",
+            "percent_size": 10,
+            "pixel_size": 120,
+            "custom_mobile_size": false,
+            "size_mobile": "percent",
+            "percent_size_mobile": 100,
+            "pixel_size_mobile": 120
+          },
+          "blocks": {}
+        },
         "image_fYjt44": {
           "type": "image",
           "name": "t:names.image",
@@ -1197,12 +1211,29 @@
             "group_iw8GcJ",
             "group_dBMThp"
           ]
+        },
+        "spacer_CEDRpm": {
+          "type": "spacer",
+          "name": "t:names.spacer",
+          "settings": {
+            "size": "percent",
+            "percent_size": 10,
+            "pixel_size": 120,
+            "custom_mobile_size": false,
+            "size_mobile": "percent",
+            "percent_size_mobile": 100,
+            "pixel_size_mobile": 120
+          },
+          "blocks": {}
         }
       },
       "block_order": [
+        "spacer_k8eKwd",
         "image_fYjt44",
-        "group_CGDtyq"
+        "group_CGDtyq",
+        "spacer_CEDRpm"
       ],
+      "custom_css": [],
       "name": "Formula details",
       "settings": {
         "content_direction": "row",
