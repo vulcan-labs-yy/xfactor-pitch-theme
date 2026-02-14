@@ -52,6 +52,7 @@
     "button_border_radius_secondary": 100,
     "cart_type": "drawer",
     "product_title_case": "default",
+    "auto_open_cart_drawer": true,
     "show_installments": false,
     "show_accelerated_checkout_buttons": false,
     "drawer_color_scheme": "scheme-2",
