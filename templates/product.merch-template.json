@@ -764,7 +764,7 @@
                         "text_DzQDeP": {
                           "type": "text",
                           "settings": {
-                            "text": "<p>{{ closest.product.metafields.custom.benefits | metafield_tag }}</p>",
+                            "text": "<p>{{ closest.product.metafields.custom.details | metafield_tag }}</p>",
                             "width": "100%",
                             "max_width": "normal",
                             "alignment": "left",
