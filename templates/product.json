@@ -1953,6 +1953,7 @@
       "block_order": [
         "spark_spotlight_carousal_KC7QYM"
       ],
+      "disabled": true,
       "settings": {
         "content_direction": "column",
         "vertical_on_mobile": true,
