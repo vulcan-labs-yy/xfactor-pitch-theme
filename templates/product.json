@@ -1924,7 +1924,7 @@
         "spark_spotlight_carousal_KC7QYM": {
           "type": "shopify://apps/spark/blocks/spotlight-carousal/3eb8b961-42bd-4d42-a091-9b8e4c877d96",
           "settings": {
-            "show_videos_dynamically": false,
+            "show_videos_dynamically": true,
             "show_play_button": false,
             "show_views": false,
             "show_video_title": false,
