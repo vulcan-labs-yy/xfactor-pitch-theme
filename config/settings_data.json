@@ -649,7 +649,7 @@
       "@media screen and (min-width: 768px) {.menu-list__submenu-inner {width: 700px; margin-inline: auto; } .mega-menu__grid {padding-inline: 0 !important; --menu-columns-desktop: 1; }}",
       "main#MainContent:has(.shopify-policy__container) {background: white;}",
       ".spark-carousal-root.h2 h2 {font-size: 40px;}",
-      "@media screen and (max-width: 767px) {.menu-drawer__menu-item--mainlist {min-height: fit-content; } .menu-drawer__menu-item-text {font-size: 20px; }}"
+      "@media screen and (max-width: 767px) {.menu-drawer__menu-item--mainlist {min-height: fit-content; } .menu-drawer__menu-item-text {font-size: 20px; } .menu-drawer__menu-item>.svg-wrapper {padding-block: unset; }}"
     ]
   }
 }
