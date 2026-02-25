@@ -642,6 +642,7 @@
   },
   "platform_customizations": {
     "custom_css": [
+      "product-price:has(.compare-at-price) .price {color: red;}",
       ".variant-option__button-label,a.size-style.button,.product-form-buttons button {padding: 8px 16px !important;}",
       ".accordion .details__header {padding-block: 16px;}",
       ".variant-option__button-label {min-height: unset !important;}",
@@ -649,7 +650,7 @@
       "@media screen and (min-width: 768px) {.menu-list__submenu-inner {width: 700px; margin-inline: auto; } .mega-menu__grid {padding-inline: 0 !important; --menu-columns-desktop: 1; }}",
       "main#MainContent:has(.shopify-policy__container) {background: white;}",
       ".spark-carousal-root.h2 h2 {font-size: 40px;}",
-      "@media screen and (max-width: 767px) {.menu-drawer__menu-item--mainlist {min-height: fit-content; } .menu-drawer__menu-item-text {font-size: 20px; } .menu-drawer__menu-item > .svg-wrapper {padding-block: unset; } .menu-drawer__menu-item--child span {font-size: 16px; } accordion-custom details[open] ul.menu-drawer__menu {padding-top: 10px;}}"
+      "@media screen and (max-width: 767px) {.menu-drawer__menu-item--mainlist {min-height: fit-content; } .menu-drawer__menu-item-text {font-size: 20px; } .menu-drawer__menu-item > .svg-wrapper {padding-block: unset; } .menu-drawer__menu-item--child span {font-size: 16px; } accordion-custom details[open] ul.menu-drawer__menu {padding-top: 10px; }}"
     ]
   }
 }
