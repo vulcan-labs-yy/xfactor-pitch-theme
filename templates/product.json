@@ -12,6 +12,10 @@
     "main": {
       "type": "product-information",
       "blocks": {
+        "bogos_io_free_gift_gift_thumbnail_view_gneeVR": {
+          "type": "shopify://apps/bogos-io-free-gift/blocks/gift-thumbnail-view/0432bba6-720a-4e95-be5a-b868386f7aa6",
+          "settings": {}
+        },
         "media-gallery": {
           "type": "_product-media-gallery",
           "static": true,
@@ -509,6 +513,9 @@
           ]
         }
       },
+      "block_order": [
+        "bogos_io_free_gift_gift_thumbnail_view_gneeVR"
+      ],
       "custom_css": [
         "accordion-custom:not(:has(.text-block)) {display: none;}",
         "@media screen and (min-width: 1240px) {.product-information {padding-inline: max(2vw, 20px) !important; }}",
