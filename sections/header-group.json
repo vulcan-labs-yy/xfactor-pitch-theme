@@ -18,6 +18,20 @@
           "type": "_announcement",
           "name": "t:names.announcement",
           "settings": {
+            "text": "🌼🌙 Ramadan Glow Special: Spend RM250, get FREE Gua Sha + 50% OFF Your Next Order 💝",
+            "link": "",
+            "font": "var(--font-body--family)",
+            "font_size": "",
+            "weight": "",
+            "letter_spacing": "normal",
+            "case": "none"
+          },
+          "blocks": {}
+        },
+        "announcement_kgAEqt": {
+          "type": "_announcement",
+          "name": "t:names.announcement",
+          "settings": {
             "text": "New here? Enjoy 10% OFF your first purchase with code: NEWUXERGIFT 🎁",
             "link": "",
             "font": "var(--font-body--family)",
@@ -45,6 +59,7 @@
       },
       "block_order": [
         "announcement_CLgr8p",
+        "announcement_kgAEqt",
         "announcement_MHUQgy"
       ],
       "custom_css": [],
