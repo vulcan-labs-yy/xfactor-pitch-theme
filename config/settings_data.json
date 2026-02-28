@@ -647,7 +647,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      "div[ref=\"priceContainer\"] {font-weight: 700;}",
+      "div[ref=\"priceContainer\"] {font-weight: 700 !important;}",
       "product-price:has(.compare-at-price) .price {color: red;}",
       ".variant-option__button-label,a.size-style.button,.product-form-buttons button {padding: 8px 16px !important;}",
       ".accordion .details__header {padding-block: 16px;}",
