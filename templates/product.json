@@ -328,6 +328,32 @@
               "disabled": true,
               "settings": {}
             },
+            "text_MWq94z": {
+              "type": "text",
+              "name": "t:names.text",
+              "settings": {
+                "text": "<p><span style=\"text-decoration:underline\"><em><strong>Ramadan Glow Special – Limited Time! 🌙 </strong></em></span><br/><span style=\"text-decoration:underline\"><em><strong>Shop RM250 and get:</strong></em></span><br/>🎁 Free Gua Sha (worth RM38) <br/>💌 50% OFF voucher will be sent via WhatsApp upon confirmed order</p>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
             "group_8ePU6U": {
               "type": "group",
               "name": "Benefits",
@@ -505,6 +531,7 @@
             "text_LbbLqQ",
             "group_dTHcXb",
             "bloy_loyalty_rewards_bloy_point_caculator_pdp_qrCLkR",
+            "text_MWq94z",
             "group_8ePU6U"
           ]
         }
