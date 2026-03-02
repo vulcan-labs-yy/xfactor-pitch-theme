@@ -45,6 +45,7 @@
         "announcement_MHUQgy": {
           "type": "_announcement",
           "name": "t:names.announcement",
+          "disabled": true,
           "settings": {
             "text": "🚚📦 Shop & enjoy FREE Shipping on orders over RM80 — MY only 🇲🇾✨",
             "link": "shopify://pages/contact",
