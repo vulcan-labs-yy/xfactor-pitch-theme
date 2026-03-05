@@ -332,7 +332,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<p><span style=\"text-decoration:underline\"><em><strong>Ramadan Glow Special – Limited Time! 🌙 </strong></em></span><br/><span style=\"text-decoration:underline\"><em><strong>Shop RM250 and get:</strong></em></span><br/>🎁 Free Gua Sha (worth RM38) <br/>💌 50% OFF voucher will be sent via WhatsApp upon confirmed order</p>",
+                "text": "<p><span style=\"text-decoration:underline\"><em><strong>Ramadan Glow Special – Limited Time! 🌙 </strong></em></span><br/><span style=\"text-decoration:underline\"><em><strong>Shop RM250 and get:</strong></em></span><br/>🎁 Free Gua Sha (worth RM38) <br/>💌 50% OFF voucher will be sent via WhatsApp within 24 hours upon confirmed order</p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
