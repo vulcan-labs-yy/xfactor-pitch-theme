@@ -19,7 +19,21 @@
           "name": "t:names.announcement",
           "settings": {
             "text": "🌙 Ramadan Special: Spend RM250, get FREE Gua Sha + 50% OFF your next order 🎁✨",
-            "link": "",
+            "link": "shopify://products/advanced-30-proxylane-face-cream",
+            "font": "var(--font-body--family)",
+            "font_size": "",
+            "weight": "",
+            "letter_spacing": "normal",
+            "case": "none"
+          },
+          "blocks": {}
+        },
+        "announcement_nd48hb": {
+          "type": "_announcement",
+          "name": "t:names.announcement",
+          "settings": {
+            "text": "🚀 Just launched: 100% Squalane—lightweight hydration for soft, dewy skin 💧",
+            "link": "shopify://products/100-squalane-from-olive",
             "font": "var(--font-body--family)",
             "font_size": "",
             "weight": "",
@@ -60,6 +74,7 @@
       },
       "block_order": [
         "announcement_CLgr8p",
+        "announcement_nd48hb",
         "announcement_kgAEqt",
         "announcement_MHUQgy"
       ],
