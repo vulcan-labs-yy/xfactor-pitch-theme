@@ -4038,3 +4038,9 @@ text-component {
     font-size: max(1rem, 100%);
   }
 }
+
+@media screen and (max-width: 767px) {
+accordion-custom details {
+    margin-inline: 20px;
+}
+}
