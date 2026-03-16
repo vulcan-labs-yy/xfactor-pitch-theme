@@ -17,6 +17,7 @@
         "announcement_CLgr8p": {
           "type": "_announcement",
           "name": "t:names.announcement",
+          "disabled": true,
           "settings": {
             "text": "🚨 Ends Today: Spend RM250, get FREE Gua Sha + 50% OFF your next order 🎁✨",
             "link": "shopify://products/advanced-30-proxylane-face-cream",
