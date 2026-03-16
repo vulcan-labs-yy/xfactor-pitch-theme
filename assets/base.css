@@ -4040,7 +4040,7 @@ text-component {
 }
 
 @media screen and (max-width: 767px) {
-accordion-custom details {
+accordion-custom details[data-testid="accordion-details"] {
     margin-inline: 20px;
 }
 }
@@ -4049,6 +4049,7 @@ ul.cart-items__bundle.list-unstyled {
     list-style: disc;
 }
 .cart-items__details div:has(>span.visually-hidden),
+.drawer-localization .drawer-localization__button,
 a#w4-cart-a {
     display: none;
 }
