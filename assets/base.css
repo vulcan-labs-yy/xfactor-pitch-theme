@@ -4048,6 +4048,7 @@ ul.cart-items__bundle.list-unstyled {
     margin-inline-start: 1em;
     list-style: disc;
 }
-.cart-items__details div:has(>span.visually-hidden) {
+.cart-items__details div:has(>span.visually-hidden),
+a#w4-cart-a {
     display: none;
 }
