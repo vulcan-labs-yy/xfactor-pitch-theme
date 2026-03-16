@@ -4044,3 +4044,7 @@ accordion-custom details {
     margin-inline: 20px;
 }
 }
+ul.cart-items__bundle.list-unstyled {
+    margin-inline-start: 1em;
+    list-style: disc;
+}
