@@ -664,7 +664,7 @@
       "main#MainContent:has(.shopify-policy__container) {background: white;}",
       ".spark-carousal-root.h2 h2 {font-size: 40px;}",
       "@media screen and (max-width: 767px) {.menu-drawer__menu-item--mainlist {min-height: fit-content; } .menu-drawer__menu-item-text {font-size: 20px; } .menu-drawer__menu-item > .svg-wrapper {padding-block: unset; } .menu-drawer__menu-item--child span {font-size: 16px; } accordion-custom details[open] ul.menu-drawer__menu {padding-top: 10px; } html:has(.sticky-add-to-cart__bar[data-stuck=\"true\"]) div.BLOY-widget, html:has(.sticky-add-to-cart__bar[data-stuck=\"true\"]) .whatsapp-container {bottom: 90px; }}",
-      "div:not(:has(.accordion)) > h2.faq-heading {display: none;}"
+      "div:not(:has(.accordion)):has(>div>h2.faq-heading) {display: none;}"
     ]
   }
 }
