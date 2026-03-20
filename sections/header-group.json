@@ -18,7 +18,7 @@
           "type": "_announcement",
           "name": "t:names.announcement",
           "settings": {
-            "text": "🚨 Use code: <span style=\"text-decoration:underline\"><strong>SECRET</strong></span> at checkout & claim your Raya treat—limited time only ⏰🤫",
+            "text": "🚨 Use code: <span style=\"text-decoration:underline\"><strong>SECRET</strong></span> at checkout & claim your Raya treat 🤫 Limited time only! ⏰",
             "link": "shopify://products/advanced-30-proxylane-face-cream",
             "font": "var(--font-body--family)",
             "font_size": "",
