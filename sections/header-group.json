@@ -19,7 +19,7 @@
           "name": "t:names.announcement",
           "disabled": true,
           "settings": {
-            "text": "🚨 Ends Today: Spend RM250, get FREE Gua Sha + 50% OFF your next order 🎁✨",
+            "text": "🚨 Use code: <strong>SECRET</strong> at checkout for a special Raya treat 🤫  Limited time only!",
             "link": "shopify://products/advanced-30-proxylane-face-cream",
             "font": "var(--font-body--family)",
             "font_size": "",
@@ -46,6 +46,7 @@
         "announcement_kgAEqt": {
           "type": "_announcement",
           "name": "t:names.announcement",
+          "disabled": true,
           "settings": {
             "text": "New here? Enjoy 10% OFF your first purchase with code: NEWUXERGIFT 🎁",
             "link": "",
