@@ -95,6 +95,11 @@
         "type": "shopify://apps/snap-cart-drawer/blocks/sticky_button/749c3d78-31de-41bb-a321-492d569e1a37",
         "disabled": false,
         "settings": {}
+      },
+      "13417815402603211594": {
+        "type": "shopify://apps/uppush-email-web-push/blocks/push-notification/89fcbaff-b715-4dc6-a755-6fdb7b790bee",
+        "disabled": false,
+        "settings": {}
       }
     },
     "color_schemes": {
