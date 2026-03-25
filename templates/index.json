@@ -800,7 +800,7 @@
               "type": "text",
               "name": "t:text_defaults.heading",
               "settings": {
-                "text": "<h3>Science-backed skincare that you can trust</h3>",
+                "text": "<h3>Award-Winning Skincare, Backed by Science</h3>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "left",
