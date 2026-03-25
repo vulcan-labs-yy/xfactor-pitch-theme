@@ -627,7 +627,7 @@
               "type": "button",
               "name": "t:names.button",
               "settings": {
-                "label": "Glow like never before",
+                "label": "Soft Skin Starts Here",
                 "link": "shopify://products/rice-husk-silica-facial-cleanser",
                 "open_in_new_tab": false,
                 "style_class": "button",
@@ -739,7 +739,7 @@
               "type": "button",
               "name": "t:names.button",
               "settings": {
-                "label": "Glow like never before",
+                "label": "Experience Glow That Lasts",
                 "link": "shopify://products/advanced-30-proxylane-face-cream",
                 "open_in_new_tab": false,
                 "style_class": "button",
@@ -2790,6 +2790,7 @@
         "spark_spotlight_carousal_ybf7Cz": {
           "type": "shopify://apps/spark/blocks/spotlight-carousal/3eb8b961-42bd-4d42-a091-9b8e4c877d96",
           "settings": {
+            "feed_id": "",
             "show_videos_dynamically": false,
             "show_play_button": false,
             "show_views": false,
