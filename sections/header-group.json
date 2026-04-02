@@ -18,7 +18,7 @@
           "type": "_announcement",
           "name": "t:names.announcement",
           "settings": {
-            "text": "⏰ <strong>Last Chance: </strong>Use code <span style=\"text-decoration:underline\"><strong>SECRET</strong></span> at checkout & claim your Raya treat—ends today 🤫⏳",
+            "text": "New here? ✨ Use code: <span style=\"text-decoration:underline\"><strong>NEWUXERGIFT</strong></span> at checkout to claim your <strong>welcome</strong> <strong>gift</strong> 🎁",
             "link": "shopify://products/advanced-30-proxylane-face-cream",
             "font": "var(--font-body--family)",
             "font_size": "",
