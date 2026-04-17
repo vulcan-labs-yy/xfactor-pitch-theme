@@ -14,9 +14,38 @@
     "header_announcements_kcHY6p": {
       "type": "header-announcements",
       "blocks": {
+        "announcement_bGezpi": {
+          "type": "_announcement",
+          "name": "t:names.announcement",
+          "settings": {
+            "text": "✨🚀 <strong>New X'Factor Discovery Set </strong>— 35% OFF, just for you 💌 ✨",
+            "link": "shopify://products/xfactor-discovery-set",
+            "font": "var(--font-body--family)",
+            "font_size": "",
+            "weight": "",
+            "letter_spacing": "normal",
+            "case": "none"
+          },
+          "blocks": {}
+        },
+        "announcement_kgAEqt": {
+          "type": "_announcement",
+          "name": "t:names.announcement",
+          "settings": {
+            "text": "🚨 Use code: <strong>SECRETSALE</strong> at checkout to claim your weekend treat 🤫🎁",
+            "link": "",
+            "font": "var(--font-body--family)",
+            "font_size": "",
+            "weight": "",
+            "letter_spacing": "normal",
+            "case": "none"
+          },
+          "blocks": {}
+        },
         "announcement_CLgr8p": {
           "type": "_announcement",
           "name": "t:names.announcement",
+          "disabled": true,
           "settings": {
             "text": "New here? ✨ Use code: <span style=\"text-decoration:underline\"><strong>NEWUXERGIFT</strong></span> at checkout to claim your <strong>welcome</strong> <strong>treat</strong> 🎁",
             "link": "shopify://products/advanced-30-proxylane-face-cream",
@@ -31,24 +60,10 @@
         "announcement_nd48hb": {
           "type": "_announcement",
           "name": "t:names.announcement",
+          "disabled": true,
           "settings": {
             "text": "🚀 Just launched: <strong>100% Squalane</strong>—lightweight hydration for soft, dewy skin 💧",
             "link": "shopify://products/100-squalane-from-olive",
-            "font": "var(--font-body--family)",
-            "font_size": "",
-            "weight": "",
-            "letter_spacing": "normal",
-            "case": "none"
-          },
-          "blocks": {}
-        },
-        "announcement_kgAEqt": {
-          "type": "_announcement",
-          "name": "t:names.announcement",
-          "disabled": true,
-          "settings": {
-            "text": "New here? Enjoy 10% OFF your first purchase with code: NEWUXERGIFT 🎁",
-            "link": "",
             "font": "var(--font-body--family)",
             "font_size": "",
             "weight": "",
@@ -74,9 +89,10 @@
         }
       },
       "block_order": [
+        "announcement_bGezpi",
+        "announcement_kgAEqt",
         "announcement_CLgr8p",
         "announcement_nd48hb",
-        "announcement_kgAEqt",
         "announcement_MHUQgy"
       ],
       "custom_css": [],
