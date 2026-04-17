@@ -1954,7 +1954,7 @@
           "static": true,
           "settings": {
             "media_type": "image",
-            "image": "{{ closest.product.metafields.custom.product_first_2_column_image.value }}",
+            "image": "shopify://shop_images/XF_SQ_Closeup.png",
             "link": "",
             "video_loop": true,
             "video_autoplay": false,
