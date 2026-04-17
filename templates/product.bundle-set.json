@@ -2092,7 +2092,7 @@
         "spark_spotlight_carousal_KC7QYM": {
           "type": "shopify://apps/spark/blocks/spotlight-carousal/3eb8b961-42bd-4d42-a091-9b8e4c877d96",
           "settings": {
-            "feed_id": "",
+            "feed_id": "a79a464a-306a-43d9-9ca7-273cc8f10f76",
             "show_videos_dynamically": true,
             "show_play_button": false,
             "show_views": false,
