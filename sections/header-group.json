@@ -18,7 +18,7 @@
           "type": "_announcement",
           "name": "t:names.announcement",
           "settings": {
-            "text": "✨🚀 <strong>New X'Factor Discovery Set </strong>— 35% OFF, just for you 💌 ✨",
+            "text": "✨🚀 <strong>NEW: X'Factor Discovery Set </strong>— 35% OFF, just for you 💌 ✨",
             "link": "shopify://products/xfactor-discovery-set",
             "font": "var(--font-body--family)",
             "font_size": "",
