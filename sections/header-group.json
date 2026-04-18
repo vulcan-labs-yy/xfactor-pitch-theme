@@ -32,7 +32,7 @@
           "type": "_announcement",
           "name": "t:names.announcement",
           "settings": {
-            "text": "🚨 Use code: <strong>SECRETSALE</strong> at checkout to claim your weekend treat 🤫🎁",
+            "text": "🏖️  Claim your weekend treat with code <strong>SECRETSALE</strong> at checkout 🤫🎁",
             "link": "",
             "font": "var(--font-body--family)",
             "font_size": "",
