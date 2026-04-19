@@ -31,6 +31,7 @@
         "announcement_kgAEqt": {
           "type": "_announcement",
           "name": "t:names.announcement",
+          "disabled": true,
           "settings": {
             "text": "🏖️  Claim your weekend treat with code <strong>SECRETSALE</strong> at checkout 🤫🎁",
             "link": "",
@@ -60,7 +61,6 @@
         "announcement_nd48hb": {
           "type": "_announcement",
           "name": "t:names.announcement",
-          "disabled": true,
           "settings": {
             "text": "🚀 Just launched: <strong>100% Squalane</strong>—lightweight hydration for soft, dewy skin 💧",
             "link": "shopify://products/100-squalane-from-olive",
