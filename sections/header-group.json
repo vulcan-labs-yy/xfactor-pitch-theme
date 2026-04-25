@@ -14,9 +14,38 @@
     "header_announcements_kcHY6p": {
       "type": "header-announcements",
       "blocks": {
+        "announcement_JFXKJA": {
+          "type": "_announcement",
+          "name": "t:names.announcement",
+          "settings": {
+            "text": "<strong>🥳 Payday Special —</strong> <strong>20% OFF sitewide </strong>(min. RM200). Ends 30 Apr ⏳",
+            "link": "shopify://collections/all",
+            "font": "var(--font-body--family)",
+            "font_size": "",
+            "weight": "",
+            "letter_spacing": "normal",
+            "case": "none"
+          },
+          "blocks": {}
+        },
         "announcement_bGezpi": {
           "type": "_announcement",
           "name": "t:names.announcement",
+          "settings": {
+            "text": "✨🚀 <strong>New X'Factor Discovery Set </strong>— your essential routine, in ONE set 👛",
+            "link": "shopify://products/xfactor-discovery-set",
+            "font": "var(--font-body--family)",
+            "font_size": "",
+            "weight": "",
+            "letter_spacing": "normal",
+            "case": "none"
+          },
+          "blocks": {}
+        },
+        "announcement_UJbDce": {
+          "type": "_announcement",
+          "name": "t:names.announcement",
+          "disabled": true,
           "settings": {
             "text": "✨🚀 <strong>New X'Factor Discovery Set </strong>— 35% OFF, just for you 💌 ✨",
             "link": "shopify://products/xfactor-discovery-set",
@@ -89,7 +118,9 @@
         }
       },
       "block_order": [
+        "announcement_JFXKJA",
         "announcement_bGezpi",
+        "announcement_UJbDce",
         "announcement_kgAEqt",
         "announcement_CLgr8p",
         "announcement_nd48hb",
