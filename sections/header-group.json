@@ -18,7 +18,7 @@
           "type": "_announcement",
           "name": "t:names.announcement",
           "settings": {
-            "text": "<strong>🥳 Payday Special —</strong> <strong>20% OFF sitewide </strong>(min. RM200). Ends 30 Apr ⏳",
+            "text": "🚨 Ends Today: <strong>Payday Special —</strong> <strong>20% OFF sitewide </strong>(min. RM200) 🛍️",
             "link": "shopify://collections/all",
             "font": "var(--font-body--family)",
             "font_size": "",
