@@ -18,7 +18,7 @@
           "type": "_announcement",
           "name": "t:names.announcement",
           "settings": {
-            "text": "🥳 <strong>20% OFF sitewide</strong> (min. RM200) — PayDay Sale extended till 3 May 🛍️",
+            "text": "⏳ PayDay Sale Ends Today —<strong> 20% OFF sitewide </strong>(min. RM200) 🛍️",
             "link": "shopify://collections/all",
             "font": "var(--font-body--family)",
             "font_size": "",
