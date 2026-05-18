@@ -63,7 +63,7 @@
           "name": "t:names.announcement",
           "disabled": true,
           "settings": {
-            "text": "🏖️  Claim your weekend treat with code <strong>SECRETSALE</strong> at checkout 🤫🎁",
+            "text": "✨ First time here? Claim your welcome treat with code <strong>NEWUXERGIFT</strong> at checkout 😉",
             "link": "",
             "font": "var(--font-body--family)",
             "font_size": "",
