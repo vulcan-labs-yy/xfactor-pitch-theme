@@ -96,9 +96,9 @@
         "disabled": false,
         "settings": {}
       },
-      "5918445685253060206": {
-        "type": "shopify://apps/bundler/blocks/bundler-script-append/7a6ae1b8-3b16-449b-8429-8bb89a62c664",
-        "disabled": true,
+      "144831480468751239": {
+        "type": "shopify://apps/essential-upsell/blocks/app-embed/50627fd9-24fd-4250-8614-accc12826d80",
+        "disabled": false,
         "settings": {}
       }
     },
