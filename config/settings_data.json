@@ -86,11 +86,6 @@
         "disabled": false,
         "settings": {}
       },
-      "8605505498557855500": {
-        "type": "shopify://apps/bogos-io-free-gift/blocks/app-embed/0432bba6-720a-4e95-be5a-b868386f7aa6",
-        "disabled": false,
-        "settings": {}
-      },
       "18155451270687726080": {
         "type": "shopify://apps/snap-cart-drawer/blocks/sticky_button/749c3d78-31de-41bb-a321-492d569e1a37",
         "disabled": false,
@@ -103,6 +98,11 @@
       },
       "5918445685253060206": {
         "type": "shopify://apps/bundler/blocks/bundler-script-append/7a6ae1b8-3b16-449b-8429-8bb89a62c664",
+        "disabled": false,
+        "settings": {}
+      },
+      "5674012996228588682": {
+        "type": "shopify://apps/cartbot/blocks/cartbot-script-append/f7a44e3b-3901-4412-9d5a-3db0980a9db0",
         "disabled": false,
         "settings": {}
       }
