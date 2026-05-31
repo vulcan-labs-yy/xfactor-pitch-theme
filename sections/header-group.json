@@ -17,9 +17,8 @@
         "announcement_JFXKJA": {
           "type": "_announcement",
           "name": "t:names.announcement",
-          "disabled": true,
           "settings": {
-            "text": "⏳ PayDay Sale Ends Today —<strong> 20% OFF sitewide </strong>(min. RM200) 🛍️",
+            "text": "🚨 Mid Year Sale! —<strong> </strong>Buy<strong> ANY 2 </strong>Get<strong> 1 FREE</strong> 🛍️🛍️🛍️",
             "link": "shopify://collections/all",
             "font": "var(--font-body--family)",
             "font_size": "",
