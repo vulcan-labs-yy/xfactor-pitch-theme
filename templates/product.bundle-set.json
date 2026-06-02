@@ -331,9 +331,8 @@
             "text_MWq94z": {
               "type": "text",
               "name": "t:names.text",
-              "disabled": true,
               "settings": {
-                "text": "<p><span style=\"text-decoration:underline\"><em><strong>Ramadan Glow Special </strong></em></span><span style=\"text-decoration:underline\">—</span><span style=\"text-decoration:underline\"><em><strong> Ends 15 Mar🌙</strong></em></span><br/><span style=\"text-decoration:underline\"><em><strong>Shop RM250 and get:</strong></em></span><br/>🎁 Free Gua Sha (worth RM38) <br/>💌 50% OFF voucher will be sent via WhatsApp within 24 hours upon confirmed order</p>",
+                "text": "<p><span style=\"text-decoration:underline\"><em><strong>🛍️ Biggest Mid-Year Sale: Buy 2, Get 1 Free — Ends 7 June</strong></em></span></p><p>Add any 3 items to your cart and enjoy 1 item FREE (lowest-priced item will be automatically discounted) 💖🛒</p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -2103,6 +2102,8 @@
             "feed_title": "Trusted by 1,000+ Paying Customers",
             "title_alignment": "center",
             "product_card_status": "hidden",
+            "product_name_text_style_preset": "default",
+            "price_text_style_preset": "default",
             "product_card_btn_actn": "product_details",
             "product_card_btn_background_color": "#000000",
             "product_card_btn_text_color": "#ffffff",
