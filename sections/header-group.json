@@ -18,7 +18,7 @@
           "type": "_announcement",
           "name": "t:names.announcement",
           "settings": {
-            "text": "🔥 NOW OR NEVER: <strong>Buy ANY 2, Get 1 FREE </strong>— No Min Spend Needed 🛍️✨",
+            "text": "🔥 ENDS TODAY: <strong>Buy ANY 2, Get 1 FREE </strong>— No Min Spend 🛍️✨",
             "link": "shopify://collections/all",
             "font": "var(--font-body--family)",
             "font_size": "",
