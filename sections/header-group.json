@@ -29,6 +29,20 @@
           },
           "blocks": {}
         },
+        "announcement_kgAEqt": {
+          "type": "_announcement",
+          "name": "t:names.announcement",
+          "settings": {
+            "text": "✨ First time here? Claim your welcome treat with code <strong>NEWUXERGIFT</strong> at checkout 😉",
+            "link": "",
+            "font": "var(--font-body--family)",
+            "font_size": "",
+            "weight": "",
+            "letter_spacing": "normal",
+            "case": "none"
+          },
+          "blocks": {}
+        },
         "announcement_bGezpi": {
           "type": "_announcement",
           "name": "t:names.announcement",
@@ -50,21 +64,6 @@
           "settings": {
             "text": "✨🚀 <strong>New X'Factor Discovery Set </strong>— 35% OFF, just for you 💌 ✨",
             "link": "shopify://products/xfactor-discovery-set",
-            "font": "var(--font-body--family)",
-            "font_size": "",
-            "weight": "",
-            "letter_spacing": "normal",
-            "case": "none"
-          },
-          "blocks": {}
-        },
-        "announcement_kgAEqt": {
-          "type": "_announcement",
-          "name": "t:names.announcement",
-          "disabled": true,
-          "settings": {
-            "text": "✨ First time here? Claim your welcome treat with code <strong>NEWUXERGIFT</strong> at checkout 😉",
-            "link": "",
             "font": "var(--font-body--family)",
             "font_size": "",
             "weight": "",
@@ -120,9 +119,9 @@
       },
       "block_order": [
         "announcement_JFXKJA",
+        "announcement_kgAEqt",
         "announcement_bGezpi",
         "announcement_UJbDce",
-        "announcement_kgAEqt",
         "announcement_CLgr8p",
         "announcement_nd48hb",
         "announcement_MHUQgy"
