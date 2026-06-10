@@ -33,7 +33,7 @@
           "type": "_announcement",
           "name": "t:names.announcement",
           "settings": {
-            "text": "✨ First time here? Claim your welcome treat with code <strong>NEWUXERGIFT</strong> at checkout 😉",
+            "text": "🎁 First time here? Claim your welcome treat with code <strong>NEWUXERGIFT</strong> at checkout 😉",
             "link": "",
             "font": "var(--font-body--family)",
             "font_size": "",
