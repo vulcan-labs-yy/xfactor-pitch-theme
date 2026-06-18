@@ -1984,32 +1984,54 @@
     "1768554540942a4dae": {
       "type": "_blocks",
       "blocks": {
-        "spark_spotlight_carousal_KC7QYM": {
-          "type": "shopify://apps/spark/blocks/spotlight-carousal/3eb8b961-42bd-4d42-a091-9b8e4c877d96",
+        "spark_shoppable_video_r67KFy": {
+          "type": "shopify://apps/spark/blocks/shoppable-video/3eb8b961-42bd-4d42-a091-9b8e4c877d96",
           "settings": {
-            "feed_id": "",
-            "show_videos_dynamically": true,
+            "feed_id": "f14bc411-ac6a-4215-80c5-b00b5eadf634",
+            "show_videos_dynamically": false,
             "show_play_button": false,
             "show_views": false,
+            "show_shop_now_button": false,
             "show_video_title": false,
-            "show_compare_at_price": true,
-            "show_arrow_buttons": true,
-            "auto_play_video_next_video": false,
+            "show_compare_at_price": false,
+            "show_arrow_buttons": false,
+            "item_alignment": false,
             "feed_title": "Trusted by 1,000+ Paying Customers",
             "title_alignment": "center",
-            "product_card_status": "hidden",
+            "auto_play_video": "always",
+            "product_card_status": "blended_card",
             "product_name_text_style_preset": "default",
             "price_text_style_preset": "default",
-            "product_card_btn_actn": "product_details",
-            "product_card_btn_background_color": "#000000",
-            "product_card_btn_text_color": "#ffffff",
-            "product_card_btn_text": "Shop",
+            "in_carousel_product_card_btn_actn": "add_to_cart",
+            "in_carousel_product_card_btn_background_color": "#000000",
+            "in_carousel_product_card_btn_text_color": "#FFFFFF",
+            "in_carousel_product_card_btn_text": "Add to cart",
+            "auto_scroll": 0,
+            "desktop_videos_count": 5,
+            "desktop_videos_spacing": 16,
+            "tablet_videos_count": 4,
+            "tablet_videos_spacing": 16,
+            "mobile_videos_count": 1.6,
+            "mobile_videos_spacing": 16,
             "border_radius": 16,
             "product_card_border_radius": 12,
+            "product_card_image_size": 44,
             "product_card_image_border_radius": 8,
-            "product_card_btn_border_radius": 24,
             "padding_top": 20,
             "padding_bottom": 20,
+            "video_player_views_count": false,
+            "video_player_compare_at_price": false,
+            "player_type": "full_screen_player",
+            "player_product_name_text_style_preset": "default",
+            "player_price_text_style_preset": "default",
+            "product_card_btn_actn": "product_details",
+            "product_card_btn_background_color": "#000000",
+            "product_card_btn_text_color": "#FFFFFF",
+            "product_card_btn_text": "Shop",
+            "player_border_radius": 16,
+            "video_player_product_card_border_radius": 12,
+            "video_player_product_card_image_border_radius": 8,
+            "product_card_btn_border_radius": 24,
             "show_on_desktop": true,
             "show_on_tablet": true,
             "show_on_mobile": true
@@ -2017,7 +2039,7 @@
         }
       },
       "block_order": [
-        "spark_spotlight_carousal_KC7QYM"
+        "spark_shoppable_video_r67KFy"
       ],
       "settings": {
         "content_direction": "column",
@@ -2337,6 +2359,36 @@
         "padding-block-start": 40,
         "padding-block-end": 40
       }
+    },
+    "1781781581865d0d3c": {
+      "type": "_blocks",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 12,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "color_scheme": "",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
     }
   },
   "order": [
@@ -2349,6 +2401,7 @@
     "1768554540942a4dae",
     "section_Y4QGag",
     "1767515840824fb409",
-    "product_recommendations_dDfQTx"
+    "product_recommendations_dDfQTx",
+    "1781781581865d0d3c"
   ]
 }
