@@ -362,9 +362,8 @@
             "text_MWq94z": {
               "type": "text",
               "name": "t:names.text",
-              "disabled": true,
               "settings": {
-                "text": "<p><span style=\"text-decoration:underline\"><em><strong>🛍️ Biggest Mid-Year Sale: Buy 2, Get 1 Free — Ends 7 June</strong></em></span></p><p>Add any 3 items to your cart and enjoy 1 item FREE (lowest-priced item will be automatically discounted) 💖🛒</p>",
+                "text": "<p><span style=\"text-decoration:underline\">🎁 </span><span style=\"text-decoration:underline\"><em><strong>New Customer Offer:</strong></em></span></p><p>Get your first bottle for <strong>RM68 + FREE SHIPPING </strong><em>[code: </em><em><strong>FIRSTXFACTOR</strong></em><em>] 🚚✨</em></p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -1296,6 +1295,7 @@
         "group_CGDtyq",
         "spacer_CEDRpm"
       ],
+      "disabled": true,
       "custom_css": [
         "@media screen and (max-width: 767px) {.group-block-content.layout-panel-flex.layout-panel-flex--column.mobile-column > .text-block p {text-align: center !important; } .group-block-content.layout-panel-flex.layout-panel-flex--row.mobile-column {align-items: center; } .group-block-content.layout-panel-flex.layout-panel-flex--row.mobile-column .group-block .group-block-content {display: flex; align-items: center; }}"
       ],
@@ -2004,7 +2004,7 @@
             "price_text_style_preset": "default",
             "in_carousel_product_card_btn_actn": "add_to_cart",
             "in_carousel_product_card_btn_background_color": "#000000",
-            "in_carousel_product_card_btn_text_color": "#FFFFFF",
+            "in_carousel_product_card_btn_text_color": "#ffffff",
             "in_carousel_product_card_btn_text": "Add to cart",
             "auto_scroll": 0,
             "desktop_videos_count": 5,
@@ -2026,7 +2026,7 @@
             "player_price_text_style_preset": "default",
             "product_card_btn_actn": "product_details",
             "product_card_btn_background_color": "#000000",
-            "product_card_btn_text_color": "#FFFFFF",
+            "product_card_btn_text_color": "#ffffff",
             "product_card_btn_text": "Shop",
             "player_border_radius": 16,
             "video_player_product_card_border_radius": 12,
