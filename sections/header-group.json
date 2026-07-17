@@ -91,8 +91,8 @@
           "type": "_announcement",
           "name": "t:names.announcement",
           "settings": {
-            "text": "🚀 Just launched: <strong>100% Squalane</strong>—lightweight hydration for soft, dewy skin 💧",
-            "link": "shopify://products/100-squalane-from-olive",
+            "text": "🚀 Just launched: <strong>Squalane Rose</strong>—deep hydration & antioxidant care 💧🌹",
+            "link": "shopify://products/squalane-rose-oil-vit-e",
             "font": "var(--font-body--family)",
             "font_size": "",
             "weight": "",
