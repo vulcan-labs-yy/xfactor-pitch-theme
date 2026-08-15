@@ -17,9 +17,8 @@
         "announcement_JFXKJA": {
           "type": "_announcement",
           "name": "t:names.announcement",
-          "disabled": true,
           "settings": {
-            "text": "🔥 ENDS TODAY: <strong>Buy ANY 2, Get 1 FREE </strong>— No Min Spend 🛍️✨",
+            "text": "🔥 Vacation Sale✈️: <strong>Buy ANY 2: Save 15%, Buy ANY 3: Save 25%! </strong>— No Min Spend 🛍️✨",
             "link": "shopify://collections/all",
             "font": "var(--font-body--family)",
             "font_size": "",
