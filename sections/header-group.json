@@ -17,6 +17,7 @@
         "announcement_JFXKJA": {
           "type": "_announcement",
           "name": "t:names.announcement",
+          "disabled": true,
           "settings": {
             "text": "🚨Last Day!! <strong>Glow </strong><em><strong>More</strong></em><strong> This Vacation</strong> · Until 24 Aug <em>— no min spend </em>✨",
             "link": "shopify://collections/all",
@@ -31,7 +32,6 @@
         "announcement_kgAEqt": {
           "type": "_announcement",
           "name": "t:names.announcement",
-          "disabled": true,
           "settings": {
             "text": "🎁 First time here? Claim your welcome treat with code <strong>NEWUXERGIFT</strong> at checkout 😉",
             "link": "",
@@ -46,7 +46,6 @@
         "announcement_bGezpi": {
           "type": "_announcement",
           "name": "t:names.announcement",
-          "disabled": true,
           "settings": {
             "text": "✨🚀 <strong>New X'Factor Discovery Set </strong>— your essential routine, in <em>ONE</em> set 👛",
             "link": "shopify://products/xfactor-discovery-set",
@@ -91,7 +90,6 @@
         "announcement_nd48hb": {
           "type": "_announcement",
           "name": "t:names.announcement",
-          "disabled": true,
           "settings": {
             "text": "🚀 Just launched: <strong>Squalane Rose</strong>—deep hydration & antioxidant care 💧🌹",
             "link": "shopify://products/squalane-rose-oil-vit-e",
