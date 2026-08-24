@@ -18,7 +18,7 @@
           "type": "_announcement",
           "name": "t:names.announcement",
           "settings": {
-            "text": "<strong>Glow </strong><em><strong>More</strong></em><strong> This Vacation</strong> · Until 24 Aug <em>— no min spend </em>✨",
+            "text": "🚨Last Day!! <strong>Glow </strong><em><strong>More</strong></em><strong> This Vacation</strong> · Until 24 Aug <em>— no min spend </em>✨",
             "link": "shopify://collections/all",
             "font": "var(--font-body--family)",
             "font_size": "",
