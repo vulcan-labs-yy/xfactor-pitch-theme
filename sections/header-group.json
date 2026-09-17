@@ -17,6 +17,7 @@
         "announcement_JFXKJA": {
           "type": "_announcement",
           "name": "t:names.announcement",
+          "disabled": true,
           "settings": {
             "text": "🇲🇾🌹MERDEKA Treat Especially For You with any Face Cream purchase✨",
             "link": "shopify://collections/all",
