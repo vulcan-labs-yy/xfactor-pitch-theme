@@ -61,7 +61,6 @@
         "announcement_UJbDce": {
           "type": "_announcement",
           "name": "t:names.announcement",
-          "disabled": true,
           "settings": {
             "text": "100% Squalane 🫒20ml Full Size bottle is <strong>Sold Out</strong>😱..to make it up, enjoy<strong> FREE 5ml 100% Squalane 🫒</strong> for<span style=\"text-decoration:underline\"><strong> every bottle of Squalane Rose🌹</strong></span>",
             "link": "shopify://products/xfactor-discovery-set",
