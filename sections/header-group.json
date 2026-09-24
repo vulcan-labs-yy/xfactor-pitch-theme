@@ -46,6 +46,7 @@
         "announcement_bGezpi": {
           "type": "_announcement",
           "name": "t:names.announcement",
+          "disabled": true,
           "settings": {
             "text": "✨🚀 <strong>New X'Factor Discovery Set </strong>— your essential routine, in <em>ONE</em> set 👛",
             "link": "shopify://products/xfactor-discovery-set",
