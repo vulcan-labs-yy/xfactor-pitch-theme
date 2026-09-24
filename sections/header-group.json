@@ -17,9 +17,8 @@
         "announcement_JFXKJA": {
           "type": "_announcement",
           "name": "t:names.announcement",
-          "disabled": true,
           "settings": {
-            "text": "🇲🇾🌹MERDEKA Treat Especially For You with any Face Cream purchase✨",
+            "text": "Celebrating World Pharmacists Day👩🏻‍⚕️💊! 25% Off Site Wide, Min Spend RM100, limited time🚨",
             "link": "shopify://collections/all",
             "font": "var(--font-body--family)",
             "font_size": "",
@@ -90,6 +89,7 @@
         "announcement_nd48hb": {
           "type": "_announcement",
           "name": "t:names.announcement",
+          "disabled": true,
           "settings": {
             "text": "🚀 Just launched: <strong>Squalane Rose</strong>—deep hydration & antioxidant care 💧🌹",
             "link": "shopify://products/squalane-rose-oil-vit-e",
