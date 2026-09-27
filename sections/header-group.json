@@ -17,6 +17,7 @@
         "announcement_JFXKJA": {
           "type": "_announcement",
           "name": "t:names.announcement",
+          "disabled": true,
           "settings": {
             "text": "Celebrating World Pharmacists Day👩🏻‍⚕️💊! 25% Off Site Wide, Min Spend RM100, limited time🚨",
             "link": "shopify://collections/all",
