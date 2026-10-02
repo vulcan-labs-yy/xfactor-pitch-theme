@@ -33,8 +33,8 @@
           "type": "_announcement",
           "name": "t:names.announcement",
           "settings": {
-            "text": "Meet the New PDRN & ExoPeptides Eye Cream <em>— Visible Lift in 28 Days ✨</em>",
-            "link": "",
+            "text": "Meet the New <strong>PDRN & ExoPeptides Eye Cream</strong> <em>— Visible Lift in 28 Days ✨</em>",
+            "link": "shopify://products/pdrn-exopeptides-eye-lifting-cream",
             "font": "var(--font-body--family)",
             "font_size": "",
             "weight": "",
