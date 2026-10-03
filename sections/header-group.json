@@ -18,7 +18,7 @@
           "type": "_announcement",
           "name": "t:names.announcement",
           "settings": {
-            "text": "<em>Repeat</em> purchase? 🫶Remember to redeem your <strong>Reward Points</strong> for <strong>Cash💸 Vouchers</strong>!",
+            "text": "<em>Repeat</em> purchase? 🫶Remember to redeem your <strong>Reward</strong>🩷<strong> Points</strong> for <strong>Cash💸 Vouchers</strong>!",
             "link": "shopify://collections/all",
             "font": "var(--font-body--family)",
             "font_size": "",
