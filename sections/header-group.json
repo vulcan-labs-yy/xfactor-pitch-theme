@@ -45,6 +45,7 @@
         "announcement_kgAEqt": {
           "type": "_announcement",
           "name": "t:names.announcement",
+          "disabled": true,
           "settings": {
             "text": "🎁 First time here? Claim your welcome treat with code <strong>NEWUXERGIFT</strong> at checkout 😉",
             "link": "",
