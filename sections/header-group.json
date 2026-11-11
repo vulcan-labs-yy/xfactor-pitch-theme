@@ -75,6 +75,7 @@
         "announcement_UJbDce": {
           "type": "_announcement",
           "name": "t:names.announcement",
+          "disabled": true,
           "settings": {
             "text": "🛍️<strong>11.11 Sale</strong>! <em>11% + EXTRA 11%</em> OFF storewide! Plus GIFT🎁 at RM100, RM200, RM300.. it gets better and better!",
             "link": "shopify://products/xfactor-discovery-set",
