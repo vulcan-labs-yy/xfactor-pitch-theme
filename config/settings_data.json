@@ -115,12 +115,16 @@
         "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
         "disabled": false,
         "settings": {
-          "greeting_message": "",
+          "greeting_message": "Hi, X'Factor Team here, how can we help you?",
           "show_featured_products": true,
-          "featured_products": [],
-          "background_color": "#FFFFFF",
+          "featured_products": [
+            "100-squalane-from-olive",
+            "advanced-30-proxylane-face-cream",
+            "advanced-30-proxylane-face-cream-12ml"
+          ],
+          "background_color": "#F6B4EE",
           "font_color": "#000000",
-          "agent_invert_activator_colors": true,
+          "agent_invert_activator_colors": false,
           "button_color": "#000000",
           "launcher_style": "button",
           "button_icon": "chat_bubble",
