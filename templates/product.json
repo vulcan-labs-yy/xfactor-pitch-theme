@@ -293,7 +293,7 @@
                 "vertical_alignment_flex_direction_column": "center",
                 "gap": 32,
                 "width": "custom",
-                "custom_width": 80,
+                "custom_width": 100,
                 "width_mobile": "fill",
                 "custom_width_mobile": 100,
                 "height": "fit",
@@ -320,7 +320,7 @@
                 "padding-inline-end": 0
               },
               "blocks": {
-                "variant_picker_KePPVa": {
+                "variant_picker_TxX78g": {
                   "type": "variant-picker",
                   "settings": {
                     "variant_style": "buttons",
@@ -371,13 +371,9 @@
                 }
               },
               "block_order": [
-                "variant_picker_KePPVa",
+                "variant_picker_TxX78g",
                 "buy_buttons_6p8c63"
               ]
-            },
-            "wi_bogo_promotion_section_83i3rY": {
-              "type": "shopify://apps/wi-bogo/blocks/promotion-section/9416ce92-aaaf-4a81-8fdf-b9a4e639d6dc",
-              "settings": {}
             },
             "product_recommendations_D6pHKQ": {
               "type": "product-recommendations",
@@ -728,7 +724,6 @@
             "group_4we3XL",
             "text_LbbLqQ",
             "group_dTHcXb",
-            "wi_bogo_promotion_section_83i3rY",
             "product_recommendations_D6pHKQ",
             "bloy_loyalty_rewards_bloy_point_caculator_pdp_qrCLkR",
             "text_MWq94z",
