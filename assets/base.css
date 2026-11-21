@@ -4074,7 +4074,7 @@ a#w4-cart-a {
 
 /* Let the images fill each slide */
 .wgt-swiper-wrapper .wgt-swiper-slide img {
-  width: 100% !important;
+  width: 90% !important;
   height: auto !important;
 }
 
