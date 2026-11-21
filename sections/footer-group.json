@@ -14,11 +14,11 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "group_hrHjiP": {
+        "group_PNGzgL": {
           "type": "group",
           "name": "t:names.group",
           "settings": {
-            "content_direction": "column",
+            "content_direction": "row",
             "vertical_on_mobile": true,
             "horizontal_alignment": "flex-start",
             "vertical_alignment": "center",
@@ -26,8 +26,8 @@
             "horizontal_alignment_flex_direction_column": "flex-start",
             "vertical_alignment_flex_direction_column": "center",
             "gap": 12,
-            "width": "custom",
-            "custom_width": 30,
+            "width": "fill",
+            "custom_width": 100,
             "width_mobile": "fill",
             "custom_width_mobile": 100,
             "height": "fit",
@@ -54,265 +54,310 @@
             "padding-inline-end": 0
           },
           "blocks": {
-            "logo_DNDcxY": {
-              "type": "logo",
-              "name": "t:names.logo",
+            "group_8EiQFh": {
+              "type": "group",
+              "name": "t:names.group",
               "settings": {
-                "inverse": false,
-                "font": "heading",
-                "unit": "pixel",
-                "percent_width": 100,
-                "pixel_height": 48,
-                "custom_mobile_size": false,
-                "unit_mobile": "percent",
-                "percent_width_mobile": 100,
-                "pixel_height_mobile": 120,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "logo_DNDcxY"
-          ]
-        },
-        "group_EnWGrp": {
-          "type": "group",
-          "name": "Group",
-          "settings": {
-            "content_direction": "row",
-            "vertical_on_mobile": false,
-            "horizontal_alignment": "flex-start",
-            "vertical_alignment": "flex-start",
-            "align_baseline": false,
-            "horizontal_alignment_flex_direction_column": "flex-start",
-            "vertical_alignment_flex_direction_column": "center",
-            "gap": 24,
-            "width": "custom",
-            "custom_width": 50,
-            "width_mobile": "fill",
-            "custom_width_mobile": 100,
-            "height": "fit",
-            "custom_height": 100,
-            "inherit_color_scheme": true,
-            "color_scheme": "",
-            "background_media": "none",
-            "video_position": "cover",
-            "background_image_position": "cover",
-            "border": "none",
-            "border_width": 1,
-            "border_opacity": 100,
-            "border_radius": 0,
-            "toggle_overlay": false,
-            "overlay_color": "#00000026",
-            "overlay_style": "solid",
-            "gradient_direction": "to top",
-            "link": "",
-            "open_in_new_tab": false,
-            "placeholder": "",
-            "padding-block-start": 30,
-            "padding-block-end": 30,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {
-            "menu_HKT4A3": {
-              "type": "menu",
-              "name": "t:names.menu",
-              "settings": {
-                "menu": "footer",
-                "heading": "About X'Factor",
-                "menu_spacing": 8,
-                "show_as_accordion": false,
-                "accordion_icon": "plus",
-                "accordion_dividers": true,
-                "inherit_color_scheme": true,
-                "color_scheme": "",
-                "heading_preset": "h6",
-                "link_preset": "paragraph",
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            },
-            "menu_TKT7EW": {
-              "type": "menu",
-              "name": "t:names.menu",
-              "settings": {
-                "menu": "footer-second-menu",
-                "heading": "Information",
-                "menu_spacing": 8,
-                "show_as_accordion": false,
-                "accordion_icon": "plus",
-                "accordion_dividers": true,
-                "inherit_color_scheme": true,
-                "color_scheme": "",
-                "heading_preset": "h6",
-                "link_preset": "paragraph",
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            },
-            "menu_kEnraA": {
-              "type": "menu",
-              "name": "t:names.menu",
-              "settings": {
-                "menu": "customer-account",
-                "heading": "My Account",
-                "menu_spacing": 8,
-                "show_as_accordion": false,
-                "accordion_icon": "plus",
-                "accordion_dividers": true,
-                "inherit_color_scheme": true,
-                "color_scheme": "",
-                "heading_preset": "h6",
-                "link_preset": "paragraph",
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "menu_HKT4A3",
-            "menu_TKT7EW",
-            "menu_kEnraA"
-          ]
-        },
-        "group_jYMDew": {
-          "type": "group",
-          "name": "Group",
-          "settings": {
-            "content_direction": "column",
-            "vertical_on_mobile": true,
-            "horizontal_alignment": "flex-start",
-            "vertical_alignment": "center",
-            "align_baseline": false,
-            "horizontal_alignment_flex_direction_column": "flex-start",
-            "vertical_alignment_flex_direction_column": "center",
-            "gap": 12,
-            "width": "fill",
-            "custom_width": 70,
-            "width_mobile": "fill",
-            "custom_width_mobile": 100,
-            "height": "fit",
-            "custom_height": 100,
-            "inherit_color_scheme": true,
-            "color_scheme": "",
-            "background_media": "none",
-            "video_position": "cover",
-            "background_image_position": "cover",
-            "border": "none",
-            "border_width": 1,
-            "border_opacity": 100,
-            "border_radius": 0,
-            "toggle_overlay": false,
-            "overlay_color": "#00000026",
-            "overlay_style": "solid",
-            "gradient_direction": "to top",
-            "link": "",
-            "open_in_new_tab": false,
-            "placeholder": "",
-            "padding-block-start": 0,
-            "padding-block-end": 40,
-            "padding-inline-start": 30,
-            "padding-inline-end": 24
-          },
-          "blocks": {
-            "text_cHXcfY": {
-              "type": "text",
-              "name": "Text",
-              "settings": {
-                "text": "",
-                "width": "100%",
-                "max_width": "narrow",
-                "alignment": "left",
-                "type_preset": "custom",
-                "font": "var(--font-primary--family)",
-                "font_size": "",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            },
-            "email_signup_8MDbdJ": {
-              "type": "email-signup",
-              "name": "t:names.email_signup",
-              "settings": {
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "flex-start",
+                "vertical_alignment": "center",
+                "align_baseline": false,
+                "horizontal_alignment_flex_direction_column": "flex-start",
+                "vertical_alignment_flex_direction_column": "center",
+                "gap": 12,
                 "width": "custom",
-                "custom_width": 80,
+                "custom_width": 30,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fit",
+                "custom_height": 100,
                 "inherit_color_scheme": true,
                 "color_scheme": "",
-                "heading": "Subscribe & enjoy 10% OFF your first purchase.",
-                "heading_preset": "paragraph",
-                "border_style": "none",
+                "background_media": "none",
+                "video_position": "cover",
+                "background_image_position": "cover",
+                "border": "none",
                 "border_width": 1,
-                "border_radius": 100,
-                "input_type_preset": "paragraph",
-                "style_class": "button",
-                "display_type": "text",
-                "label": "Sign me up!",
-                "integrated_button": true,
-                "button_type_preset": "paragraph",
+                "border_opacity": 100,
+                "border_radius": 0,
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "link": "",
+                "open_in_new_tab": false,
+                "placeholder": "",
                 "padding-block-start": 0,
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
               },
-              "blocks": {}
-            },
-            "social_links_ERKWXW": {
-              "type": "social-links",
-              "name": "t:names.social_media_links",
-              "settings": {
-                "facebook_url": "https://www.facebook.com/xfactorskincarebypharmacists",
-                "instagram_url": "https://www.instagram.com/xfactorskincare",
-                "youtube_url": "",
-                "tiktok_url": "https://www.tiktok.com/@xfactorskincare",
-                "twitter_url": "",
-                "threads_url": "",
-                "linkedin_url": "",
-                "bluesky_url": "",
-                "snapchat_url": "",
-                "pinterest_url": "",
-                "tumblr_url": "",
-                "vimeo_url": "",
-                "custom_url": ""
+              "blocks": {
+                "logo_4KfDkc": {
+                  "type": "logo",
+                  "name": "t:names.logo",
+                  "settings": {
+                    "inverse": false,
+                    "font": "heading",
+                    "unit": "pixel",
+                    "percent_width": 100,
+                    "pixel_height": 48,
+                    "custom_mobile_size": false,
+                    "unit_mobile": "percent",
+                    "percent_width_mobile": 100,
+                    "pixel_height_mobile": 120,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
               },
-              "blocks": {}
+              "block_order": [
+                "logo_4KfDkc"
+              ]
+            },
+            "group_wQECt8": {
+              "type": "group",
+              "name": "Group",
+              "settings": {
+                "content_direction": "row",
+                "vertical_on_mobile": false,
+                "horizontal_alignment": "flex-start",
+                "vertical_alignment": "flex-start",
+                "align_baseline": false,
+                "horizontal_alignment_flex_direction_column": "flex-start",
+                "vertical_alignment_flex_direction_column": "center",
+                "gap": 24,
+                "width": "custom",
+                "custom_width": 50,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fit",
+                "custom_height": 100,
+                "inherit_color_scheme": true,
+                "color_scheme": "",
+                "background_media": "none",
+                "video_position": "cover",
+                "background_image_position": "cover",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "link": "",
+                "open_in_new_tab": false,
+                "placeholder": "",
+                "padding-block-start": 30,
+                "padding-block-end": 30,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {
+                "menu_HKT4A3": {
+                  "type": "menu",
+                  "name": "t:names.menu",
+                  "settings": {
+                    "menu": "footer",
+                    "heading": "About X'Factor",
+                    "menu_spacing": 8,
+                    "show_as_accordion": false,
+                    "accordion_icon": "plus",
+                    "accordion_dividers": true,
+                    "inherit_color_scheme": true,
+                    "color_scheme": "",
+                    "heading_preset": "h6",
+                    "link_preset": "paragraph",
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
+                "menu_TKT7EW": {
+                  "type": "menu",
+                  "name": "t:names.menu",
+                  "settings": {
+                    "menu": "footer-second-menu",
+                    "heading": "Information",
+                    "menu_spacing": 8,
+                    "show_as_accordion": false,
+                    "accordion_icon": "plus",
+                    "accordion_dividers": true,
+                    "inherit_color_scheme": true,
+                    "color_scheme": "",
+                    "heading_preset": "h6",
+                    "link_preset": "paragraph",
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
+                "menu_kEnraA": {
+                  "type": "menu",
+                  "name": "t:names.menu",
+                  "settings": {
+                    "menu": "customer-account",
+                    "heading": "My Account",
+                    "menu_spacing": 8,
+                    "show_as_accordion": false,
+                    "accordion_icon": "plus",
+                    "accordion_dividers": true,
+                    "inherit_color_scheme": true,
+                    "color_scheme": "",
+                    "heading_preset": "h6",
+                    "link_preset": "paragraph",
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "menu_HKT4A3",
+                "menu_TKT7EW",
+                "menu_kEnraA"
+              ]
+            },
+            "group_xbDUJQ": {
+              "type": "group",
+              "name": "Group",
+              "settings": {
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "flex-start",
+                "vertical_alignment": "center",
+                "align_baseline": false,
+                "horizontal_alignment_flex_direction_column": "flex-start",
+                "vertical_alignment_flex_direction_column": "center",
+                "gap": 12,
+                "width": "fill",
+                "custom_width": 70,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fit",
+                "custom_height": 100,
+                "inherit_color_scheme": true,
+                "color_scheme": "",
+                "background_media": "none",
+                "video_position": "cover",
+                "background_image_position": "cover",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "link": "",
+                "open_in_new_tab": false,
+                "placeholder": "",
+                "padding-block-start": 0,
+                "padding-block-end": 40,
+                "padding-inline-start": 30,
+                "padding-inline-end": 24
+              },
+              "blocks": {
+                "text_cHXcfY": {
+                  "type": "text",
+                  "name": "Text",
+                  "settings": {
+                    "text": "",
+                    "width": "100%",
+                    "max_width": "narrow",
+                    "alignment": "left",
+                    "type_preset": "custom",
+                    "font": "var(--font-primary--family)",
+                    "font_size": "",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
+                "email_signup_8MDbdJ": {
+                  "type": "email-signup",
+                  "name": "t:names.email_signup",
+                  "settings": {
+                    "width": "custom",
+                    "custom_width": 80,
+                    "inherit_color_scheme": true,
+                    "color_scheme": "",
+                    "heading": "Subscribe & enjoy 10% OFF your first purchase.",
+                    "heading_preset": "paragraph",
+                    "border_style": "none",
+                    "border_width": 1,
+                    "border_radius": 100,
+                    "input_type_preset": "paragraph",
+                    "style_class": "button",
+                    "display_type": "text",
+                    "label": "Sign me up!",
+                    "integrated_button": true,
+                    "button_type_preset": "paragraph",
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
+                "social_links_ERKWXW": {
+                  "type": "social-links",
+                  "name": "t:names.social_media_links",
+                  "settings": {
+                    "facebook_url": "https://www.facebook.com/xfactorskincarebypharmacists",
+                    "instagram_url": "https://www.instagram.com/xfactorskincare",
+                    "youtube_url": "",
+                    "tiktok_url": "https://www.tiktok.com/@xfactorskincare",
+                    "twitter_url": "",
+                    "threads_url": "",
+                    "linkedin_url": "",
+                    "bluesky_url": "",
+                    "snapchat_url": "",
+                    "pinterest_url": "",
+                    "tumblr_url": "",
+                    "vimeo_url": "",
+                    "custom_url": ""
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_cHXcfY",
+                "email_signup_8MDbdJ",
+                "social_links_ERKWXW"
+              ]
             }
           },
           "block_order": [
-            "text_cHXcfY",
-            "email_signup_8MDbdJ",
-            "social_links_ERKWXW"
+            "group_8EiQFh",
+            "group_wQECt8",
+            "group_xbDUJQ"
           ]
         }
       },
       "block_order": [
-        "group_hrHjiP",
-        "group_EnWGrp",
-        "group_jYMDew"
+        "group_PNGzgL"
       ],
       "custom_css": [
         "@media screen and (max-width: 1239px) {.group-block-content:has(.menu__details) {gap: 12px; } .group-block:has(.email-signup-block) {padding-left: 0; }}"
