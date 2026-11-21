@@ -4059,25 +4059,40 @@ a#w4-cart-a {
   display:none !important;}
 
 
-/* Make the gift widget container span the full column */
-.wgt-swiper,
-.wgt-swiper-wrapper {
+/* Gift widget: match the Add to cart width */
+.wgift_thumbnail_wrapper,
+.wgift_thumbnail_wrapper .wgt-swiper {
   width: 100% !important;
   max-width: none !important;
 }
 
-/* Stretch the slides to share the row equally */
-.wgt-swiper-wrapper .wgt-swiper-slide {
-  flex: 1 1 0 !important;
-  width: auto !important;
-}
-
-/* Let the images fill each slide */
-.wgt-swiper-wrapper .wgt-swiper-slide img {
-  width: 90% !important;
+/* 4 equal tiles in one row */
+.wgift_thumbnail_wrapper .wgt-swiper-wrapper {
+  display: grid !important;
+  grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+  gap: 10px !important;
+  width: 100% !important;
+  transform: none !important;
   height: auto !important;
 }
 
-.wgt-swiper-wrapper .wgt-swiper-slide {
-  width: calc((100% - 10px) / 3) !important;
+.wgift_thumbnail_wrapper .wgt-swiper-slide {
+  width: auto !important;
+  margin-right: 0 !important;
+}
+
+/* Remove the app's minimum image size */
+.wgift_thumbnail_wrapper .wgt_slides,
+.wgift_thumbnail_wrapper .wgt_offer_image {
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
+  height: auto !important;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+/* Hide the left/right arrows */
+.wgift_thumbnail_wrapper .wgt_swiper_footer {
+  display: none !important;
 }
