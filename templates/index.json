@@ -650,7 +650,7 @@
       "settings": {
         "media_position": "left",
         "media_width": "medium",
-        "media_height": "50svh",
+        "media_height": "60svh",
         "section_width": "full-width",
         "extend_media": true,
         "color_scheme": "scheme-2",
@@ -2801,6 +2801,8 @@
             "feed_title": "Loved by the Community",
             "title_alignment": "center",
             "product_card_status": "outside_video",
+            "product_name_text_style_preset": "default",
+            "price_text_style_preset": "default",
             "product_card_btn_actn": "product_details",
             "product_card_btn_background_color": "#000000",
             "product_card_btn_text_color": "#ffffff",
