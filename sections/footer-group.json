@@ -79,14 +79,14 @@
               "name": "t:names.menu",
               "settings": {
                 "menu": "footer",
-                "heading": "",
-                "menu_spacing": 12,
+                "heading": "About X'Factor",
+                "menu_spacing": 8,
                 "show_as_accordion": false,
                 "accordion_icon": "plus",
                 "accordion_dividers": true,
                 "inherit_color_scheme": true,
                 "color_scheme": "",
-                "heading_preset": "h4",
+                "heading_preset": "h6",
                 "link_preset": "paragraph",
                 "padding-block-start": 0,
                 "padding-block-end": 0,
@@ -100,14 +100,35 @@
               "name": "t:names.menu",
               "settings": {
                 "menu": "footer-second-menu",
-                "heading": "",
-                "menu_spacing": 12,
+                "heading": "Information",
+                "menu_spacing": 8,
                 "show_as_accordion": false,
                 "accordion_icon": "plus",
                 "accordion_dividers": true,
                 "inherit_color_scheme": true,
                 "color_scheme": "",
-                "heading_preset": "h4",
+                "heading_preset": "h6",
+                "link_preset": "paragraph",
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "menu_kEnraA": {
+              "type": "menu",
+              "name": "t:names.menu",
+              "settings": {
+                "menu": "customer-account",
+                "heading": "My Account",
+                "menu_spacing": 8,
+                "show_as_accordion": false,
+                "accordion_icon": "plus",
+                "accordion_dividers": true,
+                "inherit_color_scheme": true,
+                "color_scheme": "",
+                "heading_preset": "h6",
                 "link_preset": "paragraph",
                 "padding-block-start": 0,
                 "padding-block-end": 0,
@@ -119,7 +140,8 @@
           },
           "block_order": [
             "menu_HKT4A3",
-            "menu_TKT7EW"
+            "menu_TKT7EW",
+            "menu_kEnraA"
           ]
         },
         "group_WcmDNU": {
