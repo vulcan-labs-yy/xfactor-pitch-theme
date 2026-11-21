@@ -4097,6 +4097,6 @@ a#w4-cart-a {
   display: none !important;
 }
 
-.wgift_thumbnail_msg {
+.wgift_thumbnail_wrapper .wgift_thumbnail_msg {
   font-size: 14px;
 }
