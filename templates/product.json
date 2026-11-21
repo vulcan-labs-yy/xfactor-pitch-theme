@@ -738,7 +738,10 @@
       "custom_css": [
         "accordion-custom:not(:has(.text-block)) {display: none;}",
         "@media screen and (min-width: 1240px) {.product-information {padding-inline: max(2vw, 20px) !important; }}",
-        "div [ref=\"priceContainer\"]:has(.compare-at-price) .price {color: red; font-size: 120%;}"
+        "div [ref=\"priceContainer\"]:has(.compare-at-price) .price {color: red; font-size: 120%;}",
+        ".wgt-swiper,.wgt-swiper-wrapper {width: 100% !important; max-width: none !important;}",
+        ".wgt-swiper-wrapper .wgt-swiper-slide {flex: 1 1 0 !important; width: auto !important;}",
+        ".wgt-swiper-wrapper .wgt-swiper-slide img {width: 100% !important; height: auto !important;}"
       ],
       "settings": {
         "content_width": "content-full-width",
