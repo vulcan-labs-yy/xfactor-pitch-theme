@@ -14,26 +14,6 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "logo_EF34pB": {
-          "type": "logo",
-          "name": "t:names.logo",
-          "settings": {
-            "inverse": false,
-            "font": "heading",
-            "unit": "pixel",
-            "percent_width": 100,
-            "pixel_height": 48,
-            "custom_mobile_size": false,
-            "unit_mobile": "percent",
-            "percent_width_mobile": 100,
-            "pixel_height_mobile": 120,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        },
         "group_EnWGrp": {
           "type": "group",
           "name": "Group",
@@ -74,6 +54,26 @@
             "padding-inline-end": 0
           },
           "blocks": {
+            "logo_yNB4m4": {
+              "type": "logo",
+              "name": "t:names.logo",
+              "settings": {
+                "inverse": false,
+                "font": "heading",
+                "unit": "pixel",
+                "percent_width": 100,
+                "pixel_height": 48,
+                "custom_mobile_size": false,
+                "unit_mobile": "percent",
+                "percent_width_mobile": 100,
+                "pixel_height_mobile": 120,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
             "menu_HKT4A3": {
               "type": "menu",
               "name": "t:names.menu",
@@ -258,6 +258,7 @@
             }
           },
           "block_order": [
+            "logo_yNB4m4",
             "menu_HKT4A3",
             "menu_TKT7EW",
             "menu_kEnraA",
@@ -266,7 +267,6 @@
         }
       },
       "block_order": [
-        "logo_EF34pB",
         "group_EnWGrp"
       ],
       "custom_css": [
