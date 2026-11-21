@@ -4118,6 +4118,7 @@ a#w4-cart-a {
 /* Smaller text */
 .reward_progressing_msg {
   font-size: 16px !important;
+  margin-top: -20px;
 }
 .reward_tiers_value,
 .reward_tiers_desc {
