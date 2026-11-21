@@ -4108,12 +4108,12 @@ a#w4-cart-a {
   width: 100% !important;
   max-width: 100% !important;
   box-sizing: border-box !important;
+  margin-top: -20px;
 }
 
 /* Space on both ends so the first and last labels aren't clipped */
 .reward_progress_bar_wrapper {
   padding: 0 20px !important;
-  margin-top: -20px;
 }
 
 /* Smaller text */
