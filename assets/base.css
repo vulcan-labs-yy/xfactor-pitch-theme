@@ -4059,23 +4059,25 @@ a#w4-cart-a {
   display:none !important;}
 
 
-  /* Turn the gift slider into a simple grid */
+/* Make the gift widget container span the full column */
+.wgt-swiper,
 .wgt-swiper-wrapper {
-  display: grid !important;
-  grid-template-columns: repeat(auto-fill, 80px); /* image size: change 80px to taste */
-  gap: 8px;
-  transform: none !important;   /* stop Swiper from shifting the row */
+  width: 100% !important;
+  max-width: none !important;
+}
+
+/* Stretch the slides to share the row equally */
+.wgt-swiper-wrapper .wgt-swiper-slide {
+  flex: 1 1 0 !important;
+  width: auto !important;
+}
+
+/* Let the images fill each slide */
+.wgt-swiper-wrapper .wgt-swiper-slide img {
+  width: 100% !important;
   height: auto !important;
 }
 
 .wgt-swiper-wrapper .wgt-swiper-slide {
-  width: auto !important;        /* ignore Swiper's 113px inline width */
-  margin-right: 0 !important;
-}
-
-.wgt-swiper-wrapper .wgt-swiper-slide img {
-  width: 100% !important;
-  height: auto !important;
-  aspect-ratio: 1 / 1;
-  object-fit: cover;
+  width: calc((100% - 10px) / 3) !important;
 }
