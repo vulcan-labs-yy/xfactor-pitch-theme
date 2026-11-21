@@ -333,10 +333,6 @@
                   },
                   "blocks": {}
                 },
-                "wi_bogo_promotion_section_xVD6rW": {
-                  "type": "shopify://apps/wi-bogo/blocks/promotion-section/9416ce92-aaaf-4a81-8fdf-b9a4e639d6dc",
-                  "settings": {}
-                },
                 "buy_buttons_6p8c63": {
                   "type": "buy-buttons",
                   "settings": {
@@ -376,9 +372,12 @@
               },
               "block_order": [
                 "variant_picker_KePPVa",
-                "wi_bogo_promotion_section_xVD6rW",
                 "buy_buttons_6p8c63"
               ]
+            },
+            "wi_bogo_promotion_section_83i3rY": {
+              "type": "shopify://apps/wi-bogo/blocks/promotion-section/9416ce92-aaaf-4a81-8fdf-b9a4e639d6dc",
+              "settings": {}
             },
             "product_recommendations_D6pHKQ": {
               "type": "product-recommendations",
@@ -729,6 +728,7 @@
             "group_4we3XL",
             "text_LbbLqQ",
             "group_dTHcXb",
+            "wi_bogo_promotion_section_83i3rY",
             "product_recommendations_D6pHKQ",
             "bloy_loyalty_rewards_bloy_point_caculator_pdp_qrCLkR",
             "text_MWq94z",
