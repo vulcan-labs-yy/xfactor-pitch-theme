@@ -107,6 +107,21 @@
         "disabled": false,
         "settings": {}
       },
+      "18363274320096901237": {
+        "type": "shopify://apps/supr-bundle-subscription-app/blocks/app-embed/cad569ae-4964-473f-a22b-e6b9b6c50d6a",
+        "disabled": false,
+        "settings": {}
+      },
+      "18155451270687726080": {
+        "type": "shopify://apps/snap-cart-drawer/blocks/sticky_button/749c3d78-31de-41bb-a321-492d569e1a37",
+        "disabled": true,
+        "settings": {}
+      },
+      "18031853290061999754": {
+        "type": "shopify://apps/nexora-labels/blocks/badge-renderer/019e4ec0-6f44-75f2-9c3a-74e52b8cc88f",
+        "disabled": false,
+        "settings": {}
+      },
       "15683396631634586217": {
         "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
         "disabled": false,
@@ -118,41 +133,21 @@
             "advanced-30-proxylane-face-cream",
             "advanced-30-proxylane-face-cream-12ml"
           ],
-          "background_color": "#FCE0F9",
+          "background_color": "#fce0f9",
           "font_color": "#000000",
           "agent_invert_activator_colors": false,
           "button_color": "#000000",
           "launcher_style": "button",
-          "button_icon": "smiley_face",
-          "button_text": "chat_with_us",
-          "button_horizontal_position": "bottom_center",
-          "button_vertical_position": "lowest",
+          "button_icon": "hand_wave",
+          "button_text": "ask_anything",
+          "button_horizontal_position": "bottom_right",
+          "button_vertical_position": "higher",
           "agent_inherit_fonts": true,
           "agent_font": "system_ui_n4",
           "agent_font_size": 14,
           "agent_activator_font_size": 16,
           "agent_border_radius": 10
         }
-      },
-      "18363274320096901237": {
-        "type": "shopify://apps/supr-bundle-subscription-app/blocks/app-embed/cad569ae-4964-473f-a22b-e6b9b6c50d6a",
-        "disabled": false,
-        "settings": {}
-      },
-      "18155451270687726080": {
-        "type": "shopify://apps/snap-cart-drawer/blocks/sticky_button/749c3d78-31de-41bb-a321-492d569e1a37",
-        "disabled": true,
-        "settings": {}
-      },
-      "8146928938815853587": {
-        "type": "shopify://apps/essential-free-gifts/blocks/app-embed/019dad42-b5e4-708e-b27c-0dd45d7a0eb5",
-        "disabled": false,
-        "settings": {}
-      },
-      "18031853290061999754": {
-        "type": "shopify://apps/nexora-labels/blocks/badge-renderer/019e4ec0-6f44-75f2-9c3a-74e52b8cc88f",
-        "disabled": false,
-        "settings": {}
       }
     },
     "color_schemes": {
