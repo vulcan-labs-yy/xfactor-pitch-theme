@@ -4102,7 +4102,31 @@ a#w4-cart-a {
   padding-top: 15px;
 }
 
+/* Cart progress bar: fit inside the cart drawer */
+.reward_progress_bar_main,
 .reward_progress_bar_wrapper {
-  max-width: 80% important;
-  width: 80% important;
+  width: 100% !important;
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+/* Space on both ends so the first and last labels aren't clipped */
+.reward_progress_bar_wrapper {
+  padding: 0 12px !important;
+}
+
+/* Smaller text */
+.reward_progressing_msg {
+  font-size: 12px !important;
+}
+.reward_tiers_value,
+.reward_tiers_desc {
+  font-size: 11px !important;
+}
+
+/* Smaller milestone icons */
+.reward_tiers_badges img,
+.reward_tiers_badges svg {
+  width: 20px !important;
+  height: 20px !important;
 }
