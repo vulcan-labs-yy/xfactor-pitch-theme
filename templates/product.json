@@ -738,7 +738,8 @@
       "custom_css": [
         "accordion-custom:not(:has(.text-block)) {display: none;}",
         "@media screen and (min-width: 1240px) {.product-information {padding-inline: max(2vw, 20px) !important; }}",
-        "div [ref=\"priceContainer\"]:has(.compare-at-price) .price {color: red; font-size: 120%;}"
+        "div [ref=\"priceContainer\"]:has(.compare-at-price) .price {color: red; font-size: 120%;}",
+        "product-card .wgift_thumbnail_wrapper,quick-add-component .wgift_thumbnail_wrapper,.product-recommendations-wrapper .wgift_thumbnail_wrapper {display: none !important;}"
       ],
       "settings": {
         "content_width": "content-full-width",
