@@ -153,6 +153,11 @@
         "type": "shopify://apps/hd-flash-sale/blocks/deals-embed/019efa7c-c0c2-701b-b752-143a5fad556b",
         "disabled": false,
         "settings": {}
+      },
+      "1410119029831382586": {
+        "type": "shopify://apps/vr-urgency-countdown/blocks/vairo/3146741e-71a4-43d1-8174-2d896a33983f",
+        "disabled": false,
+        "settings": {}
       }
     },
     "color_schemes": {
