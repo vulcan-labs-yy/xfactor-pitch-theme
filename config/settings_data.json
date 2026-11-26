@@ -156,7 +156,7 @@
       },
       "16717174150930574748": {
         "type": "shopify://apps/tasty-bars-popups-timers/blocks/announcement-bars-embed/e620e00b-48c1-470c-9847-012fe07ba52a",
-        "disabled": true,
+        "disabled": false,
         "settings": {}
       }
     },
