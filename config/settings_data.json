@@ -149,14 +149,14 @@
           "agent_border_radius": 24
         }
       },
-      "8174478049778859957": {
-        "type": "shopify://apps/hd-flash-sale/blocks/deals-embed/019efa7c-c0c2-701b-b752-143a5fad556b",
-        "disabled": false,
-        "settings": {}
-      },
       "17816275196889779123": {
         "type": "shopify://apps/oxify-countdown/blocks/app-embed-block/720ffd4d-e786-41f2-8696-4e6eb89cccdd",
         "disabled": false,
+        "settings": {}
+      },
+      "8174478049778859957": {
+        "type": "shopify://apps/hd-flash-sale/blocks/deals-embed/019efa7c-c0c2-701b-b752-143a5fad556b",
+        "disabled": true,
         "settings": {}
       }
     },
