@@ -254,6 +254,12 @@
                 "price_XqcpTF"
               ]
             },
+            "oxify_countdown_app_block_FYmYBE": {
+              "type": "shopify://apps/oxify-countdown/blocks/app-block/720ffd4d-e786-41f2-8696-4e6eb89cccdd",
+              "settings": {
+                "countdown_timer": "timer-6b0848e67fcdd3d51c3d3a56"
+              }
+            },
             "text_LbbLqQ": {
               "type": "text",
               "name": "Product description",
@@ -722,6 +728,7 @@
           },
           "block_order": [
             "group_4we3XL",
+            "oxify_countdown_app_block_FYmYBE",
             "text_LbbLqQ",
             "group_dTHcXb",
             "product_recommendations_D6pHKQ",
