@@ -14,16 +14,15 @@
     "179570210499426137": {
       "type": "_blocks",
       "blocks": {
-        "tasty_bars_popups_timers_announcement_bars_widget_YDWjFP": {
-          "type": "shopify://apps/tasty-bars-popups-timers/blocks/announcement-bars-widget/e620e00b-48c1-470c-9847-012fe07ba52a",
+        "oxify_countdown_app_block_rV4dYk": {
+          "type": "shopify://apps/oxify-countdown/blocks/app-block/720ffd4d-e786-41f2-8696-4e6eb89cccdd",
           "settings": {
-            "announcement_bar_id": "3b787f67-b19a-402e-8f65-9f9ba4b9fe1e",
-            "width": 100
+            "countdown_timer": "timer-6b084d9d7fcdd3d51c3d3a5d"
           }
         }
       },
       "block_order": [
-        "tasty_bars_popups_timers_announcement_bars_widget_YDWjFP"
+        "oxify_countdown_app_block_rV4dYk"
       ],
       "settings": {
         "content_direction": "column",
@@ -34,7 +33,7 @@
         "horizontal_alignment_flex_direction_column": "flex-start",
         "vertical_alignment_flex_direction_column": "center",
         "gap": 12,
-        "section_width": "page-width",
+        "section_width": "full-width",
         "section_height": "",
         "section_height_custom": 50,
         "color_scheme": "",
