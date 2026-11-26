@@ -14,11 +14,11 @@
     "header_announcements_kcHY6p": {
       "type": "header-announcements",
       "blocks": {
-        "announcement_JFXKJA": {
+        "announcement_Bc9qkc": {
           "type": "_announcement",
           "name": "t:names.announcement",
           "settings": {
-            "text": "<em>Repeat</em> purchase? 🫶Remember to redeem your <strong>Reward</strong>🩷<strong> Points</strong> for <strong>Cash💸 Vouchers</strong>!",
+            "text": "<strong>Black Friday 50% OFF</strong> sitewide | min spend RM1,000.",
             "link": "shopify://collections/all",
             "font": "var(--font-body--family)",
             "font_size": "",
@@ -28,11 +28,25 @@
           },
           "blocks": {}
         },
-        "announcement_Bc9qkc": {
+        "announcement_yXNzjE": {
           "type": "_announcement",
           "name": "t:names.announcement",
           "settings": {
-            "text": "<strong>Black Friday 50% OFF</strong> sitewide | min spend RM1,000.",
+            "text": "<strong>Gift with purchase worth RM179</strong> | min spend RM1,500.",
+            "link": "shopify://collections/all",
+            "font": "var(--font-body--family)",
+            "font_size": "",
+            "weight": "",
+            "letter_spacing": "normal",
+            "case": "none"
+          },
+          "blocks": {}
+        },
+        "announcement_JFXKJA": {
+          "type": "_announcement",
+          "name": "t:names.announcement",
+          "settings": {
+            "text": "<em>Repeat</em> purchase? 🫶Remember to redeem your <strong>Reward</strong>🩷<strong> Points</strong> for <strong>Cash💸 Vouchers</strong>!",
             "link": "shopify://collections/all",
             "font": "var(--font-body--family)",
             "font_size": "",
@@ -132,8 +146,9 @@
         }
       },
       "block_order": [
-        "announcement_JFXKJA",
         "announcement_Bc9qkc",
+        "announcement_yXNzjE",
+        "announcement_JFXKJA",
         "announcement_CLgr8p",
         "announcement_kgAEqt",
         "announcement_bGezpi",
