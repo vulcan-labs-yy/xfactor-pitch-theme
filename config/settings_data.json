@@ -151,7 +151,7 @@
       },
       "17270581071990108477": {
         "type": "shopify://apps/hoppy-popups/blocks/Email_collection_Bar/0403c282-cb2c-4202-b054-d6c540cb0df9",
-        "disabled": false,
+        "disabled": true,
         "settings": {}
       }
     },
