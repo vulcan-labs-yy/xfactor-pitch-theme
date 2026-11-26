@@ -59,7 +59,7 @@
           "type": "_announcement",
           "name": "t:names.announcement",
           "settings": {
-            "text": "<strong>Gift with purchase worth RM179</strong> | min spend RM1,500.",
+            "text": "<strong>Pick any 7 FREE gifts worth RM179+</strong> | min spend RM1,500.",
             "link": "shopify://collections/all",
             "font": "var(--font-body--family)",
             "font_size": "",
