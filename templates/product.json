@@ -254,10 +254,6 @@
                 "price_XqcpTF"
               ]
             },
-            "vr_urgency_countdown_countdown_timer_product_DNV9qV": {
-              "type": "shopify://apps/vr-urgency-countdown/blocks/countdown-timer-product/3146741e-71a4-43d1-8174-2d896a33983f",
-              "settings": {}
-            },
             "text_LbbLqQ": {
               "type": "text",
               "name": "Product description",
@@ -726,7 +722,6 @@
           },
           "block_order": [
             "group_4we3XL",
-            "vr_urgency_countdown_countdown_timer_product_DNV9qV",
             "text_LbbLqQ",
             "group_dTHcXb",
             "product_recommendations_D6pHKQ",
