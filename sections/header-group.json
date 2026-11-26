@@ -28,6 +28,20 @@
           },
           "blocks": {}
         },
+        "announcement_Bc9qkc": {
+          "type": "_announcement",
+          "name": "t:names.announcement",
+          "settings": {
+            "text": "<strong>Black Friday 50% OFF</strong> sitewide | min spend RM1,000.",
+            "link": "shopify://collections/all",
+            "font": "var(--font-body--family)",
+            "font_size": "",
+            "weight": "",
+            "letter_spacing": "normal",
+            "case": "none"
+          },
+          "blocks": {}
+        },
         "announcement_CLgr8p": {
           "type": "_announcement",
           "name": "t:names.announcement",
@@ -119,6 +133,7 @@
       },
       "block_order": [
         "announcement_JFXKJA",
+        "announcement_Bc9qkc",
         "announcement_CLgr8p",
         "announcement_kgAEqt",
         "announcement_bGezpi",
