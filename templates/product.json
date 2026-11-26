@@ -254,6 +254,10 @@
                 "price_XqcpTF"
               ]
             },
+            "vr_urgency_countdown_stock_countdown_93rD6c": {
+              "type": "shopify://apps/vr-urgency-countdown/blocks/stock-countdown/3146741e-71a4-43d1-8174-2d896a33983f",
+              "settings": {}
+            },
             "text_LbbLqQ": {
               "type": "text",
               "name": "Product description",
@@ -722,6 +726,7 @@
           },
           "block_order": [
             "group_4we3XL",
+            "vr_urgency_countdown_stock_countdown_93rD6c",
             "text_LbbLqQ",
             "group_dTHcXb",
             "product_recommendations_D6pHKQ",
