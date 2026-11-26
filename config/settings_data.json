@@ -151,11 +151,6 @@
       },
       "17270581071990108477": {
         "type": "shopify://apps/hoppy-popups/blocks/Email_collection_Bar/0403c282-cb2c-4202-b054-d6c540cb0df9",
-        "disabled": true,
-        "settings": {}
-      },
-      "16717174150930574748": {
-        "type": "shopify://apps/tasty-bars-popups-timers/blocks/announcement-bars-embed/e620e00b-48c1-470c-9847-012fe07ba52a",
         "disabled": false,
         "settings": {}
       }
